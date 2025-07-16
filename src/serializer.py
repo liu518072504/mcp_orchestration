@@ -1,5 +1,6 @@
 import yaml
 from models import Event, Thread
+from dataclasses import asdict
 
 # Public Method(s)
 def thread_to_prompt(thread: Thread) -> str:
@@ -13,8 +14,9 @@ def _event_to_prompt(event: Event) -> str:
     """
     Serialize a single Event to a compact prompt string.
     """
+  
     payload = yaml.safe_dump(
-        event.data,
+        asdict(event.data),
         default_flow_style=False,
         sort_keys=False
     ).strip()
@@ -23,20 +25,20 @@ def _event_to_prompt(event: Event) -> str:
 
 
 #example usage
-if __name__ == "__main__":
-    # Example Event and Thread
-    example_event = Event(
-        type="request_agent",
-        data={"name": "Agent Smith", "instruction": "Find Neo"}
-    )
-    example_event2 = Event(
-        type="request_agent_result",
-        data={"answer": "Neo is the One"}
-    )
+# if __name__ == "__main__":
+#     # Example Event and Thread
+#     example_event = Event(
+#         type="request_agent",
+#         data={"name": "Agent Smith", "instruction": "Find Neo"}
+#     )
+#     example_event2 = Event(
+#         type="request_agent_result",
+#         data={"answer": "Neo is the One"}
+#     )
 
-    example_thread = Thread(events=[example_event, example_event2], id="orchestrator")
+#     example_thread = Thread(events=[example_event, example_event2], id="orchestrator")
     
-    # Convert to prompt
-    prompt = thread_to_prompt(example_thread)
-    print(prompt)
-    print("--- End of Prompt ---")
+#     # Convert to prompt
+#     prompt = thread_to_prompt(example_thread)
+#     print(prompt)
+#     print("--- End of Prompt ---")

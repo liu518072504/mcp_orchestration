@@ -1,10 +1,20 @@
 {
-  "mcp": {
-    "servers": {
-      "playwright": {
-        "command": "npx",
-        "args": ["@playwright/mcp@latest"]
-      }
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\qixin\\personal\\uoft\\Summer_Y2\\Code\\mcp_orchestration\\src"
+      ]
+    },
+    "rag": {
+      "type": "sse",
+      "url": "http://localhost:8000/sse"
     }
   }
 }
