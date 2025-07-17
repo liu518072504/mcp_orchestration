@@ -9,7 +9,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "C:\\Users\\qixin\\personal\\uoft\\Summer_Y2\\Code\\mcp_orchestration\\src"
+        "C:\\Users\\qixin\\personal\\uoft\\Summer_Y2\\Code\\mcp_orchestration\\src\\agentic"
       ]
     },
     "rag": {

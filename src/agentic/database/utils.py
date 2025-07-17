@@ -1,8 +1,10 @@
 # utils.py
 from typing import get_args, Dict, Any
 from inspect import isclass
-import models
 import dataclasses
+
+from agentic.database import models
+
 
 # Grab the Union[...] in Event.data
 _data_union = models.Event.__annotations__['data']

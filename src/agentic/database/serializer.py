@@ -1,6 +1,7 @@
 import yaml
-from models import Event, Thread
 from dataclasses import asdict
+
+from agentic.database.models import Event, Thread
 
 # Public Method(s)
 def thread_to_prompt(thread: Thread) -> str:

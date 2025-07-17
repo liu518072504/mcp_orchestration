@@ -1,12 +1,13 @@
 import os
 import json
 from typing import Optional
-from models import Thread, Event
-from utils  import deserialize_event
 from dataclasses import asdict
 
+from agentic.database.models import Thread
+from agentic.database.utils import deserialize_event
+
 class FileDB:
-    def __init__(self, base_dir: str = "threads"):
+    def __init__(self, base_dir: str = os.path.join(os.path.dirname(__file__), "threads")):
         os.makedirs(base_dir, exist_ok=True)
         self.base_dir = base_dir
 
