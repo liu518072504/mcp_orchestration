@@ -40,9 +40,15 @@ class Orchestrator:
 
         self.orchestrator_agent = Agent(
             name="orchestrator",
-            instruction="""You are an orchestrator agent. Given a pre-defined plan, your job is to decide the next agent to execute with a set of instructions.
+            instruction=f"""You are an orchestrator agent. Given a pre-defined plan, your job is to decide the next agent to execute with a set of instructions.
             The plan is just a guideline, and you can choose the best agent to execute the next step.
-            Review the functions available to the function_calling_agent and use it when appropriate.""",
+            Review the functions available to the function_calling_agent and use it when appropriate.
+            
+            Return in a JSON object with the following fields:
+            - finished: True if the orchestration is complete and no more agents need to be called, False otherwise
+            - agent: the name of the agent that should perform the next step (review the plan when deciding this agent)
+            - instruction: the instruction for the agent to perform the next step (Answer to the user query if finished)
+            """,
             db=self.db,
         )
 
@@ -76,15 +82,18 @@ class Orchestrator:
         """
 
         raw = await self.function_agent.generate_str(prompt, format_instructions)
+        print(f"\nFunction call raw output: {raw}\n")
 
         result = parser.parse(raw).model_dump()
 
         function_name = result.get("function")
         function_args = result.get("args")
 
+        
         for func in self.functions:
             if func.__name__ == function_name:
-                result = await func(**function_args)
+                print(f"Executing function {function_name} with args {function_args}")
+                result = func(**function_args)
 
                 message = f"Function {function_name} executed successfully with arguments {function_args}"
                 if result is not None:
@@ -94,11 +103,16 @@ class Orchestrator:
     async def orchestrate(self, query: str, max_steps: int = 10):
         """Orchestrate the execution of the plan."""
         plan = await self._generate_plan(query)
+
+
         format_instructions = self.parsers["orchestrator"].get_format_instructions()
         for _ in range(max_steps):
             query_with_format = f"{query}\n\nPlan: {plan}\n\nAvailable agents:\n{self.available_agents_prompt}"
             raw = await self.orchestrator_agent.generate_str(query_with_format, format_instructions)
-            next_step_json = self.parsers["orchestrator"].parse(raw)
+
+            print(f"Orchestrator output: {raw}")
+
+            next_step_json = self.parsers["orchestrator"].parse(raw).model_dump()
 
             if next_step_json.get("finished"):
                 print("MCP Orchestration: Orchestration finished.")
@@ -112,14 +126,16 @@ class Orchestrator:
             instruction = next_step_json.get("instruction")
 
             if agent_name == "function_calling_agent":
+                print(f"Running function call with instruction: {instruction}")
                 result= await self._run_function(instruction)
                 
             else:
+                print(f"Running agent {agent_name} with instruction: {instruction}")
                 prompt = f"Instruction: {instruction}"
                 result = await self.agents[agent_name].generate_str(prompt)
             
             # Update the orchestrator thread with the result
-            self.orchestrator_agent.update_thread(
+            await self.orchestrator_agent.update_thread(
                 prompt=instruction,
                 result=result,
                 name=agent_name
@@ -131,9 +147,10 @@ if __name__ == "__main__":
     from agentic.USER.functions import create_python_file, execute_python_file, obtain_csv_header
     from agentic.USER.agents import filesystem_agent, summary_agent
     orchestrator = Orchestrator(
-        available_agents=[filesystem_agent, summary_agent],
+        available_agents=[summary_agent],
         functions=[create_python_file, execute_python_file, obtain_csv_header]
     )
-    query = """Make a graph of the revenue per month from the CSV file 'examples/company1_sales_new.csv'. 
+    query = """look for the exact location of 'company1_sales_new.csv' and then make a graph of the revenue per month from the CSV file. 
         Save the graph as 'revenue_graph.png' in the current working directory."""
-    print(asyncio.run(orchestrator._generate_plan(query)))
+    # query = "Create a python file that contains a function to add two numbers and return the result."
+    asyncio.run(orchestrator.orchestrate(query))

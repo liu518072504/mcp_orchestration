@@ -17,5 +17,5 @@ class OrchestratorSchema(BaseModel):
 
 # Function call schema
 class FunctionCall(BaseModel):
-    function_name: str = Field(..., description="The name of the function to call")
-    arguments: dict = Field(..., description="The arguments to pass to the function")
+    function: str = Field(..., description="The name of the function to call")
+    args: dict = Field(..., description="The arguments to pass to the function")

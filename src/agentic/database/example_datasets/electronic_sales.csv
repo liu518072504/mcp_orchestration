@@ -1,0 +1,11 @@
+Order ID,Product,Quantity,Price,Date,Customer ID,Region
+1001,Laptop,1,1200.00,2024-01-15,A123,North America
+1002,Mouse,2,25.00,2024-01-15,B456,Europe
+1003,Keyboard,1,75.00,2024-01-16,C789,Asia
+1004,Monitor,1,300.00,2024-01-17,A123,North America
+1005,CPU,1,400.00,2024-01-17,D012,Europe
+1006,RAM,2,100.00,2024-01-18,E345,Asia
+1007,SSD,1,150.00,2024-01-18,F678,North America
+1008,HDD,2,75.00,2024-01-19,G901,Europe
+1009,Graphics Card,1,600.00,2024-01-19,H234,Asia
+1010,Webcam,1,50.00,2024-01-20,I567,North America

@@ -15,6 +15,7 @@ filesystem_agent = Agent(
 
 summary_agent = Agent(
     name="summary",
-    instruction="""You are an agent that summarizes...""",
+    instruction="""You are an agent that summarizes information. You have access to the filesystem through the filesystem MCP server if you want to confirm any details.""",
+    servers=["filesystem"],
     db=db,
 )
