@@ -17,8 +17,8 @@ class Agent:
     def __init__(
             self, name: str,
             instruction: str,
-            servers: list[str],
             db: FileDB,
+            servers: list[str] = [],
             model_name: str = "gemini-2.0-flash",
             # model_name: str = "claude-3-haiku-20240307",
             temperature: float = 0.0, 
@@ -29,7 +29,7 @@ class Agent:
         
         load_dotenv()
         self.name = name
-        self.system_prompt = instruction
+        self.instruction = instruction
         self.db = db
         self.thread = None
         self.use_memory = use_memory
@@ -72,11 +72,11 @@ class Agent:
                 use_server_manager= True,
             )
 
-    async def init(self):
+    async def _init(self):
         """Load saved agent history from database. Creates a new thread if none exists."""
         self.thread = await self.db.load_thread(self.name)
 
-    async def save(self):
+    async def _save(self):
         """Save the current history to the file database."""
         if self.thread:
             await self.db.save_thread(self.thread)
@@ -85,9 +85,9 @@ class Agent:
         history = ""
         if self.use_memory:
             history = thread_to_prompt(self.thread)
-            system_message = f"{self.system_prompt}\n\nYour history:\n{history} \n\nCurrent task:\n{prompt}\n"
+            system_message = f"{self.instruction}\n\nYour history:\n{history} \n\nCurrent task:\n{prompt}\n"
         else:
-            system_message = f"{self.system_prompt}\n\nCurrent task:\n{prompt}\n"
+            system_message = f"{self.instruction}\n\nCurrent task:\n{prompt}\n"
         
         result = ""
         if not self.agent:
@@ -101,16 +101,15 @@ class Agent:
                 result = result.split("Final Answer:")[-1].strip()
         return result
         
-
     
-    async def _update_thread(self, prompt: str, result: str):
+    async def update_thread(self, prompt: str, result: str, name: str = None):
         """Update the thread with the new prompt and result."""
         if self.use_memory:
             # Update the thread with the new events
             new_event = Event(
                 type="request_agent",
                 data= RequestAgent(
-                    name=self.name,
+                    name=self.name if not name else name,
                     instruction=prompt
                 )
             )
@@ -123,16 +122,16 @@ class Agent:
 
             self.thread.events.append(new_event)
             self.thread.events.append(new_event_result)
+            await self._save()
         
 
-    async def generate_str(self, prompt: str) -> str:
+    async def generate_str(self, prompt: str, format_instructions: str = "") -> str:
         """Run your agent on the prompt and return the text."""
-        await self.init()  # Ensure thread is loaded
+        await self._init()  # Ensure thread is loaded
 
-        result = await self._run(prompt)
+        result = await self._run(prompt + "\n\n" + format_instructions)
 
-        await self._update_thread(prompt, result)  # Update thread with new events
-        await self.save()  # Save the updated thread
+        await self.update_thread(prompt, result)  # Update and save thread with new events
 
         return result
 

@@ -3,11 +3,13 @@ import json
 from typing import Optional
 from dataclasses import asdict
 
+import agentic
 from agentic.database.models import Thread
 from agentic.database.utils import deserialize_event
 
 class FileDB:
-    def __init__(self, base_dir: str = os.path.join(os.path.dirname(__file__), "threads")):
+    # use path relative to agentic module
+    def __init__(self, base_dir: str = os.path.join(os.path.dirname(agentic.__file__), "database", "threads")):
         os.makedirs(base_dir, exist_ok=True)
         self.base_dir = base_dir
 
@@ -41,7 +43,7 @@ class FileDB:
         events = [deserialize_event(e) for e in raw_events]
         return Thread(id=thread_id, events=events)
     
-    # To implement (clear errors that have been resolved)!!!
+    # To implement (to clear errors that have been resolved)!!!
     async def clear_last_n_events(self, thread_id: str, n: int) -> None:
         """
         Clear the last n events from the thread.
