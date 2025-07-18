@@ -23,23 +23,3 @@ def _event_to_prompt(event: Event) -> str:
     ).strip()
 
     return f"<{event.type}>\n{payload}\n</{event.type}>"
-
-
-#example usage
-# if __name__ == "__main__":
-#     # Example Event and Thread
-#     example_event = Event(
-#         type="request_agent",
-#         data={"name": "Agent Smith", "instruction": "Find Neo"}
-#     )
-#     example_event2 = Event(
-#         type="request_agent_result",
-#         data={"answer": "Neo is the One"}
-#     )
-
-#     example_thread = Thread(events=[example_event, example_event2], id="orchestrator")
-    
-#     # Convert to prompt
-#     prompt = thread_to_prompt(example_thread)
-#     print(prompt)
-#     print("--- End of Prompt ---")

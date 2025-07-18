@@ -56,26 +56,3 @@ class FileDB:
         thread.events = thread.events[:-n] if len(thread.events) > n else []
         await self.save_thread(thread)
     
-# Example usage
-# if __name__ == "__main__":
-    # db = FileDB()
-    
-    # # Create a sample thread
-    # example_event = Event(
-    #     type="request_agent",
-    #     data={"name": "Agent Smith", "instruction": "Find Neo"}
-    # )
-    # example_event2 = Event(
-    #     type="request_agent_result",
-    #     data={"answer": "Neo is the One"}
-    # )
-
-    # example_thread = Thread(events=[example_event, example_event2], id="orchestrator")
-    
-    # # Save the thread
-    # import asyncio
-    # asyncio.run(db.save_thread(example_thread))
-    
-    # # Load the thread back
-    # loaded_thread = asyncio.run(db.load_thread("orchestrator"))
-    # print(loaded_thread)

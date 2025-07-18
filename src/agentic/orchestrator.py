@@ -147,10 +147,10 @@ if __name__ == "__main__":
     from agentic.USER.functions import create_python_file, execute_python_file, obtain_csv_header
     from agentic.USER.agents import filesystem_agent, summary_agent
     orchestrator = Orchestrator(
-        available_agents=[summary_agent],
+        available_agents=[],
         functions=[create_python_file, execute_python_file, obtain_csv_header]
     )
-    query = """look for the exact location of 'company1_sales_new.csv' and then make a graph of the revenue per month from the CSV file. 
+    query = """Make a graph of the revenue per month from the CSV file 'database/example_datasets/company1_sales_new.csv'. 
         Save the graph as 'revenue_graph.png' in the current working directory."""
     # query = "Create a python file that contains a function to add two numbers and return the result."
     asyncio.run(orchestrator.orchestrate(query))

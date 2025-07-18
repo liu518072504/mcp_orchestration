@@ -134,22 +134,3 @@ class Agent:
         await self.update_thread(prompt, result)  # Update and save thread with new events
 
         return result
-
-async def main():
-    planning_agent = Agent(
-        name="planner",
-        instruction="You are an expert planner.",
-        servers=["filesystem"],
-        db=FileDB(),
-        use_memory=False
-    )
-    # structure = {"Answer": "summary of execution"}
-    # query = "Use the search_file function in the rag server with this input: What is the total amount of purchases? To answer this question, what dataset should we refer to?"
-    # query = "index page2.pdf"
-    query = "Create a python file that contains a function to add two numbers and return the result."
-    result = await planning_agent.generate_str(query)
-
-    print("Agent output:\n", result)
-
-if __name__ == "__main__":
-    asyncio.run(main())
