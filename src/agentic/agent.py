@@ -39,6 +39,10 @@ class Agent:
             cfg = json.load(f)
         all_servers = cfg["mcpServers"]
 
+        if "filesystem" in all_servers:
+            all_servers["filesystem"]["args"].append(Path(agentic.__file__).parent.parent)
+
+
         selected = {srv: all_servers[srv] for srv in servers}
         self.client = MCPClient.from_dict({"mcpServers": selected})
         

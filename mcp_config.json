@@ -8,8 +8,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "C:\\Users\\qixin\\personal\\uoft\\Summer_Y2\\Code\\mcp_orchestration\\src\\agentic"
+        "@modelcontextprotocol/server-filesystem"
       ]
     },
     "rag": {
