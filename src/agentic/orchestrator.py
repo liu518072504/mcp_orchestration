@@ -6,6 +6,8 @@ from langchain.output_parsers import PydanticOutputParser
 from agentic.schemas.schemas import OrchestratorSchema, Plan, FunctionCall
 from agentic.database.filedb import FileDB
 
+
+
 class Orchestrator:
     def __init__(self, available_agents: List[Agent], functions: List[callable]):
         self.agents = {agent.name: agent for agent in available_agents}
@@ -33,7 +35,9 @@ class Orchestrator:
             name="planner",
             instruction="""You are an expert planner. Given an objective task and a list of Agents (LLMs) with access to various tools, 
             your job is to break down the objective into a series of steps, which can be performed by the available agents. 
-            Review the functions available to the function_calling_agent and use it when appropriate.""",
+            Review the functions available to the function_calling_agent and use it when appropriate.
+
+            You must only return a JSON object adhering to the schema, and nothing else.""",
             db=self.db,
             use_memory=False
         )
@@ -44,7 +48,7 @@ class Orchestrator:
             The plan is just a guideline, and you can choose the best agent to execute the next step.
             Review the functions available to the function_calling_agent and use it when appropriate.
             
-            Return in a JSON object with the following fields:
+            Return in a JSON object with the following fields (and nothing else):
             - finished: True if the orchestration is complete and no more agents need to be called, False otherwise
             - agent: the name of the agent that should perform the next step (review the plan when deciding this agent)
             - instruction: the instruction for the agent to perform the next step (Answer to the user query if finished)
@@ -70,8 +74,33 @@ class Orchestrator:
         query_with_format = f"{query}\n\nAvailable agents:\n{self.available_agents_prompt}"
         result = await self.planning_agent.generate_str(query_with_format, format_instructions)
         plan: Plan = parser.parse(result)
-        return plan.model_dump()
-    
+        return plan
+
+    async def _plan_cleanup(self, plan: Plan):
+        """Merge adjacent steps with the same agent in the plan except for the function_calling_agent."""
+        cleaned_steps = []
+        for step in plan.steps:
+            if cleaned_steps and cleaned_steps[-1].agent == step.agent and step.agent != "function_calling_agent":
+                # Merge with the last step if the agent is the same
+                cleaned_steps[-1].instruction += " Then, " + step.instruction
+            else:
+                cleaned_steps.append(step)
+        #return json
+        return Plan(steps=cleaned_steps).model_dump()
+
+    async def _output_cleanup(self, raw: str, parser: PydanticOutputParser) -> str:
+        """Grab only the json part of the output. By grabbing the first { and the last }."""
+        start = raw.find("{")
+        end = raw.rfind("}")
+        if start == -1 or end == -1:
+            raise ValueError("Invalid output format, no JSON found.")
+        try:
+            # Check if the output is valid JSON
+            return parser.parse(raw[start:end + 1]).model_dump()
+        except Exception as e:
+            print(f"Error cleaning up output: {e}")
+            raise ValueError("Invalid output format, no JSON found.")
+
     async def _run_function(self, instruction: str):
         parser = self.parsers["function_call"]
         format_instructions = parser.get_format_instructions()
@@ -84,7 +113,9 @@ class Orchestrator:
         raw = await self.function_agent.generate_str(prompt, format_instructions)
         print(f"\nFunction call raw output: {raw}\n")
 
-        result = parser.parse(raw).model_dump()
+        # Clean up the output to get the JSON part
+        result = await self._output_cleanup(raw, parser)
+
 
         function_name = result.get("function")
         function_args = result.get("args")
@@ -103,7 +134,9 @@ class Orchestrator:
     async def orchestrate(self, query: str, max_steps: int = 10):
         """Orchestrate the execution of the plan."""
         plan = await self._generate_plan(query)
+        plan = await self._plan_cleanup(plan)
 
+        print(f"Generated plan: {plan}")
 
         format_instructions = self.parsers["orchestrator"].get_format_instructions()
         for _ in range(max_steps):
@@ -111,8 +144,8 @@ class Orchestrator:
             raw = await self.orchestrator_agent.generate_str(query_with_format, format_instructions)
 
             print(f"Orchestrator output: {raw}")
-
-            next_step_json = self.parsers["orchestrator"].parse(raw).model_dump()
+            # Clean up the output to get the JSON part
+            next_step_json = await self._output_cleanup(raw, self.parsers["orchestrator"])
 
             if next_step_json.get("finished"):
                 print("MCP Orchestration: Orchestration finished.")
@@ -140,17 +173,3 @@ class Orchestrator:
                 result=result,
                 name=agent_name
             )
-        
-#test
-if __name__ == "__main__":
-    import asyncio
-    from agentic.USER.functions import create_python_file, execute_python_file, obtain_csv_header
-    from agentic.USER.agents import filesystem_agent, summary_agent
-    orchestrator = Orchestrator(
-        available_agents=[],
-        functions=[create_python_file, execute_python_file, obtain_csv_header]
-    )
-    query = """Make a graph of the revenue per month from the CSV file 'database/example_datasets/company1_sales_new.csv'. 
-        Save the graph as 'revenue_graph.png' in the current working directory."""
-    # query = "Create a python file that contains a function to add two numbers and return the result."
-    asyncio.run(orchestrator.orchestrate(query))

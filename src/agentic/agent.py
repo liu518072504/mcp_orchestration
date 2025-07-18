@@ -19,8 +19,9 @@ class Agent:
             instruction: str,
             db: FileDB,
             servers: list[str] = [],
-            model_name: str = "gemini-1.5-flash",
+            model_name: str = "gemini-2.0-flash",
             # model_name: str = "claude-3-haiku-20240307",
+            # model_name: str = "claude-sonnet-4-20250514",
             temperature: float = 0.0, 
             config_path: str = Path(agentic.__file__).parent.parent.parent / "mcp_config.json",
             max_steps: int = 15,
@@ -86,7 +87,7 @@ class Agent:
             await self.db.save_thread(self.thread)
 
     async def _run(self, prompt: str) -> str:
-        history = ""
+        history = "None"
         if self.use_memory:
             history = thread_to_prompt(self.thread)
             system_message = f"{self.instruction}\n\nYour history:\n{history} \n\nCurrent task:\n{prompt}\n"
@@ -100,6 +101,7 @@ class Agent:
             result = result.content
         else:
             # Use the MCPAgent to run the task when servers are provided
+            print(f"Running agent {self.name} with instruction: {system_message}\n\n")
             result = await self.agent.run(system_message)
             if "Final Answer:" in result:
                 result = result.split("Final Answer:")[-1].strip()
