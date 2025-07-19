@@ -101,7 +101,6 @@ class Agent:
             result = result.content
         else:
             # Use the MCPAgent to run the task when servers are provided
-            print(f"Running agent {self.name} with instruction: {system_message}\n\n")
             result = await self.agent.run(system_message)
             if "Final Answer:" in result:
                 result = result.split("Final Answer:")[-1].strip()
@@ -135,6 +134,7 @@ class Agent:
         """Run your agent on the prompt and return the text."""
         await self._init()  # Ensure thread is loaded
 
+        print(f"\nRunning agent {self.name}")
         result = await self._run(prompt + "\n\n" + format_instructions)
 
         await self.update_thread(prompt, result)  # Update and save thread with new events

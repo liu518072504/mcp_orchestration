@@ -55,6 +55,18 @@ There are already some examples in there to copy
 
 Import them into main.py and pass them into the orchestrator.
 
+## Memory
+
+Each agent you create will have its own memory stored in a .json file in src/agentic/database/threads
+The memory for the agents will be maintained even if the code is rerun.
+
+To clear the memory, you can:
+1. delete the .json file of specific agents or replace the entire .json file with an empty array []
+2. or delete the entire threads/ folder.
+
+They will be automatically created again when the code is run.
+You can set your own agents not to use memory with use_memory=False
+
 
 
 

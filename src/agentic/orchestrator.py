@@ -6,6 +6,8 @@ from langchain.output_parsers import PydanticOutputParser
 from agentic.schemas.schemas import OrchestratorSchema, Plan, FunctionCall
 from agentic.database.filedb import FileDB
 
+import pprint
+
 
 
 class Orchestrator:
@@ -111,7 +113,6 @@ class Orchestrator:
         """
 
         raw = await self.function_agent.generate_str(prompt, format_instructions)
-        print(f"\nFunction call raw output: {raw}\n")
 
         # Clean up the output to get the JSON part
         result = await self._output_cleanup(raw, parser)
@@ -123,7 +124,7 @@ class Orchestrator:
         
         for func in self.functions:
             if func.__name__ == function_name:
-                print(f"Executing function {function_name} with args {function_args}")
+                print(f"Executing function {function_name}")
                 result = func(**function_args)
 
                 message = f"Function {function_name} executed successfully with arguments {function_args}"
@@ -133,19 +134,27 @@ class Orchestrator:
 
     async def orchestrate(self, query: str, max_steps: int = 10):
         """Orchestrate the execution of the plan."""
+
+        # Clear the orchestrator thread before starting a new orchestration, can remove this if you want to keep the history
+        await self.db.delete_thread("orchestrator")
+
         plan = await self._generate_plan(query)
         plan = await self._plan_cleanup(plan)
 
-        print(f"Generated plan: {plan}")
+        print("Generated plan:")
+        for step in plan.values():
+            for s in step:
+                print(f"Agent: {s.get('agent')}, Instruction: {s.get('instruction')[:50]}...")
 
         format_instructions = self.parsers["orchestrator"].get_format_instructions()
         for _ in range(max_steps):
             query_with_format = f"{query}\n\nPlan: {plan}\n\nAvailable agents:\n{self.available_agents_prompt}"
             raw = await self.orchestrator_agent.generate_str(query_with_format, format_instructions)
 
-            print(f"Orchestrator output: {raw}")
             # Clean up the output to get the JSON part
             next_step_json = await self._output_cleanup(raw, self.parsers["orchestrator"])
+            print("\nOrchestrator response:")
+            print("agent:", next_step_json.get("agent"), "instruction:", next_step_json.get("instruction")[:50] + "...,", "finished:", next_step_json.get("finished"))
 
             if next_step_json.get("finished"):
                 print("MCP Orchestration: Orchestration finished.")
@@ -159,11 +168,9 @@ class Orchestrator:
             instruction = next_step_json.get("instruction")
 
             if agent_name == "function_calling_agent":
-                print(f"Running function call with instruction: {instruction}")
                 result= await self._run_function(instruction)
                 
             else:
-                print(f"Running agent {agent_name} with instruction: {instruction}")
                 prompt = f"Instruction: {instruction}"
                 result = await self.agents[agent_name].generate_str(prompt)
             

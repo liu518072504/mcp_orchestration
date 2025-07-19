@@ -20,6 +20,7 @@ playwright_agent = Agent(
     """,
     db=db,
     servers=["playwright"],
+    use_memory=False, # You can set this to True if you want the agent to remember its own previous context.
 )
 
 # Specialized agent example

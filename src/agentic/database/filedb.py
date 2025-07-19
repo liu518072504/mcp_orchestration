@@ -43,6 +43,14 @@ class FileDB:
         events = [deserialize_event(e) for e in raw_events]
         return Thread(id=thread_id, events=events)
     
+    async def delete_thread(self, thread_id: str) -> None:
+        """
+        Delete the thread file if it exists.
+        """
+        p = self._path(thread_id)
+        if os.path.exists(p):
+            os.remove(p)
+    
     # To implement (to clear errors that have been resolved)!!!
     async def clear_last_n_events(self, thread_id: str, n: int) -> None:
         """
