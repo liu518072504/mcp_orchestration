@@ -20,7 +20,7 @@ python -m venv venv #venv/bin/activate on linux
 venv\scripts\activate
 ```
 
-Install deps
+Install dependencies (Takes around 3 minutes > TODO change to UV package management for faster install maybe?) 
 ```bash
 pip install -e .
 ```
