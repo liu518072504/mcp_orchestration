@@ -20,6 +20,7 @@ python -m venv venv #venv/bin/activate on linux
 venv\scripts\activate
 ```
 
+Install deps
 ```bash
 pip install -e .
 ```
