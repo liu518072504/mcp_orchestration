@@ -89,7 +89,6 @@ setup(
         "python-dotenv==1.1.1",
         "python-multipart==0.0.20",
         "pytz==2025.2",
-        "pywin32==311",
         "PyYAML==6.0.2",
         "referencing==0.36.2",
         "requests==2.32.4",
@@ -114,7 +113,6 @@ setup(
         "uvicorn==0.35.0",
         "websockets==15.0.1",
         "wheel==0.45.1",
-        "win32_setctime==1.2.0",
         "yarl==1.20.1",
         "zstandard==0.23.0"
     ]

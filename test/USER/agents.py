@@ -23,6 +23,16 @@ playwright_agent = Agent(
     use_memory=False, # You can set this to True if you want the agent to remember its own previous context.
 )
 
+rag_agent = Agent(
+    name="rag_agent",
+    instruction="""You are a RAG (Retrieval-Augmented Generation) agent.
+    You have access to the rag mcp server, which has tools that allow you to retrieve and manipulate documents.
+    """,
+    db=db,
+    servers=["rag"],
+    use_memory=False,
+)
+
 # Specialized agent example
 schema_agent = Agent(
     name="schema_agent",

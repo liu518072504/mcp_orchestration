@@ -4,13 +4,6 @@
       "command": "npx",
       "args": ["@playwright/mcp@latest"]
     },
-    "filesystem": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem"
-      ]
-    },
     "rag": {
       "type": "sse",
       "url": "http://localhost:8000/sse"

@@ -6,10 +6,6 @@ from langchain.output_parsers import PydanticOutputParser
 from agentic.schemas.schemas import OrchestratorSchema, Plan, FunctionCall
 from agentic.database.filedb import FileDB
 
-import pprint
-
-
-
 class Orchestrator:
     def __init__(self, available_agents: List[Agent], functions: List[callable]):
         self.agents = {agent.name: agent for agent in available_agents}
@@ -154,11 +150,12 @@ class Orchestrator:
             # Clean up the output to get the JSON part
             next_step_json = await self._output_cleanup(raw, self.parsers["orchestrator"])
             print("\nOrchestrator response:")
-            print("agent:", next_step_json.get("agent"), "instruction:", next_step_json.get("instruction")[:50] + "...,", "finished:", next_step_json.get("finished"))
-
+            #if finished is true return entire response
             if next_step_json.get("finished"):
-                print("MCP Orchestration: Orchestration finished.")
+                print("Orchestrator finished with response:", next_step_json.get("instruction"))
                 break
+            else:
+                print("agent:", next_step_json.get("agent"), ", instruction:", next_step_json.get("instruction")[:50] + "...,", "finished:", next_step_json.get("finished"))
 
             agent_name = next_step_json.get("agent")
             if agent_name not in self.agents:
