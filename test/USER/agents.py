@@ -1,14 +1,13 @@
 from agentic.agent import Agent
 from agentic.database.filedb import FileDB
 
-# Only need to initialize one database instance that will 
+# Only need to initialize one database instance, I feel like this is bad coding practice since this is never called explicitly hmm
 db = FileDB()
 
 # You can create agents with different functionalities. Each agent will have its own memory.
+# I HIGHLY RECOMMEND PROVIDING RELEVANT FUNCTIONS IN THE INSTRUCTION. This will save a LOT of tokens and time.
 
 # Access the internet
-
-# I HIGHLY RECOMMEND PROVIDING RELEVANT FUNCTIONS IN THE INSTRUCTION. This will save a LOT of tokens and time.
 playwright_agent = Agent(
     name="playwright_agent",
     instruction="""You are a Playwright agent.
@@ -26,23 +25,20 @@ playwright_agent = Agent(
 rag_agent = Agent(
     name="rag_agent",
     instruction="""You are a RAG (Retrieval-Augmented Generation) agent.
-    You have access to the rag mcp server, which has tools that allow you to retrieve and manipulate documents.
+    You have access to the rag mcp server, which has tools that allow you to find tables relevant to a query and obtain the path and schema.
+
+    Here are some useful tools in the rag mcp server:
+
+    index_pdf(pdf_path: str) - Index a PDF file into the rag server.
+
+    search_file(query: str) - Returns the names of tables relevant to the query 
+    
+    find_table(query: str, data_source: str) - Find the path and schema of a table in a specific database.
+    query should contain the table name.
+    data_source should contain the database name. If unsure, use "supply_chain.db".
+
     """,
     db=db,
     servers=["rag"],
     use_memory=False,
-)
-
-# Specialized agent example
-schema_agent = Agent(
-    name="schema_agent",
-    instruction="""You are an expert in evaluating the quality of database schemas.
-    Given a database schema, your job is to evaluate its quality based on these four criteria:
-    1. Normalization: Ensure the schema is normalized to at least 3NF.
-    2. Redundancy: Identify and eliminate any redundant data.
-    3. Relationships: Ensure that relationships between tables are properly defined and enforced.
-    4. Indexing: Suggest appropriate indexing strategies to optimize query performance.
-
-    """,
-    db=db,
 )

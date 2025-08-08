@@ -1,21 +1,22 @@
 import asyncio
 from agentic.orchestrator import Orchestrator
-from USER.functions import create_python_file, execute_python_file, obtain_csv_header
-from USER.agents import playwright_agent, rag_agent
+from USER.functions import create_python_file, execute_python_file
+from USER.agents import rag_agent
 
 
 if __name__ == "__main__":
-    
-    orchestrator = Orchestrator(
-        available_agents=[playwright_agent, rag_agent],
-        functions=[create_python_file, execute_python_file, obtain_csv_header]
-    )
-
     # query = "Index the file p2,3.pdf using the rag server"
     # query = "Which dataset in the rag server should be referred to when it comes to the total amount of purchases? " \
     # "Use search_file in the rag server to find the answer."
-    query = "Use the find table function in the rag server to find the path of the table purchase_orders"
-    
+    query = "Create a graph of the last month of sales."
+    # query = "Hello"
+
+
+    orchestrator = Orchestrator(
+        available_agents=[rag_agent],
+        functions=[create_python_file, execute_python_file],
+    )
+
     asyncio.run(orchestrator.orchestrate(query))
 
 '''

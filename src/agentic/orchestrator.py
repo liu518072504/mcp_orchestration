@@ -31,11 +31,15 @@ class Orchestrator:
 
         self.planning_agent = Agent(
             name="planner",
-            instruction="""You are an expert planner. Given an objective task and a list of Agents (LLMs) with access to various tools, 
+            instruction=f"""You are an expert planner. Given an objective task and a list of Agents (LLMs) with access to various tools, 
             your job is to break down the objective into a series of steps, which can be performed by the available agents. 
             Review the functions available to the function_calling_agent and use it when appropriate.
 
-            You must only return a JSON object adhering to the schema, and nothing else.""",
+            You must only return a JSON object adhering to the schema, and nothing else.
+
+            If you deem no agents are neccecary to answer the query, you can respond directly by returning one step with agent 'end' and an appropriate response in 'instruction'.
+
+            """,
             db=self.db,
             use_memory=False
         )
@@ -72,8 +76,9 @@ class Orchestrator:
         query_with_format = f"{query}\n\nAvailable agents:\n{self.available_agents_prompt}"
         result = await self.planning_agent.generate_str(query_with_format, format_instructions)
         plan: Plan = parser.parse(result)
-        return plan
+        return plan.model_dump()
 
+    # Depreciated
     async def _plan_cleanup(self, plan: Plan):
         """Merge adjacent steps with the same agent in the plan except for the function_calling_agent."""
         cleaned_steps = []
@@ -135,12 +140,19 @@ class Orchestrator:
         await self.db.delete_thread("orchestrator")
 
         plan = await self._generate_plan(query)
-        plan = await self._plan_cleanup(plan)
+        # plan = await self._plan_cleanup(plan)
+
+        print(plan)
+        #if the agent is end, get the instruction:
+        if plan.get("steps")[0].get("agent") == "end":
+            instruction = plan.get("steps")[0].get("instruction")
+            return instruction
 
         print("Generated plan:")
         for step in plan.values():
             for s in step:
                 print(f"Agent: {s.get('agent')}, Instruction: {s.get('instruction')[:50]}...")
+
 
         format_instructions = self.parsers["orchestrator"].get_format_instructions()
         for _ in range(max_steps):
@@ -153,7 +165,7 @@ class Orchestrator:
             #if finished is true return entire response
             if next_step_json.get("finished"):
                 print("Orchestrator finished with response:", next_step_json.get("instruction"))
-                break
+                return next_step_json.get("instruction")
             else:
                 print("agent:", next_step_json.get("agent"), ", instruction:", next_step_json.get("instruction")[:50] + "...,", "finished:", next_step_json.get("finished"))
 
@@ -165,12 +177,14 @@ class Orchestrator:
             instruction = next_step_json.get("instruction")
 
             if agent_name == "function_calling_agent":
-                result= await self._run_function(instruction)
+                result = await self._run_function(instruction)
                 
             else:
                 prompt = f"Instruction: {instruction}"
                 result = await self.agents[agent_name].generate_str(prompt)
-            
+
+            print(f"\nAgent {agent_name} returned: {result[:50]}...")
+
             # Update the orchestrator thread with the result
             await self.orchestrator_agent.update_thread(
                 prompt=instruction,
