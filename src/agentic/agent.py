@@ -17,7 +17,7 @@ class Agent:
             instruction: str,
             db: FileDB,
             servers: list[str] = [],
-            model_name: str = "gemini-2.0-flash",
+            model_name: str = "gemini-2.5-flash",
             # model_name: str = "claude-3-5-sonnet-20240620",
             temperature: float = 0.0, 
             config_path: str = Path(agentic.__file__).parent.parent.parent / "mcp_config.json",

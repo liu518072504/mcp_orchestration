@@ -31,7 +31,7 @@ rag_agent = Agent(
 
     index_pdf(pdf_path: str) - Index a PDF file into the rag server.
 
-    search_file(query: str) - Returns the names of tables relevant to the query 
+    search_file(query: str) - Find relevant tables to a query
     
     find_table(query: str, data_source: str) - Find the path and schema of a table in a specific database.
     query should contain the table name.

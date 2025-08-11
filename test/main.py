@@ -8,7 +8,7 @@ if __name__ == "__main__":
     # query = "Index the file p2,3.pdf using the rag server"
     # query = "Which dataset in the rag server should be referred to when it comes to the total amount of purchases? " \
     # "Use search_file in the rag server to find the answer."
-    query = "Create a graph of the last month of sales."
+    query = "How many of the expedited orders were high priority?"
     # query = "Hello"
 
 

@@ -7,6 +7,8 @@ from agentic.schemas.schemas import OrchestratorSchema, Plan, FunctionCall
 from agentic.database.filedb import FileDB
 
 class Orchestrator:
+    TRUNCATE = 500
+
     def __init__(self, available_agents: List[Agent], functions: List[callable]):
         self.agents = {agent.name: agent for agent in available_agents}
         self.functions = functions
@@ -46,12 +48,14 @@ class Orchestrator:
 
         self.orchestrator_agent = Agent(
             name="orchestrator",
-            instruction=f"""You are an orchestrator agent. Given a pre-defined plan, your job is to decide the next agent to execute with a set of instructions.
-            The plan is just a guideline, and you can choose the best agent to execute the next step.
+            instruction=f"""You are an orchestrator agent. Given a pre-defined plan in chronological order, your job is to decide the next agent to execute with a set of instructions.
+            The plan is just a guideline, and you can choose the best agent to execute the next step, but follow the plan to the best of your ability.
             Review the functions available to the function_calling_agent and use it when appropriate.
-            
+
+            In the instruction, ensure to provide sufficient context as agents do not have access to previous messages.
+
             Return in a JSON object with the following fields (and nothing else):
-            - finished: True if the orchestration is complete and no more agents need to be called, False otherwise
+            - finished: True if the orchestration is complete and no more agents need to be called or there is a critical error that cannot be resolved. False otherwise
             - agent: the name of the agent that should perform the next step (review the plan when deciding this agent)
             - instruction: the instruction for the agent to perform the next step (Answer to the user query if finished)
             """,
@@ -142,7 +146,6 @@ class Orchestrator:
         plan = await self._generate_plan(query)
         # plan = await self._plan_cleanup(plan)
 
-        print(plan)
         #if the agent is end, get the instruction:
         if plan.get("steps")[0].get("agent") == "end":
             instruction = plan.get("steps")[0].get("instruction")
@@ -151,7 +154,7 @@ class Orchestrator:
         print("Generated plan:")
         for step in plan.values():
             for s in step:
-                print(f"Agent: {s.get('agent')}, Instruction: {s.get('instruction')[:50]}...")
+                print(f"Agent: {s.get('agent')}, Instruction: {s.get('instruction')[:self.TRUNCATE]}...")
 
 
         format_instructions = self.parsers["orchestrator"].get_format_instructions()
@@ -167,7 +170,7 @@ class Orchestrator:
                 print("Orchestrator finished with response:", next_step_json.get("instruction"))
                 return next_step_json.get("instruction")
             else:
-                print("agent:", next_step_json.get("agent"), ", instruction:", next_step_json.get("instruction")[:50] + "...,", "finished:", next_step_json.get("finished"))
+                print("agent:", next_step_json.get("agent"), ", instruction:", next_step_json.get("instruction")[:self.TRUNCATE] + "...,", "finished:", next_step_json.get("finished"))
 
             agent_name = next_step_json.get("agent")
             if agent_name not in self.agents:
@@ -183,7 +186,7 @@ class Orchestrator:
                 prompt = f"Instruction: {instruction}"
                 result = await self.agents[agent_name].generate_str(prompt)
 
-            print(f"\nAgent {agent_name} returned: {result[:50]}...")
+            print(f"\nAgent {agent_name} returned: {result[:self.TRUNCATE]}...")
 
             # Update the orchestrator thread with the result
             await self.orchestrator_agent.update_thread(
