@@ -63,7 +63,7 @@ setup(
         "loguru==0.7.3",
         "matplotlib==3.10.3",
         "mcp==1.11.0",
-        "mcp-use==1.3.6",
+        "mcp-use==1.3.9",
         "mmh3==5.1.0",
         "mpmath==1.3.0",
         "multidict==6.6.3",
