@@ -1,0 +1,1001 @@
+po_number,supplier_id,supplier_name,material_id,material_description,order_date,delivery_date,quantity_ordered,price_per_unit,po_status
+PO925777,S0036,"Arnold, Green and Gonzales Mining Supplies",M00187,Oil Seal,2024-12-29,2025-01-27,816,89.36,Closed
+PO488620,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00117,Flow Meter,2025-01-09,2025-02-22,562,71.72,Cancelled
+PO544541,S0023,"Roberts, Luna and West Mining Supplies",M00140,Screen Panel,2024-12-13,2025-01-07,982,431.14,Cancelled
+PO975821,S0036,"Arnold, Green and Gonzales Mining Supplies",M00007,Load Cell,2024-08-30,2024-09-16,172,26.05,Open
+PO962109,S0004,Henson Inc Mining Supplies,M00183,Slurry Hose,2025-05-04,2025-06-13,262,119.34,Open
+PO135273,S0007,"Phillips, Scott and Tran Mining Supplies",M00037,Ball Bearing,2024-06-23,2024-08-11,613,344.48,Open
+PO995977,S0036,"Arnold, Green and Gonzales Mining Supplies",M00099,Conveyor Belt,2025-06-09,2025-07-15,444,346.1,Open
+PO592618,S0033,Klein-Henry Mining Supplies,M00072,Dust Collector Filter,2024-10-10,2024-10-15,668,101.01,Cancelled
+PO794590,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00066,Fuel Injector,2025-04-23,2025-05-14,944,354.64,Open
+PO958034,S0001,Kim Ltd Mining Supplies,M00181,Drill Bit,2025-02-16,2025-03-29,293,326.38,Open
+PO605809,S0045,Howard PLC Mining Supplies,M00168,Conveyor Belt,2025-06-02,2025-07-31,744,345.41,Open
+PO578308,S0044,Clark-Brown Mining Supplies,M00130,Fuel Injector,2024-10-01,2024-11-25,613,288.79,Closed
+PO567591,S0003,"Simpson, Singleton and Morris Mining Supplies",M00053,Flow Meter,2024-08-09,2024-10-04,242,396.31,Open
+PO980984,S0020,"Wall, Torres and Lopez Mining Supplies",M00158,Pressure Valve,2025-01-09,2025-01-29,832,405.05,Open
+PO463724,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00015,Ball Bearing,2025-01-21,2025-02-08,305,479.46,Open
+PO502516,S0023,"Roberts, Luna and West Mining Supplies",M00092,Gearbox Assembly,2025-03-27,2025-05-10,68,107.46,Cancelled
+PO459370,S0004,Henson Inc Mining Supplies,M00084,Vibration Sensor,2024-07-12,2024-07-31,947,62.68,Closed
+PO652135,S0006,Sanchez-Ray Mining Supplies,M00013,Bucket Elevator Chain,2024-08-19,2024-10-08,320,214.87,Open
+PO341355,S0006,Sanchez-Ray Mining Supplies,M00101,Flow Meter,2024-08-12,2024-09-19,837,44.02,Closed
+PO565108,S0036,"Arnold, Green and Gonzales Mining Supplies",M00017,Jaw Crusher Plate,2025-03-18,2025-05-13,816,371.36,Cancelled
+PO697441,S0013,White-Johnson Mining Supplies,M00078,Slurry Hose,2025-05-03,2025-06-22,719,426.32,Cancelled
+PO120398,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00001,Slurry Hose,2025-04-20,2025-06-10,699,193.43,Open
+PO956856,S0038,Richards PLC Mining Supplies,M00078,Slurry Hose,2024-10-03,2024-11-17,627,473.07,Closed
+PO182909,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00010,Oil Seal,2025-02-01,2025-03-26,285,193.05,Closed
+PO102373,S0002,Horne-Potter Mining Supplies,M00128,Fuel Injector,2024-11-08,2024-12-10,611,241.36,Open
+PO983789,S0048,Clark Ltd Mining Supplies,M00058,Drill Bit,2025-03-07,2025-03-25,567,233.91,Open
+PO733114,S0044,Clark-Brown Mining Supplies,M00107,Bucket Elevator Chain,2024-09-21,2024-10-06,344,387.93,Open
+PO506354,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00052,Dust Collector Filter,2024-12-10,2024-12-19,192,167.77,Open
+PO955552,S0014,Macdonald-Thompson Mining Supplies,M00055,Gearbox Assembly,2024-07-06,2024-08-16,816,355.41,Open
+PO156990,S0033,Klein-Henry Mining Supplies,M00003,Load Cell,2025-05-17,2025-05-24,562,406.7,Closed
+PO788650,S0046,Anderson-Compton Mining Supplies,M00062,Coupler Shaft,2025-05-13,2025-05-19,653,45.73,Cancelled
+PO849739,S0026,"Clark, Martinez and Peters Mining Supplies",M00142,Chain Conveyor,2024-07-16,2024-07-27,722,16.62,Open
+PO579486,S0041,Stewart-Moore Mining Supplies,M00061,Drill Bit,2025-05-24,2025-06-08,380,360.75,Closed
+PO607423,S0027,Charles PLC Mining Supplies,M00023,Electric Motor,2024-09-28,2024-11-12,426,168.78,Open
+PO559242,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00173,Dust Collector Filter,2025-04-12,2025-06-05,367,393.34,Cancelled
+PO173368,S0032,"Morris, Crosby and Stevens Mining Supplies",M00106,Ball Bearing,2024-09-23,2024-10-25,270,431.79,Closed
+PO275181,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00161,Chain Conveyor,2024-09-03,2024-09-22,762,240.16,Open
+PO202953,S0015,"Ball, Foster and Castillo Mining Supplies",M00186,Flow Meter,2025-04-12,2025-05-28,375,86.18,Closed
+PO352486,S0007,"Phillips, Scott and Tran Mining Supplies",M00190,Chain Conveyor,2024-11-14,2024-12-27,25,377.04,Closed
+PO205310,S0011,Diaz PLC Mining Supplies,M00046,Bucket Elevator Chain,2024-09-07,2024-10-01,910,28.6,Open
+PO312105,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00066,Fuel Injector,2025-02-05,2025-04-03,46,70.6,Closed
+PO426323,S0021,Schmidt-Ashley Mining Supplies,M00012,Electric Motor,2024-09-11,2024-09-23,913,186.17,Cancelled
+PO920362,S0035,Pena-Pace Mining Supplies,M00015,Ball Bearing,2025-02-13,2025-02-22,230,355.63,Open
+PO307065,S0041,Stewart-Moore Mining Supplies,M00076,Chain Conveyor,2025-01-02,2025-01-12,644,227.24,Cancelled
+PO583026,S0019,"Cordova, Collins and Mayo Mining Supplies",M00075,Hydraulic Pump,2024-12-05,2025-01-12,304,133.0,Cancelled
+PO487435,S0050,Williams and Sons Mining Supplies,M00037,Ball Bearing,2024-12-20,2024-12-25,103,130.78,Closed
+PO174753,S0049,Grant-Ross Mining Supplies,M00111,Chain Conveyor,2024-10-03,2024-11-24,883,392.58,Cancelled
+PO491456,S0035,Pena-Pace Mining Supplies,M00029,Bucket Elevator Chain,2025-04-29,2025-05-31,130,34.7,Open
+PO914326,S0033,Klein-Henry Mining Supplies,M00190,Chain Conveyor,2024-08-15,2024-10-05,830,103.38,Cancelled
+PO698046,S0044,Clark-Brown Mining Supplies,M00024,Coupler Shaft,2024-11-23,2024-12-24,954,306.79,Cancelled
+PO964135,S0026,"Clark, Martinez and Peters Mining Supplies",M00190,Chain Conveyor,2024-12-07,2025-01-14,142,148.2,Closed
+PO521990,S0025,Jefferson LLC Mining Supplies,M00014,Oil Seal,2024-08-08,2024-08-30,420,357.32,Cancelled
+PO203184,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00043,Oil Seal,2024-12-29,2025-02-07,74,278.44,Open
+PO889860,S0035,Pena-Pace Mining Supplies,M00199,Chain Conveyor,2024-12-16,2025-01-22,960,389.64,Cancelled
+PO934750,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00025,Slurry Hose,2024-10-02,2024-11-01,558,233.18,Open
+PO385767,S0031,Hayes Ltd Mining Supplies,M00002,Pressure Valve,2025-06-09,2025-06-21,308,16.06,Closed
+PO542884,S0038,Richards PLC Mining Supplies,M00065,Chain Conveyor,2024-10-05,2024-10-18,2,44.53,Closed
+PO281796,S0029,"Peterson, Silva and Le Mining Supplies",M00044,Conveyor Belt,2024-12-30,2025-01-10,956,134.38,Open
+PO589486,S0024,Lowe and Sons Mining Supplies,M00026,Flow Meter,2024-07-20,2024-08-17,350,50.48,Cancelled
+PO347442,S0020,"Wall, Torres and Lopez Mining Supplies",M00176,Lubrication Pump,2024-12-30,2025-02-18,964,330.2,Cancelled
+PO524618,S0008,Collins-Leblanc Mining Supplies,M00057,Load Cell,2024-07-25,2024-09-02,821,24.42,Closed
+PO924583,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00053,Flow Meter,2025-02-27,2025-03-13,933,24.48,Open
+PO111237,S0019,"Cordova, Collins and Mayo Mining Supplies",M00199,Chain Conveyor,2024-10-28,2024-12-12,350,303.88,Cancelled
+PO258012,S0044,Clark-Brown Mining Supplies,M00107,Bucket Elevator Chain,2024-10-15,2024-12-04,121,460.32,Closed
+PO338840,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00049,Flow Meter,2025-04-05,2025-05-03,939,61.4,Cancelled
+PO192728,S0041,Stewart-Moore Mining Supplies,M00002,Pressure Valve,2024-08-14,2024-09-04,32,137.56,Cancelled
+PO224684,S0027,Charles PLC Mining Supplies,M00154,Drill Bit,2024-12-03,2025-01-02,67,70.58,Open
+PO510195,S0001,Kim Ltd Mining Supplies,M00039,Dust Collector Filter,2025-03-11,2025-04-21,376,274.3,Cancelled
+PO642117,S0017,Richardson Ltd Mining Supplies,M00154,Drill Bit,2024-07-21,2024-08-22,677,376.23,Cancelled
+PO561446,S0036,"Arnold, Green and Gonzales Mining Supplies",M00134,Bucket Elevator Chain,2024-09-08,2024-09-29,704,394.67,Open
+PO596470,S0044,Clark-Brown Mining Supplies,M00084,Vibration Sensor,2024-09-27,2024-10-06,733,16.31,Closed
+PO641702,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00074,Dust Collector Filter,2025-06-08,2025-07-07,844,178.14,Cancelled
+PO193904,S0039,"Perkins, Padilla and Brown Mining Supplies",M00039,Dust Collector Filter,2024-12-29,2025-02-09,99,451.54,Closed
+PO990193,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00083,Flow Meter,2024-07-03,2024-09-01,578,169.67,Open
+PO872785,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00008,Gearbox Assembly,2024-11-03,2024-11-23,402,149.51,Closed
+PO194848,S0027,Charles PLC Mining Supplies,M00102,Bucket Elevator Chain,2025-03-18,2025-05-03,132,63.98,Open
+PO191670,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00140,Screen Panel,2024-09-10,2024-11-06,488,240.9,Cancelled
+PO586294,S0020,"Wall, Torres and Lopez Mining Supplies",M00123,Electric Motor,2024-08-17,2024-10-03,927,365.12,Open
+PO940555,S0027,Charles PLC Mining Supplies,M00132,Load Cell,2024-08-01,2024-08-17,249,452.41,Closed
+PO362062,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00078,Slurry Hose,2025-06-13,2025-06-19,109,115.39,Open
+PO167487,S0015,"Ball, Foster and Castillo Mining Supplies",M00137,Chain Conveyor,2024-09-11,2024-10-07,128,37.51,Closed
+PO893844,S0027,Charles PLC Mining Supplies,M00132,Load Cell,2025-05-13,2025-06-24,214,190.67,Open
+PO768085,S0008,Collins-Leblanc Mining Supplies,M00047,Gearbox Assembly,2024-11-16,2025-01-09,903,212.84,Closed
+PO713950,S0033,Klein-Henry Mining Supplies,M00117,Flow Meter,2024-07-22,2024-08-19,237,365.9,Open
+PO951065,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00133,Electric Motor,2024-07-20,2024-08-16,439,486.6,Cancelled
+PO808863,S0049,Grant-Ross Mining Supplies,M00182,Flow Meter,2025-02-11,2025-04-06,787,365.11,Closed
+PO419372,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00109,Load Cell,2025-03-16,2025-04-11,859,435.33,Closed
+PO459954,S0042,Peterson-Martinez Mining Supplies,M00078,Slurry Hose,2024-12-18,2024-12-26,978,444.27,Open
+PO683336,S0026,"Clark, Martinez and Peters Mining Supplies",M00016,Dust Collector Filter,2025-04-01,2025-05-03,916,67.89,Closed
+PO732213,S0003,"Simpson, Singleton and Morris Mining Supplies",M00106,Ball Bearing,2024-07-21,2024-08-10,667,140.19,Closed
+PO416841,S0025,Jefferson LLC Mining Supplies,M00073,Flow Meter,2024-06-22,2024-07-13,222,312.88,Closed
+PO557445,S0031,Hayes Ltd Mining Supplies,M00065,Chain Conveyor,2025-03-30,2025-05-19,234,149.24,Open
+PO145111,S0007,"Phillips, Scott and Tran Mining Supplies",M00083,Flow Meter,2024-08-27,2024-10-09,733,167.87,Open
+PO528368,S0038,Richards PLC Mining Supplies,M00164,Oil Seal,2025-02-24,2025-04-20,394,39.33,Closed
+PO478073,S0032,"Morris, Crosby and Stevens Mining Supplies",M00093,Chain Conveyor,2025-04-16,2025-05-25,269,288.55,Closed
+PO331588,S0044,Clark-Brown Mining Supplies,M00117,Flow Meter,2025-02-07,2025-04-08,513,292.72,Open
+PO590076,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00184,Jaw Crusher Plate,2025-01-03,2025-01-27,32,471.94,Cancelled
+PO935222,S0011,Diaz PLC Mining Supplies,M00105,Drill Bit,2025-04-16,2025-04-26,491,110.06,Open
+PO757733,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00031,Flow Meter,2024-08-21,2024-10-02,324,486.24,Cancelled
+PO674025,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00101,Flow Meter,2025-05-01,2025-05-09,982,435.05,Open
+PO732592,S0050,Williams and Sons Mining Supplies,M00169,Coupler Shaft,2024-09-08,2024-10-20,883,253.26,Closed
+PO765292,S0004,Henson Inc Mining Supplies,M00027,Load Cell,2025-01-28,2025-02-07,375,286.2,Open
+PO674889,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00099,Conveyor Belt,2025-04-02,2025-04-29,397,463.7,Cancelled
+PO621851,S0017,Richardson Ltd Mining Supplies,M00081,Screen Panel,2024-12-02,2025-01-13,760,402.45,Open
+PO930335,S0002,Horne-Potter Mining Supplies,M00199,Chain Conveyor,2025-06-14,2025-07-27,568,140.02,Closed
+PO308014,S0006,Sanchez-Ray Mining Supplies,M00118,Slurry Hose,2025-01-07,2025-01-29,552,227.04,Cancelled
+PO222589,S0023,"Roberts, Luna and West Mining Supplies",M00081,Screen Panel,2024-08-29,2024-10-18,414,112.09,Closed
+PO228870,S0028,"Garza, Gardner and Payne Mining Supplies",M00178,Flow Meter,2024-12-06,2024-12-14,317,36.66,Closed
+PO623859,S0025,Jefferson LLC Mining Supplies,M00086,Fuel Injector,2024-10-19,2024-12-05,781,455.43,Open
+PO265971,S0033,Klein-Henry Mining Supplies,M00027,Load Cell,2024-06-26,2024-07-15,452,446.22,Open
+PO828275,S0001,Kim Ltd Mining Supplies,M00165,Jaw Crusher Plate,2025-01-25,2025-01-30,340,373.22,Open
+PO565066,S0033,Klein-Henry Mining Supplies,M00093,Chain Conveyor,2024-08-15,2024-08-23,246,55.66,Cancelled
+PO890579,S0004,Henson Inc Mining Supplies,M00178,Flow Meter,2024-11-09,2024-12-29,585,165.81,Open
+PO694736,S0002,Horne-Potter Mining Supplies,M00006,Bucket Elevator Chain,2024-07-28,2024-08-30,357,368.25,Cancelled
+PO750678,S0027,Charles PLC Mining Supplies,M00096,Coupler Shaft,2025-05-10,2025-06-04,288,23.73,Open
+PO300127,S0048,Clark Ltd Mining Supplies,M00193,Conveyor Belt,2025-01-19,2025-02-22,609,430.37,Cancelled
+PO223220,S0015,"Ball, Foster and Castillo Mining Supplies",M00096,Coupler Shaft,2024-08-13,2024-09-13,444,307.52,Cancelled
+PO128142,S0004,Henson Inc Mining Supplies,M00131,Screen Panel,2024-12-22,2025-01-22,794,329.82,Closed
+PO357147,S0027,Charles PLC Mining Supplies,M00083,Flow Meter,2024-07-23,2024-09-04,165,31.17,Open
+PO143460,S0007,"Phillips, Scott and Tran Mining Supplies",M00038,Vibration Sensor,2024-06-23,2024-07-02,728,318.92,Closed
+PO724568,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00172,Fuel Injector,2024-10-28,2024-12-08,477,110.75,Cancelled
+PO335338,S0014,Macdonald-Thompson Mining Supplies,M00169,Coupler Shaft,2025-04-02,2025-05-11,400,192.32,Closed
+PO530487,S0043,"Lopez, Watson and Hodges Mining Supplies",M00057,Load Cell,2024-08-20,2024-09-10,617,196.53,Closed
+PO174486,S0013,White-Johnson Mining Supplies,M00064,Drill Bit,2025-04-22,2025-06-21,164,179.71,Cancelled
+PO109632,S0029,"Peterson, Silva and Le Mining Supplies",M00190,Chain Conveyor,2024-07-22,2024-09-08,492,236.34,Cancelled
+PO958190,S0004,Henson Inc Mining Supplies,M00155,Gearbox Assembly,2024-10-01,2024-10-06,19,421.59,Closed
+PO570330,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00165,Jaw Crusher Plate,2024-08-22,2024-08-27,485,333.15,Closed
+PO205599,S0045,Howard PLC Mining Supplies,M00175,Bucket Elevator Chain,2024-08-05,2024-08-25,810,210.02,Closed
+PO280515,S0043,"Lopez, Watson and Hodges Mining Supplies",M00135,Ball Bearing,2025-03-11,2025-03-21,246,449.55,Open
+PO594094,S0023,"Roberts, Luna and West Mining Supplies",M00114,Chain Conveyor,2025-03-29,2025-05-19,559,195.37,Cancelled
+PO531282,S0008,Collins-Leblanc Mining Supplies,M00029,Bucket Elevator Chain,2024-09-06,2024-10-24,750,184.17,Cancelled
+PO729534,S0003,"Simpson, Singleton and Morris Mining Supplies",M00127,Ball Bearing,2025-02-05,2025-02-17,96,474.09,Cancelled
+PO864716,S0013,White-Johnson Mining Supplies,M00088,Gearbox Assembly,2025-05-15,2025-06-26,484,438.42,Closed
+PO360071,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00048,Screen Panel,2025-01-29,2025-03-30,735,213.68,Closed
+PO785390,S0036,"Arnold, Green and Gonzales Mining Supplies",M00056,Flow Meter,2025-04-11,2025-05-24,101,336.46,Closed
+PO161475,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00170,Jaw Crusher Plate,2025-02-11,2025-03-13,403,226.82,Cancelled
+PO153054,S0045,Howard PLC Mining Supplies,M00188,Dust Collector Filter,2025-01-17,2025-03-17,102,276.98,Cancelled
+PO812004,S0037,Gutierrez-Jones Mining Supplies,M00084,Vibration Sensor,2024-10-23,2024-10-29,657,141.87,Closed
+PO639760,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00112,Drill Bit,2025-03-22,2025-03-30,772,34.97,Cancelled
+PO477463,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00177,Screen Panel,2025-04-01,2025-05-14,923,378.08,Open
+PO612199,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00122,Fuel Injector,2024-11-04,2024-11-16,449,89.77,Cancelled
+PO754731,S0025,Jefferson LLC Mining Supplies,M00170,Jaw Crusher Plate,2024-08-14,2024-09-17,175,406.61,Cancelled
+PO168430,S0049,Grant-Ross Mining Supplies,M00019,Hydraulic Pump,2025-03-06,2025-04-09,953,146.0,Open
+PO757784,S0017,Richardson Ltd Mining Supplies,M00169,Coupler Shaft,2024-10-20,2024-12-16,734,383.28,Closed
+PO330676,S0002,Horne-Potter Mining Supplies,M00053,Flow Meter,2025-01-06,2025-01-22,146,51.15,Closed
+PO945615,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00026,Flow Meter,2024-09-15,2024-10-31,703,179.45,Cancelled
+PO483569,S0046,Anderson-Compton Mining Supplies,M00089,Screen Panel,2024-08-24,2024-09-24,252,168.2,Closed
+PO700478,S0002,Horne-Potter Mining Supplies,M00009,Ball Bearing,2024-08-19,2024-10-09,886,111.68,Open
+PO363805,S0007,"Phillips, Scott and Tran Mining Supplies",M00116,Gearbox Assembly,2025-04-26,2025-05-21,62,169.36,Cancelled
+PO296329,S0045,Howard PLC Mining Supplies,M00044,Conveyor Belt,2025-02-13,2025-02-25,377,29.42,Cancelled
+PO808369,S0028,"Garza, Gardner and Payne Mining Supplies",M00014,Oil Seal,2024-09-26,2024-11-01,743,322.4,Open
+PO653606,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00197,Fuel Injector,2024-08-26,2024-10-03,926,220.11,Cancelled
+PO692323,S0038,Richards PLC Mining Supplies,M00009,Ball Bearing,2024-12-10,2024-12-25,550,459.91,Closed
+PO226319,S0037,Gutierrez-Jones Mining Supplies,M00198,Load Cell,2025-02-06,2025-02-26,523,123.15,Cancelled
+PO604431,S0035,Pena-Pace Mining Supplies,M00137,Chain Conveyor,2025-06-03,2025-06-25,526,226.89,Cancelled
+PO513638,S0048,Clark Ltd Mining Supplies,M00018,Load Cell,2024-11-18,2024-12-02,740,291.61,Cancelled
+PO698265,S0020,"Wall, Torres and Lopez Mining Supplies",M00083,Flow Meter,2024-10-22,2024-10-28,991,213.57,Cancelled
+PO256675,S0019,"Cordova, Collins and Mayo Mining Supplies",M00089,Screen Panel,2024-08-14,2024-09-06,685,106.73,Cancelled
+PO640847,S0029,"Peterson, Silva and Le Mining Supplies",M00128,Fuel Injector,2024-12-05,2025-01-08,479,229.19,Open
+PO108845,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00156,Fuel Injector,2025-01-17,2025-03-10,12,492.86,Open
+PO331804,S0027,Charles PLC Mining Supplies,M00032,Coupler Shaft,2024-11-10,2024-12-17,977,98.62,Closed
+PO521310,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00196,Slurry Hose,2024-12-02,2024-12-24,51,491.33,Closed
+PO324874,S0048,Clark Ltd Mining Supplies,M00130,Fuel Injector,2024-10-11,2024-11-17,175,82.72,Cancelled
+PO699056,S0017,Richardson Ltd Mining Supplies,M00169,Coupler Shaft,2024-09-30,2024-10-23,668,134.88,Cancelled
+PO997412,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00022,Pressure Valve,2025-03-18,2025-03-25,413,497.86,Open
+PO711930,S0001,Kim Ltd Mining Supplies,M00021,Electric Motor,2024-10-25,2024-11-16,269,109.19,Open
+PO464095,S0001,Kim Ltd Mining Supplies,M00176,Lubrication Pump,2025-05-27,2025-07-13,756,57.57,Cancelled
+PO668281,S0039,"Perkins, Padilla and Brown Mining Supplies",M00124,Pressure Valve,2025-04-21,2025-05-14,171,460.67,Closed
+PO324634,S0033,Klein-Henry Mining Supplies,M00106,Ball Bearing,2024-11-16,2024-11-25,949,45.46,Open
+PO378105,S0023,"Roberts, Luna and West Mining Supplies",M00079,Electric Motor,2024-09-05,2024-10-15,924,49.05,Closed
+PO441622,S0042,Peterson-Martinez Mining Supplies,M00045,Slurry Hose,2024-12-30,2025-01-13,528,207.46,Open
+PO955984,S0021,Schmidt-Ashley Mining Supplies,M00029,Bucket Elevator Chain,2025-01-13,2025-02-24,592,323.73,Cancelled
+PO570364,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00002,Pressure Valve,2025-04-08,2025-05-30,431,312.35,Open
+PO986778,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00044,Conveyor Belt,2025-05-28,2025-07-21,17,48.27,Closed
+PO181759,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00190,Chain Conveyor,2024-12-03,2024-12-31,366,282.07,Cancelled
+PO115472,S0008,Collins-Leblanc Mining Supplies,M00060,Screen Panel,2024-11-16,2025-01-01,304,484.96,Cancelled
+PO408593,S0032,"Morris, Crosby and Stevens Mining Supplies",M00092,Gearbox Assembly,2024-10-10,2024-12-02,928,302.29,Open
+PO896944,S0050,Williams and Sons Mining Supplies,M00143,Gearbox Assembly,2025-02-14,2025-03-30,457,85.42,Open
+PO147294,S0006,Sanchez-Ray Mining Supplies,M00109,Load Cell,2024-09-27,2024-10-10,102,98.98,Cancelled
+PO372084,S0025,Jefferson LLC Mining Supplies,M00113,Bucket Elevator Chain,2024-09-11,2024-11-05,500,424.66,Open
+PO573005,S0049,Grant-Ross Mining Supplies,M00070,Lubrication Pump,2025-04-04,2025-05-12,520,40.82,Open
+PO820420,S0035,Pena-Pace Mining Supplies,M00033,Ball Bearing,2025-05-05,2025-06-22,87,473.33,Open
+PO126690,S0026,"Clark, Martinez and Peters Mining Supplies",M00086,Fuel Injector,2025-04-22,2025-06-09,538,399.65,Open
+PO202888,S0002,Horne-Potter Mining Supplies,M00017,Jaw Crusher Plate,2024-12-08,2024-12-20,241,67.1,Closed
+PO496752,S0036,"Arnold, Green and Gonzales Mining Supplies",M00105,Drill Bit,2024-06-29,2024-07-13,528,128.01,Closed
+PO129711,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00125,Slurry Hose,2025-02-12,2025-03-28,828,227.53,Closed
+PO415090,S0020,"Wall, Torres and Lopez Mining Supplies",M00136,Coupler Shaft,2024-08-15,2024-08-24,980,88.19,Open
+PO328911,S0038,Richards PLC Mining Supplies,M00040,Screen Panel,2024-06-24,2024-08-14,969,101.73,Closed
+PO208335,S0023,"Roberts, Luna and West Mining Supplies",M00173,Dust Collector Filter,2024-08-07,2024-10-03,293,20.34,Open
+PO301506,S0032,"Morris, Crosby and Stevens Mining Supplies",M00048,Screen Panel,2025-02-16,2025-03-08,612,316.16,Open
+PO666504,S0050,Williams and Sons Mining Supplies,M00042,Lubrication Pump,2025-06-10,2025-07-02,126,330.4,Closed
+PO897535,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00003,Load Cell,2025-06-07,2025-07-14,331,440.18,Cancelled
+PO316417,S0003,"Simpson, Singleton and Morris Mining Supplies",M00012,Electric Motor,2025-01-10,2025-03-02,725,349.81,Closed
+PO150093,S0013,White-Johnson Mining Supplies,M00078,Slurry Hose,2024-12-20,2025-01-18,935,72.85,Cancelled
+PO514462,S0006,Sanchez-Ray Mining Supplies,M00074,Dust Collector Filter,2024-10-15,2024-11-13,264,284.89,Closed
+PO767174,S0049,Grant-Ross Mining Supplies,M00046,Bucket Elevator Chain,2025-01-12,2025-02-27,616,466.51,Cancelled
+PO981273,S0039,"Perkins, Padilla and Brown Mining Supplies",M00160,Electric Motor,2025-04-19,2025-05-12,147,190.66,Cancelled
+PO705717,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00162,Load Cell,2025-01-27,2025-02-24,582,464.52,Closed
+PO475641,S0027,Charles PLC Mining Supplies,M00117,Flow Meter,2025-05-08,2025-05-16,975,255.87,Open
+PO270353,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00156,Fuel Injector,2024-09-14,2024-10-26,960,12.41,Closed
+PO779380,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00058,Drill Bit,2024-09-23,2024-11-19,959,332.88,Closed
+PO422712,S0005,Jones Inc Mining Supplies,M00166,Gearbox Assembly,2025-05-07,2025-07-06,991,327.26,Cancelled
+PO118642,S0019,"Cordova, Collins and Mayo Mining Supplies",M00004,Flow Meter,2025-05-10,2025-06-27,519,357.03,Cancelled
+PO962837,S0023,"Roberts, Luna and West Mining Supplies",M00191,Screen Panel,2024-12-03,2025-01-19,879,165.19,Closed
+PO587778,S0031,Hayes Ltd Mining Supplies,M00111,Chain Conveyor,2024-09-23,2024-09-28,15,361.25,Open
+PO412197,S0014,Macdonald-Thompson Mining Supplies,M00197,Fuel Injector,2024-10-31,2024-11-21,699,356.28,Open
+PO520993,S0041,Stewart-Moore Mining Supplies,M00027,Load Cell,2024-08-31,2024-10-10,912,408.87,Open
+PO674356,S0016,Taylor-Mercado Mining Supplies,M00161,Chain Conveyor,2024-09-03,2024-10-05,274,78.24,Cancelled
+PO563539,S0042,Peterson-Martinez Mining Supplies,M00086,Fuel Injector,2024-08-23,2024-09-07,541,159.56,Closed
+PO847413,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00180,Chain Conveyor,2024-11-12,2024-12-15,541,402.43,Closed
+PO242327,S0038,Richards PLC Mining Supplies,M00097,Gearbox Assembly,2024-09-01,2024-09-24,986,313.64,Closed
+PO593664,S0020,"Wall, Torres and Lopez Mining Supplies",M00051,Flow Meter,2024-12-21,2025-01-24,187,340.31,Closed
+PO771143,S0021,Schmidt-Ashley Mining Supplies,M00132,Load Cell,2024-06-23,2024-07-07,48,233.43,Closed
+PO270133,S0011,Diaz PLC Mining Supplies,M00136,Coupler Shaft,2024-12-27,2025-01-14,691,194.34,Open
+PO323739,S0025,Jefferson LLC Mining Supplies,M00064,Drill Bit,2025-02-15,2025-02-21,755,446.28,Closed
+PO311313,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00107,Bucket Elevator Chain,2024-12-21,2025-02-17,679,376.99,Cancelled
+PO545460,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00083,Flow Meter,2025-02-02,2025-03-27,242,255.51,Closed
+PO717352,S0016,Taylor-Mercado Mining Supplies,M00136,Coupler Shaft,2024-09-13,2024-11-07,905,307.75,Cancelled
+PO624635,S0027,Charles PLC Mining Supplies,M00017,Jaw Crusher Plate,2025-06-01,2025-07-31,17,173.68,Closed
+PO408699,S0031,Hayes Ltd Mining Supplies,M00044,Conveyor Belt,2025-05-22,2025-07-18,63,160.7,Open
+PO872321,S0043,"Lopez, Watson and Hodges Mining Supplies",M00128,Fuel Injector,2025-04-03,2025-05-24,252,326.37,Cancelled
+PO576719,S0035,Pena-Pace Mining Supplies,M00169,Coupler Shaft,2024-10-18,2024-12-09,989,121.44,Open
+PO717480,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00058,Drill Bit,2025-02-01,2025-03-09,50,477.91,Closed
+PO228418,S0037,Gutierrez-Jones Mining Supplies,M00093,Chain Conveyor,2024-07-23,2024-08-22,923,170.31,Open
+PO544273,S0004,Henson Inc Mining Supplies,M00186,Flow Meter,2025-02-11,2025-02-20,75,287.24,Open
+PO492994,S0046,Anderson-Compton Mining Supplies,M00103,Gearbox Assembly,2024-12-12,2024-12-26,151,379.07,Open
+PO602671,S0008,Collins-Leblanc Mining Supplies,M00011,Bucket Elevator Chain,2024-12-28,2025-02-07,58,61.51,Cancelled
+PO755950,S0048,Clark Ltd Mining Supplies,M00174,Hydraulic Pump,2024-12-31,2025-02-19,437,273.09,Closed
+PO154826,S0036,"Arnold, Green and Gonzales Mining Supplies",M00007,Load Cell,2024-11-16,2025-01-06,882,212.95,Cancelled
+PO967016,S0041,Stewart-Moore Mining Supplies,M00176,Lubrication Pump,2024-10-07,2024-11-02,246,226.86,Open
+PO112512,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00045,Slurry Hose,2024-08-26,2024-09-21,325,243.0,Cancelled
+PO155729,S0043,"Lopez, Watson and Hodges Mining Supplies",M00149,Bucket Elevator Chain,2025-01-01,2025-01-15,61,328.63,Cancelled
+PO441005,S0026,"Clark, Martinez and Peters Mining Supplies",M00124,Pressure Valve,2025-01-16,2025-02-01,325,233.61,Cancelled
+PO531652,S0041,Stewart-Moore Mining Supplies,M00034,Hydraulic Pump,2024-09-12,2024-10-16,899,473.87,Cancelled
+PO512774,S0019,"Cordova, Collins and Mayo Mining Supplies",M00024,Coupler Shaft,2024-11-15,2024-12-25,2,67.49,Open
+PO382263,S0046,Anderson-Compton Mining Supplies,M00190,Chain Conveyor,2024-09-15,2024-10-09,228,380.9,Closed
+PO841982,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00079,Electric Motor,2025-05-08,2025-05-17,120,274.59,Open
+PO493674,S0015,"Ball, Foster and Castillo Mining Supplies",M00062,Coupler Shaft,2024-10-08,2024-11-04,263,476.47,Cancelled
+PO308731,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00137,Chain Conveyor,2025-02-05,2025-03-17,927,120.17,Cancelled
+PO490321,S0038,Richards PLC Mining Supplies,M00092,Gearbox Assembly,2024-11-19,2024-12-21,454,481.17,Cancelled
+PO841335,S0021,Schmidt-Ashley Mining Supplies,M00010,Oil Seal,2024-07-18,2024-08-15,690,17.82,Closed
+PO202964,S0011,Diaz PLC Mining Supplies,M00088,Gearbox Assembly,2024-10-15,2024-12-11,987,194.87,Cancelled
+PO467132,S0045,Howard PLC Mining Supplies,M00045,Slurry Hose,2024-08-21,2024-09-06,505,280.57,Closed
+PO150686,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00001,Slurry Hose,2024-11-25,2025-01-04,487,181.58,Cancelled
+PO880846,S0019,"Cordova, Collins and Mayo Mining Supplies",M00045,Slurry Hose,2025-04-09,2025-05-05,812,443.17,Closed
+PO192968,S0046,Anderson-Compton Mining Supplies,M00137,Chain Conveyor,2024-12-02,2025-01-19,785,171.2,Open
+PO346221,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00061,Drill Bit,2024-10-06,2024-10-22,617,30.84,Cancelled
+PO384091,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00124,Pressure Valve,2025-03-15,2025-04-03,607,414.33,Open
+PO247638,S0031,Hayes Ltd Mining Supplies,M00191,Screen Panel,2025-01-23,2025-02-13,415,73.0,Cancelled
+PO589284,S0016,Taylor-Mercado Mining Supplies,M00162,Load Cell,2024-11-26,2024-12-24,292,477.8,Closed
+PO215578,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00093,Chain Conveyor,2025-03-30,2025-05-02,13,16.66,Open
+PO404762,S0015,"Ball, Foster and Castillo Mining Supplies",M00067,Conveyor Belt,2024-06-25,2024-08-15,47,355.09,Cancelled
+PO786771,S0036,"Arnold, Green and Gonzales Mining Supplies",M00095,Dust Collector Filter,2025-02-10,2025-04-05,321,454.55,Open
+PO982971,S0031,Hayes Ltd Mining Supplies,M00160,Electric Motor,2024-07-02,2024-08-08,883,462.3,Open
+PO236582,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00106,Ball Bearing,2025-02-12,2025-04-12,551,239.72,Closed
+PO110310,S0013,White-Johnson Mining Supplies,M00104,Pressure Valve,2025-02-07,2025-03-20,817,109.54,Open
+PO548146,S0020,"Wall, Torres and Lopez Mining Supplies",M00016,Dust Collector Filter,2025-05-23,2025-07-11,847,201.82,Open
+PO416074,S0019,"Cordova, Collins and Mayo Mining Supplies",M00149,Bucket Elevator Chain,2025-06-03,2025-07-01,520,129.11,Open
+PO958664,S0011,Diaz PLC Mining Supplies,M00012,Electric Motor,2024-07-05,2024-08-01,208,15.02,Cancelled
+PO912122,S0029,"Peterson, Silva and Le Mining Supplies",M00168,Conveyor Belt,2024-06-28,2024-08-25,544,47.87,Closed
+PO901827,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00169,Coupler Shaft,2024-08-26,2024-10-18,818,65.32,Cancelled
+PO299989,S0037,Gutierrez-Jones Mining Supplies,M00178,Flow Meter,2025-04-13,2025-05-29,2,291.12,Cancelled
+PO144004,S0003,"Simpson, Singleton and Morris Mining Supplies",M00186,Flow Meter,2025-02-06,2025-03-25,267,393.15,Closed
+PO435930,S0045,Howard PLC Mining Supplies,M00183,Slurry Hose,2025-02-17,2025-02-24,196,413.61,Open
+PO275372,S0012,Sanchez-Sweeney Mining Supplies,M00148,Hydraulic Pump,2024-12-04,2025-01-19,906,66.17,Open
+PO245004,S0044,Clark-Brown Mining Supplies,M00134,Bucket Elevator Chain,2024-06-20,2024-06-28,364,173.82,Closed
+PO270712,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00168,Conveyor Belt,2024-09-15,2024-10-01,817,492.86,Cancelled
+PO886548,S0021,Schmidt-Ashley Mining Supplies,M00171,Vibration Sensor,2024-12-02,2025-01-14,962,247.01,Open
+PO447951,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00171,Vibration Sensor,2024-08-25,2024-10-01,782,135.58,Closed
+PO758428,S0029,"Peterson, Silva and Le Mining Supplies",M00064,Drill Bit,2025-04-19,2025-05-08,547,412.4,Closed
+PO143984,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00136,Coupler Shaft,2024-12-07,2025-01-21,538,258.21,Open
+PO465049,S0042,Peterson-Martinez Mining Supplies,M00159,Electric Motor,2025-05-16,2025-07-12,373,316.37,Closed
+PO509438,S0004,Henson Inc Mining Supplies,M00143,Gearbox Assembly,2024-09-27,2024-10-23,810,163.3,Open
+PO534463,S0020,"Wall, Torres and Lopez Mining Supplies",M00138,Vibration Sensor,2025-01-01,2025-02-22,835,447.89,Cancelled
+PO656108,S0046,Anderson-Compton Mining Supplies,M00020,Dust Collector Filter,2024-06-23,2024-08-14,784,238.44,Cancelled
+PO964207,S0004,Henson Inc Mining Supplies,M00071,Electric Motor,2024-08-08,2024-08-25,225,280.87,Closed
+PO658175,S0016,Taylor-Mercado Mining Supplies,M00012,Electric Motor,2024-12-12,2025-01-22,92,97.79,Closed
+PO443020,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00073,Flow Meter,2025-01-23,2025-03-12,270,13.51,Cancelled
+PO756293,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00096,Coupler Shaft,2024-08-15,2024-08-28,34,278.62,Open
+PO422201,S0002,Horne-Potter Mining Supplies,M00156,Fuel Injector,2024-08-10,2024-09-21,234,257.03,Closed
+PO518692,S0026,"Clark, Martinez and Peters Mining Supplies",M00049,Flow Meter,2025-02-10,2025-02-22,505,333.66,Closed
+PO651674,S0001,Kim Ltd Mining Supplies,M00029,Bucket Elevator Chain,2025-03-03,2025-04-12,682,412.99,Closed
+PO317472,S0046,Anderson-Compton Mining Supplies,M00185,Ball Bearing,2024-07-07,2024-08-02,546,165.3,Closed
+PO894889,S0049,Grant-Ross Mining Supplies,M00060,Screen Panel,2024-07-06,2024-08-26,313,133.22,Cancelled
+PO787418,S0041,Stewart-Moore Mining Supplies,M00122,Fuel Injector,2024-06-27,2024-08-13,775,297.15,Cancelled
+PO244959,S0019,"Cordova, Collins and Mayo Mining Supplies",M00013,Bucket Elevator Chain,2024-06-20,2024-07-22,114,316.91,Closed
+PO880387,S0036,"Arnold, Green and Gonzales Mining Supplies",M00074,Dust Collector Filter,2024-12-23,2025-01-21,203,275.5,Cancelled
+PO724320,S0011,Diaz PLC Mining Supplies,M00135,Ball Bearing,2024-12-22,2024-12-30,364,161.72,Cancelled
+PO486762,S0003,"Simpson, Singleton and Morris Mining Supplies",M00050,Conveyor Belt,2024-11-29,2025-01-10,321,489.95,Open
+PO226619,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00004,Flow Meter,2024-10-15,2024-11-05,996,408.77,Cancelled
+PO567899,S0046,Anderson-Compton Mining Supplies,M00112,Drill Bit,2024-12-27,2025-01-06,72,484.33,Closed
+PO435151,S0023,"Roberts, Luna and West Mining Supplies",M00004,Flow Meter,2024-07-14,2024-08-21,166,346.5,Cancelled
+PO800390,S0036,"Arnold, Green and Gonzales Mining Supplies",M00074,Dust Collector Filter,2025-05-22,2025-07-15,238,364.4,Closed
+PO664092,S0036,"Arnold, Green and Gonzales Mining Supplies",M00131,Screen Panel,2024-10-01,2024-11-18,447,143.6,Open
+PO349427,S0027,Charles PLC Mining Supplies,M00036,Slurry Hose,2025-03-03,2025-05-01,901,453.95,Closed
+PO847550,S0012,Sanchez-Sweeney Mining Supplies,M00023,Electric Motor,2025-05-28,2025-06-13,907,374.68,Closed
+PO840124,S0031,Hayes Ltd Mining Supplies,M00148,Hydraulic Pump,2024-11-25,2025-01-11,296,491.93,Open
+PO729583,S0021,Schmidt-Ashley Mining Supplies,M00056,Flow Meter,2025-04-29,2025-06-08,756,71.47,Closed
+PO278897,S0023,"Roberts, Luna and West Mining Supplies",M00169,Coupler Shaft,2024-07-10,2024-08-06,732,473.02,Cancelled
+PO992382,S0048,Clark Ltd Mining Supplies,M00023,Electric Motor,2025-01-09,2025-02-10,669,177.76,Closed
+PO423662,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00096,Coupler Shaft,2025-05-01,2025-05-10,632,185.2,Open
+PO261504,S0026,"Clark, Martinez and Peters Mining Supplies",M00007,Load Cell,2024-09-04,2024-11-02,337,253.92,Open
+PO713093,S0036,"Arnold, Green and Gonzales Mining Supplies",M00122,Fuel Injector,2024-09-20,2024-10-17,992,388.34,Open
+PO668248,S0041,Stewart-Moore Mining Supplies,M00193,Conveyor Belt,2024-10-29,2024-12-14,142,405.03,Closed
+PO227581,S0012,Sanchez-Sweeney Mining Supplies,M00116,Gearbox Assembly,2025-02-28,2025-03-06,492,317.88,Open
+PO560315,S0041,Stewart-Moore Mining Supplies,M00074,Dust Collector Filter,2025-02-15,2025-02-25,829,414.71,Closed
+PO458755,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00116,Gearbox Assembly,2024-08-17,2024-08-31,174,346.29,Cancelled
+PO133602,S0024,Lowe and Sons Mining Supplies,M00064,Drill Bit,2024-06-24,2024-07-08,150,188.85,Open
+PO902992,S0016,Taylor-Mercado Mining Supplies,M00004,Flow Meter,2025-05-10,2025-06-16,982,258.5,Cancelled
+PO574814,S0024,Lowe and Sons Mining Supplies,M00156,Fuel Injector,2024-09-20,2024-10-29,236,458.18,Cancelled
+PO550512,S0017,Richardson Ltd Mining Supplies,M00005,Dust Collector Filter,2024-11-27,2025-01-04,991,66.99,Closed
+PO802420,S0005,Jones Inc Mining Supplies,M00005,Dust Collector Filter,2024-12-06,2025-01-28,730,47.99,Closed
+PO603103,S0036,"Arnold, Green and Gonzales Mining Supplies",M00047,Gearbox Assembly,2024-12-18,2025-01-15,483,82.37,Cancelled
+PO738069,S0049,Grant-Ross Mining Supplies,M00180,Chain Conveyor,2025-05-14,2025-07-02,135,396.04,Closed
+PO884683,S0025,Jefferson LLC Mining Supplies,M00142,Chain Conveyor,2024-08-10,2024-10-05,953,160.06,Cancelled
+PO162662,S0032,"Morris, Crosby and Stevens Mining Supplies",M00038,Vibration Sensor,2024-09-02,2024-09-10,547,135.91,Cancelled
+PO434033,S0023,"Roberts, Luna and West Mining Supplies",M00156,Fuel Injector,2025-01-10,2025-01-21,909,83.99,Closed
+PO710959,S0048,Clark Ltd Mining Supplies,M00186,Flow Meter,2025-01-23,2025-02-12,74,245.58,Closed
+PO236223,S0036,"Arnold, Green and Gonzales Mining Supplies",M00035,Ball Bearing,2024-10-20,2024-11-07,55,147.23,Closed
+PO539973,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00180,Chain Conveyor,2025-03-21,2025-04-04,101,44.82,Cancelled
+PO190013,S0008,Collins-Leblanc Mining Supplies,M00042,Lubrication Pump,2024-08-17,2024-09-18,304,361.97,Cancelled
+PO268822,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00171,Vibration Sensor,2025-02-12,2025-03-15,501,410.22,Cancelled
+PO957988,S0016,Taylor-Mercado Mining Supplies,M00032,Coupler Shaft,2025-01-16,2025-01-27,329,264.69,Closed
+PO650750,S0033,Klein-Henry Mining Supplies,M00124,Pressure Valve,2025-02-20,2025-02-26,864,337.88,Closed
+PO965599,S0029,"Peterson, Silva and Le Mining Supplies",M00077,Coupler Shaft,2025-01-11,2025-03-10,63,65.22,Cancelled
+PO223753,S0013,White-Johnson Mining Supplies,M00063,Pressure Valve,2024-07-21,2024-08-02,862,339.92,Closed
+PO930973,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00054,Lubrication Pump,2024-10-17,2024-11-24,563,122.49,Cancelled
+PO450725,S0050,Williams and Sons Mining Supplies,M00089,Screen Panel,2025-02-13,2025-04-11,382,321.44,Open
+PO213941,S0032,"Morris, Crosby and Stevens Mining Supplies",M00034,Hydraulic Pump,2024-07-05,2024-07-29,487,390.03,Open
+PO864552,S0020,"Wall, Torres and Lopez Mining Supplies",M00082,Drill Bit,2025-04-08,2025-04-28,302,96.42,Closed
+PO278134,S0006,Sanchez-Ray Mining Supplies,M00075,Hydraulic Pump,2025-02-16,2025-02-26,939,247.69,Cancelled
+PO685335,S0025,Jefferson LLC Mining Supplies,M00051,Flow Meter,2024-12-29,2025-01-09,939,108.08,Open
+PO640159,S0013,White-Johnson Mining Supplies,M00004,Flow Meter,2025-05-31,2025-07-18,809,170.31,Open
+PO709724,S0031,Hayes Ltd Mining Supplies,M00009,Ball Bearing,2024-08-05,2024-09-21,602,225.73,Open
+PO730295,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00068,Screen Panel,2024-09-01,2024-09-22,757,437.85,Closed
+PO870426,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00008,Gearbox Assembly,2025-03-13,2025-05-12,727,340.61,Cancelled
+PO409634,S0003,"Simpson, Singleton and Morris Mining Supplies",M00132,Load Cell,2024-06-18,2024-07-16,580,233.69,Closed
+PO138574,S0016,Taylor-Mercado Mining Supplies,M00138,Vibration Sensor,2024-09-06,2024-10-11,333,183.02,Open
+PO119966,S0001,Kim Ltd Mining Supplies,M00093,Chain Conveyor,2024-11-04,2024-11-20,925,436.96,Cancelled
+PO358759,S0044,Clark-Brown Mining Supplies,M00071,Electric Motor,2025-02-24,2025-03-26,137,305.56,Cancelled
+PO687559,S0045,Howard PLC Mining Supplies,M00043,Oil Seal,2025-03-12,2025-04-27,945,359.65,Open
+PO836930,S0036,"Arnold, Green and Gonzales Mining Supplies",M00132,Load Cell,2025-01-10,2025-02-01,713,147.64,Open
+PO852270,S0007,"Phillips, Scott and Tran Mining Supplies",M00023,Electric Motor,2024-12-14,2025-01-16,221,352.7,Cancelled
+PO572340,S0005,Jones Inc Mining Supplies,M00173,Dust Collector Filter,2025-02-23,2025-03-12,936,353.87,Cancelled
+PO124368,S0005,Jones Inc Mining Supplies,M00057,Load Cell,2025-03-19,2025-04-06,950,196.4,Closed
+PO164582,S0041,Stewart-Moore Mining Supplies,M00063,Pressure Valve,2024-08-17,2024-08-22,964,474.98,Closed
+PO638934,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00197,Fuel Injector,2024-08-18,2024-10-05,708,448.47,Cancelled
+PO191317,S0007,"Phillips, Scott and Tran Mining Supplies",M00163,Drill Bit,2025-01-25,2025-02-26,282,224.81,Cancelled
+PO393023,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00173,Dust Collector Filter,2024-07-07,2024-09-03,289,34.2,Closed
+PO199312,S0011,Diaz PLC Mining Supplies,M00086,Fuel Injector,2024-11-24,2024-12-29,452,169.0,Closed
+PO484733,S0027,Charles PLC Mining Supplies,M00037,Ball Bearing,2025-04-27,2025-05-08,424,487.12,Cancelled
+PO614844,S0021,Schmidt-Ashley Mining Supplies,M00118,Slurry Hose,2025-01-02,2025-01-31,744,100.05,Closed
+PO577256,S0017,Richardson Ltd Mining Supplies,M00119,Oil Seal,2025-06-06,2025-07-30,403,65.77,Open
+PO383593,S0033,Klein-Henry Mining Supplies,M00082,Drill Bit,2024-12-28,2025-01-15,513,347.98,Open
+PO303901,S0036,"Arnold, Green and Gonzales Mining Supplies",M00176,Lubrication Pump,2024-11-03,2024-11-25,507,311.84,Cancelled
+PO129933,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00155,Gearbox Assembly,2025-05-01,2025-06-12,219,383.54,Cancelled
+PO854177,S0036,"Arnold, Green and Gonzales Mining Supplies",M00081,Screen Panel,2024-09-07,2024-11-05,815,162.04,Open
+PO239155,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00147,Flow Meter,2025-05-10,2025-07-01,349,261.79,Closed
+PO217000,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00174,Hydraulic Pump,2025-03-17,2025-04-15,455,27.59,Cancelled
+PO849640,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00080,Load Cell,2024-07-25,2024-09-05,491,464.56,Closed
+PO325937,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00035,Ball Bearing,2025-01-29,2025-02-06,458,481.48,Open
+PO226067,S0011,Diaz PLC Mining Supplies,M00115,Oil Seal,2024-08-08,2024-09-10,324,321.81,Open
+PO116260,S0003,"Simpson, Singleton and Morris Mining Supplies",M00118,Slurry Hose,2024-08-13,2024-08-24,943,220.62,Open
+PO399889,S0006,Sanchez-Ray Mining Supplies,M00111,Chain Conveyor,2024-09-18,2024-09-26,227,288.21,Cancelled
+PO578092,S0035,Pena-Pace Mining Supplies,M00011,Bucket Elevator Chain,2025-02-24,2025-03-08,961,199.06,Open
+PO249741,S0023,"Roberts, Luna and West Mining Supplies",M00001,Slurry Hose,2024-11-25,2024-12-19,210,192.33,Closed
+PO938790,S0024,Lowe and Sons Mining Supplies,M00181,Drill Bit,2024-11-28,2025-01-24,223,321.91,Open
+PO870599,S0017,Richardson Ltd Mining Supplies,M00074,Dust Collector Filter,2025-05-09,2025-05-31,806,40.74,Closed
+PO888348,S0033,Klein-Henry Mining Supplies,M00094,Lubrication Pump,2025-02-06,2025-03-27,992,100.57,Cancelled
+PO400255,S0021,Schmidt-Ashley Mining Supplies,M00080,Load Cell,2024-06-25,2024-07-24,648,341.26,Open
+PO488928,S0038,Richards PLC Mining Supplies,M00188,Dust Collector Filter,2025-05-18,2025-06-11,545,197.57,Cancelled
+PO293682,S0032,"Morris, Crosby and Stevens Mining Supplies",M00110,Bucket Elevator Chain,2025-05-03,2025-05-20,494,448.9,Open
+PO506101,S0002,Horne-Potter Mining Supplies,M00037,Ball Bearing,2024-07-30,2024-09-27,950,172.6,Closed
+PO188793,S0003,"Simpson, Singleton and Morris Mining Supplies",M00030,Conveyor Belt,2024-10-02,2024-11-05,111,263.47,Closed
+PO998548,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00044,Conveyor Belt,2025-06-04,2025-06-20,89,273.71,Cancelled
+PO239303,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00034,Hydraulic Pump,2024-11-11,2024-12-09,465,111.62,Open
+PO526252,S0049,Grant-Ross Mining Supplies,M00019,Hydraulic Pump,2025-06-10,2025-08-03,287,324.63,Open
+PO257654,S0039,"Perkins, Padilla and Brown Mining Supplies",M00181,Drill Bit,2024-11-19,2024-12-22,126,419.47,Open
+PO727277,S0003,"Simpson, Singleton and Morris Mining Supplies",M00114,Chain Conveyor,2024-12-08,2025-01-18,651,268.78,Cancelled
+PO190304,S0032,"Morris, Crosby and Stevens Mining Supplies",M00007,Load Cell,2024-11-06,2024-12-08,228,156.76,Cancelled
+PO325541,S0017,Richardson Ltd Mining Supplies,M00141,Pressure Valve,2025-06-05,2025-07-30,50,32.56,Open
+PO387381,S0011,Diaz PLC Mining Supplies,M00105,Drill Bit,2024-08-29,2024-09-21,286,384.49,Open
+PO502559,S0026,"Clark, Martinez and Peters Mining Supplies",M00007,Load Cell,2025-01-09,2025-02-28,520,128.94,Cancelled
+PO634760,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00116,Gearbox Assembly,2024-09-07,2024-10-17,966,118.06,Cancelled
+PO422965,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00006,Bucket Elevator Chain,2024-11-13,2024-12-15,64,14.15,Closed
+PO910806,S0003,"Simpson, Singleton and Morris Mining Supplies",M00193,Conveyor Belt,2025-01-14,2025-03-01,445,95.98,Cancelled
+PO294629,S0011,Diaz PLC Mining Supplies,M00193,Conveyor Belt,2024-11-11,2024-11-19,150,124.7,Cancelled
+PO759508,S0036,"Arnold, Green and Gonzales Mining Supplies",M00012,Electric Motor,2024-06-27,2024-07-05,278,400.91,Closed
+PO301411,S0008,Collins-Leblanc Mining Supplies,M00178,Flow Meter,2024-08-10,2024-08-21,894,383.79,Closed
+PO639763,S0048,Clark Ltd Mining Supplies,M00138,Vibration Sensor,2025-06-02,2025-07-25,331,288.23,Open
+PO668263,S0001,Kim Ltd Mining Supplies,M00094,Lubrication Pump,2024-12-17,2025-02-08,595,226.62,Open
+PO765597,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00065,Chain Conveyor,2024-10-25,2024-12-23,798,263.49,Open
+PO384898,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00088,Gearbox Assembly,2024-12-08,2024-12-22,891,373.76,Open
+PO927737,S0038,Richards PLC Mining Supplies,M00022,Pressure Valve,2025-05-13,2025-06-17,735,186.27,Closed
+PO447646,S0008,Collins-Leblanc Mining Supplies,M00098,Oil Seal,2024-10-27,2024-11-25,570,177.55,Cancelled
+PO857276,S0049,Grant-Ross Mining Supplies,M00183,Slurry Hose,2025-01-29,2025-02-07,962,321.12,Open
+PO457156,S0003,"Simpson, Singleton and Morris Mining Supplies",M00146,Pressure Valve,2024-07-20,2024-07-27,759,61.69,Open
+PO697268,S0003,"Simpson, Singleton and Morris Mining Supplies",M00029,Bucket Elevator Chain,2025-03-15,2025-04-01,111,134.61,Open
+PO233927,S0038,Richards PLC Mining Supplies,M00085,Vibration Sensor,2024-06-22,2024-08-08,575,217.73,Open
+PO928343,S0027,Charles PLC Mining Supplies,M00026,Flow Meter,2025-01-22,2025-03-11,787,497.99,Closed
+PO232936,S0023,"Roberts, Luna and West Mining Supplies",M00024,Coupler Shaft,2025-03-09,2025-03-29,469,233.93,Open
+PO421317,S0041,Stewart-Moore Mining Supplies,M00059,Slurry Hose,2025-01-20,2025-03-06,760,135.82,Cancelled
+PO435591,S0039,"Perkins, Padilla and Brown Mining Supplies",M00083,Flow Meter,2024-10-20,2024-12-03,890,344.12,Cancelled
+PO868568,S0026,"Clark, Martinez and Peters Mining Supplies",M00075,Hydraulic Pump,2024-07-25,2024-07-30,724,323.82,Closed
+PO140393,S0017,Richardson Ltd Mining Supplies,M00121,Drill Bit,2025-04-12,2025-05-02,417,151.99,Cancelled
+PO398181,S0003,"Simpson, Singleton and Morris Mining Supplies",M00103,Gearbox Assembly,2024-12-17,2025-02-12,687,316.84,Closed
+PO672548,S0012,Sanchez-Sweeney Mining Supplies,M00099,Conveyor Belt,2024-12-15,2024-12-28,900,25.78,Open
+PO976740,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00199,Chain Conveyor,2024-06-23,2024-07-25,248,208.54,Cancelled
+PO246185,S0026,"Clark, Martinez and Peters Mining Supplies",M00106,Ball Bearing,2024-08-23,2024-10-19,244,329.51,Open
+PO285269,S0048,Clark Ltd Mining Supplies,M00191,Screen Panel,2025-03-18,2025-04-26,37,230.78,Cancelled
+PO324386,S0035,Pena-Pace Mining Supplies,M00119,Oil Seal,2025-03-24,2025-04-07,140,22.54,Cancelled
+PO207100,S0046,Anderson-Compton Mining Supplies,M00177,Screen Panel,2024-06-21,2024-08-17,728,396.98,Cancelled
+PO302281,S0036,"Arnold, Green and Gonzales Mining Supplies",M00078,Slurry Hose,2024-07-02,2024-08-09,989,490.9,Cancelled
+PO674175,S0041,Stewart-Moore Mining Supplies,M00128,Fuel Injector,2025-01-30,2025-02-20,839,166.39,Closed
+PO778358,S0005,Jones Inc Mining Supplies,M00047,Gearbox Assembly,2025-02-21,2025-04-20,653,473.98,Cancelled
+PO858606,S0017,Richardson Ltd Mining Supplies,M00110,Bucket Elevator Chain,2024-12-20,2025-01-03,828,434.7,Closed
+PO370432,S0050,Williams and Sons Mining Supplies,M00102,Bucket Elevator Chain,2025-03-25,2025-05-23,946,37.05,Closed
+PO641350,S0016,Taylor-Mercado Mining Supplies,M00095,Dust Collector Filter,2025-05-31,2025-06-25,338,13.4,Open
+PO852838,S0042,Peterson-Martinez Mining Supplies,M00174,Hydraulic Pump,2024-10-11,2024-12-05,772,324.36,Cancelled
+PO198170,S0025,Jefferson LLC Mining Supplies,M00100,Oil Seal,2024-07-27,2024-09-17,58,45.79,Closed
+PO541712,S0026,"Clark, Martinez and Peters Mining Supplies",M00122,Fuel Injector,2024-10-21,2024-11-04,624,369.66,Closed
+PO849040,S0029,"Peterson, Silva and Le Mining Supplies",M00146,Pressure Valve,2024-08-22,2024-10-05,757,87.87,Closed
+PO636298,S0006,Sanchez-Ray Mining Supplies,M00117,Flow Meter,2024-10-03,2024-10-17,959,273.14,Closed
+PO199386,S0046,Anderson-Compton Mining Supplies,M00183,Slurry Hose,2025-01-17,2025-03-08,412,446.51,Open
+PO853817,S0011,Diaz PLC Mining Supplies,M00097,Gearbox Assembly,2024-12-13,2025-01-20,997,461.32,Cancelled
+PO356957,S0017,Richardson Ltd Mining Supplies,M00087,Gearbox Assembly,2025-01-06,2025-01-24,212,267.92,Cancelled
+PO905192,S0046,Anderson-Compton Mining Supplies,M00183,Slurry Hose,2025-03-23,2025-04-18,110,444.93,Open
+PO122848,S0033,Klein-Henry Mining Supplies,M00199,Chain Conveyor,2024-07-14,2024-08-25,955,317.2,Open
+PO873803,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00013,Bucket Elevator Chain,2024-12-30,2025-01-11,877,221.51,Open
+PO744725,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00087,Gearbox Assembly,2025-03-06,2025-03-28,43,346.62,Open
+PO958565,S0032,"Morris, Crosby and Stevens Mining Supplies",M00064,Drill Bit,2025-03-31,2025-04-18,868,58.69,Open
+PO110538,S0025,Jefferson LLC Mining Supplies,M00043,Oil Seal,2024-11-08,2024-11-15,961,180.52,Closed
+PO225373,S0012,Sanchez-Sweeney Mining Supplies,M00025,Slurry Hose,2025-05-27,2025-06-12,978,247.58,Closed
+PO262568,S0020,"Wall, Torres and Lopez Mining Supplies",M00008,Gearbox Assembly,2024-07-03,2024-08-17,296,169.61,Open
+PO759282,S0014,Macdonald-Thompson Mining Supplies,M00121,Drill Bit,2024-07-31,2024-08-25,966,489.94,Open
+PO891486,S0023,"Roberts, Luna and West Mining Supplies",M00143,Gearbox Assembly,2025-01-09,2025-01-29,658,439.12,Cancelled
+PO778498,S0049,Grant-Ross Mining Supplies,M00048,Screen Panel,2024-11-13,2025-01-03,79,456.73,Cancelled
+PO757325,S0043,"Lopez, Watson and Hodges Mining Supplies",M00017,Jaw Crusher Plate,2024-11-21,2025-01-04,733,134.76,Open
+PO833493,S0031,Hayes Ltd Mining Supplies,M00019,Hydraulic Pump,2024-09-09,2024-09-26,368,154.28,Closed
+PO165513,S0042,Peterson-Martinez Mining Supplies,M00137,Chain Conveyor,2025-04-16,2025-06-02,842,320.5,Closed
+PO862279,S0050,Williams and Sons Mining Supplies,M00092,Gearbox Assembly,2025-06-09,2025-08-07,974,395.89,Closed
+PO987341,S0031,Hayes Ltd Mining Supplies,M00015,Ball Bearing,2024-09-29,2024-10-27,152,286.62,Closed
+PO300698,S0021,Schmidt-Ashley Mining Supplies,M00092,Gearbox Assembly,2024-07-20,2024-09-11,78,283.51,Cancelled
+PO700669,S0016,Taylor-Mercado Mining Supplies,M00110,Bucket Elevator Chain,2025-03-10,2025-04-14,525,328.01,Cancelled
+PO222355,S0036,"Arnold, Green and Gonzales Mining Supplies",M00113,Bucket Elevator Chain,2025-05-28,2025-06-12,276,407.09,Closed
+PO484662,S0049,Grant-Ross Mining Supplies,M00086,Fuel Injector,2025-02-13,2025-02-23,270,33.88,Cancelled
+PO430157,S0045,Howard PLC Mining Supplies,M00191,Screen Panel,2024-10-07,2024-11-19,175,305.87,Cancelled
+PO547017,S0024,Lowe and Sons Mining Supplies,M00062,Coupler Shaft,2024-09-17,2024-09-27,736,133.75,Open
+PO946731,S0044,Clark-Brown Mining Supplies,M00176,Lubrication Pump,2024-12-08,2025-01-09,720,51.12,Cancelled
+PO751321,S0043,"Lopez, Watson and Hodges Mining Supplies",M00055,Gearbox Assembly,2024-12-18,2025-01-10,297,268.44,Closed
+PO668637,S0042,Peterson-Martinez Mining Supplies,M00171,Vibration Sensor,2025-02-07,2025-03-06,1000,116.62,Closed
+PO778617,S0011,Diaz PLC Mining Supplies,M00189,Dust Collector Filter,2025-05-20,2025-06-03,121,271.94,Cancelled
+PO328415,S0037,Gutierrez-Jones Mining Supplies,M00031,Flow Meter,2025-01-08,2025-01-14,447,155.37,Cancelled
+PO656470,S0045,Howard PLC Mining Supplies,M00088,Gearbox Assembly,2024-07-14,2024-07-31,53,30.14,Open
+PO202414,S0024,Lowe and Sons Mining Supplies,M00143,Gearbox Assembly,2024-10-28,2024-11-30,144,345.54,Closed
+PO388862,S0008,Collins-Leblanc Mining Supplies,M00136,Coupler Shaft,2025-01-01,2025-02-17,39,389.52,Closed
+PO899785,S0050,Williams and Sons Mining Supplies,M00179,Ball Bearing,2025-01-11,2025-03-05,422,437.57,Open
+PO538717,S0005,Jones Inc Mining Supplies,M00106,Ball Bearing,2024-09-15,2024-10-04,409,136.01,Closed
+PO925257,S0038,Richards PLC Mining Supplies,M00149,Bucket Elevator Chain,2025-01-09,2025-02-27,145,373.98,Open
+PO945288,S0050,Williams and Sons Mining Supplies,M00117,Flow Meter,2025-06-04,2025-07-03,551,454.55,Cancelled
+PO452495,S0023,"Roberts, Luna and West Mining Supplies",M00103,Gearbox Assembly,2024-08-01,2024-09-16,15,481.62,Closed
+PO331450,S0002,Horne-Potter Mining Supplies,M00164,Oil Seal,2024-07-02,2024-08-02,610,178.02,Open
+PO590944,S0017,Richardson Ltd Mining Supplies,M00064,Drill Bit,2024-12-15,2024-12-24,104,183.74,Closed
+PO674641,S0028,"Garza, Gardner and Payne Mining Supplies",M00061,Drill Bit,2024-07-10,2024-09-06,536,487.43,Closed
+PO238392,S0035,Pena-Pace Mining Supplies,M00191,Screen Panel,2024-12-01,2025-01-17,552,342.27,Open
+PO930711,S0024,Lowe and Sons Mining Supplies,M00109,Load Cell,2025-02-17,2025-04-07,418,156.96,Closed
+PO757110,S0019,"Cordova, Collins and Mayo Mining Supplies",M00003,Load Cell,2025-01-29,2025-02-07,456,123.4,Closed
+PO219379,S0044,Clark-Brown Mining Supplies,M00148,Hydraulic Pump,2025-02-28,2025-04-06,234,364.66,Open
+PO375783,S0004,Henson Inc Mining Supplies,M00165,Jaw Crusher Plate,2024-11-05,2024-12-24,63,365.8,Cancelled
+PO375911,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00021,Electric Motor,2024-10-22,2024-11-01,113,38.7,Cancelled
+PO627992,S0029,"Peterson, Silva and Le Mining Supplies",M00023,Electric Motor,2024-08-29,2024-10-11,77,426.11,Closed
+PO786222,S0019,"Cordova, Collins and Mayo Mining Supplies",M00035,Ball Bearing,2025-06-11,2025-07-01,456,233.54,Cancelled
+PO183454,S0028,"Garza, Gardner and Payne Mining Supplies",M00081,Screen Panel,2025-05-14,2025-07-10,357,10.57,Open
+PO281127,S0029,"Peterson, Silva and Le Mining Supplies",M00022,Pressure Valve,2025-01-19,2025-03-10,744,104.22,Cancelled
+PO731731,S0005,Jones Inc Mining Supplies,M00039,Dust Collector Filter,2024-11-06,2024-11-20,586,136.17,Open
+PO280759,S0031,Hayes Ltd Mining Supplies,M00112,Drill Bit,2025-06-10,2025-07-25,400,81.65,Open
+PO707840,S0016,Taylor-Mercado Mining Supplies,M00198,Load Cell,2024-10-07,2024-12-03,916,111.38,Closed
+PO833242,S0049,Grant-Ross Mining Supplies,M00153,Oil Seal,2025-03-10,2025-04-19,955,291.15,Cancelled
+PO948084,S0048,Clark Ltd Mining Supplies,M00133,Electric Motor,2025-06-14,2025-06-30,905,174.87,Open
+PO457386,S0043,"Lopez, Watson and Hodges Mining Supplies",M00008,Gearbox Assembly,2024-09-12,2024-10-20,399,281.64,Cancelled
+PO858589,S0001,Kim Ltd Mining Supplies,M00106,Ball Bearing,2025-02-27,2025-03-19,118,347.81,Cancelled
+PO572008,S0048,Clark Ltd Mining Supplies,M00142,Chain Conveyor,2024-11-24,2024-12-15,350,473.49,Open
+PO784333,S0031,Hayes Ltd Mining Supplies,M00081,Screen Panel,2024-09-18,2024-09-29,558,373.6,Closed
+PO389725,S0046,Anderson-Compton Mining Supplies,M00186,Flow Meter,2025-05-03,2025-06-19,320,86.88,Closed
+PO836970,S0048,Clark Ltd Mining Supplies,M00080,Load Cell,2024-09-10,2024-10-03,625,141.64,Closed
+PO702161,S0025,Jefferson LLC Mining Supplies,M00115,Oil Seal,2024-08-09,2024-10-06,606,232.23,Closed
+PO540141,S0012,Sanchez-Sweeney Mining Supplies,M00015,Ball Bearing,2025-01-15,2025-02-08,529,71.25,Open
+PO411795,S0020,"Wall, Torres and Lopez Mining Supplies",M00188,Dust Collector Filter,2024-09-17,2024-09-26,851,418.78,Open
+PO702709,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00159,Electric Motor,2025-05-04,2025-05-27,248,89.21,Cancelled
+PO570503,S0006,Sanchez-Ray Mining Supplies,M00089,Screen Panel,2024-07-14,2024-07-23,571,359.39,Closed
+PO636908,S0028,"Garza, Gardner and Payne Mining Supplies",M00082,Drill Bit,2025-03-18,2025-04-17,405,92.33,Open
+PO972111,S0049,Grant-Ross Mining Supplies,M00164,Oil Seal,2024-12-21,2025-01-21,753,29.33,Cancelled
+PO569786,S0024,Lowe and Sons Mining Supplies,M00183,Slurry Hose,2025-01-22,2025-02-06,715,299.29,Open
+PO158400,S0036,"Arnold, Green and Gonzales Mining Supplies",M00059,Slurry Hose,2025-03-30,2025-04-18,939,280.01,Cancelled
+PO288990,S0033,Klein-Henry Mining Supplies,M00188,Dust Collector Filter,2024-08-04,2024-08-16,689,192.77,Open
+PO995787,S0050,Williams and Sons Mining Supplies,M00160,Electric Motor,2025-06-08,2025-06-21,653,336.21,Open
+PO144629,S0006,Sanchez-Ray Mining Supplies,M00190,Chain Conveyor,2025-04-21,2025-05-29,863,231.63,Cancelled
+PO177270,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00157,Slurry Hose,2024-09-13,2024-10-26,564,132.4,Closed
+PO834024,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00114,Chain Conveyor,2024-09-13,2024-10-17,501,231.7,Open
+PO463738,S0027,Charles PLC Mining Supplies,M00027,Load Cell,2024-10-26,2024-12-24,816,99.98,Cancelled
+PO306954,S0039,"Perkins, Padilla and Brown Mining Supplies",M00115,Oil Seal,2024-07-13,2024-08-20,388,293.44,Open
+PO601326,S0035,Pena-Pace Mining Supplies,M00134,Bucket Elevator Chain,2024-08-07,2024-09-13,509,495.7,Closed
+PO617795,S0013,White-Johnson Mining Supplies,M00013,Bucket Elevator Chain,2025-03-13,2025-05-12,819,460.93,Cancelled
+PO616814,S0016,Taylor-Mercado Mining Supplies,M00123,Electric Motor,2024-09-22,2024-11-13,143,64.27,Closed
+PO534954,S0027,Charles PLC Mining Supplies,M00101,Flow Meter,2025-03-29,2025-04-25,656,204.46,Closed
+PO526095,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00138,Vibration Sensor,2025-06-06,2025-07-30,211,182.52,Cancelled
+PO686497,S0021,Schmidt-Ashley Mining Supplies,M00161,Chain Conveyor,2024-10-28,2024-12-10,320,132.53,Closed
+PO732898,S0049,Grant-Ross Mining Supplies,M00014,Oil Seal,2025-06-04,2025-06-27,619,396.27,Closed
+PO994845,S0042,Peterson-Martinez Mining Supplies,M00083,Flow Meter,2024-09-11,2024-11-10,396,291.91,Closed
+PO894548,S0044,Clark-Brown Mining Supplies,M00120,Conveyor Belt,2025-04-23,2025-06-18,129,164.08,Open
+PO944544,S0033,Klein-Henry Mining Supplies,M00009,Ball Bearing,2024-12-11,2025-02-05,454,497.33,Cancelled
+PO714958,S0042,Peterson-Martinez Mining Supplies,M00016,Dust Collector Filter,2025-03-08,2025-03-20,664,123.38,Cancelled
+PO291979,S0043,"Lopez, Watson and Hodges Mining Supplies",M00128,Fuel Injector,2025-05-24,2025-07-10,934,107.02,Cancelled
+PO763080,S0036,"Arnold, Green and Gonzales Mining Supplies",M00122,Fuel Injector,2025-06-04,2025-06-18,231,337.62,Closed
+PO171947,S0014,Macdonald-Thompson Mining Supplies,M00071,Electric Motor,2024-08-06,2024-09-15,348,155.9,Open
+PO808943,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00195,Chain Conveyor,2024-12-20,2025-02-16,831,238.43,Closed
+PO561608,S0050,Williams and Sons Mining Supplies,M00022,Pressure Valve,2024-10-03,2024-10-28,616,178.63,Cancelled
+PO252228,S0003,"Simpson, Singleton and Morris Mining Supplies",M00151,Hydraulic Pump,2024-09-09,2024-10-06,544,185.4,Closed
+PO271071,S0045,Howard PLC Mining Supplies,M00107,Bucket Elevator Chain,2024-11-28,2024-12-31,179,143.48,Cancelled
+PO756500,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00135,Ball Bearing,2024-12-26,2025-01-31,231,164.59,Open
+PO409821,S0045,Howard PLC Mining Supplies,M00049,Flow Meter,2024-08-16,2024-09-26,666,421.46,Closed
+PO686364,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00153,Oil Seal,2025-01-05,2025-01-22,984,102.09,Closed
+PO324263,S0001,Kim Ltd Mining Supplies,M00029,Bucket Elevator Chain,2024-10-30,2024-11-15,877,29.97,Open
+PO284466,S0032,"Morris, Crosby and Stevens Mining Supplies",M00077,Coupler Shaft,2025-05-10,2025-06-17,155,85.03,Open
+PO446258,S0026,"Clark, Martinez and Peters Mining Supplies",M00027,Load Cell,2024-09-28,2024-11-02,90,414.75,Closed
+PO946740,S0049,Grant-Ross Mining Supplies,M00131,Screen Panel,2025-01-19,2025-02-19,70,252.19,Cancelled
+PO846742,S0008,Collins-Leblanc Mining Supplies,M00007,Load Cell,2024-06-26,2024-07-07,659,110.92,Closed
+PO491457,S0042,Peterson-Martinez Mining Supplies,M00012,Electric Motor,2025-01-24,2025-01-29,85,339.35,Open
+PO851071,S0041,Stewart-Moore Mining Supplies,M00198,Load Cell,2025-01-27,2025-03-19,118,479.02,Open
+PO347827,S0007,"Phillips, Scott and Tran Mining Supplies",M00153,Oil Seal,2025-04-18,2025-06-04,485,424.75,Closed
+PO137671,S0001,Kim Ltd Mining Supplies,M00093,Chain Conveyor,2024-08-07,2024-08-16,225,17.57,Cancelled
+PO290329,S0014,Macdonald-Thompson Mining Supplies,M00184,Jaw Crusher Plate,2025-02-15,2025-04-14,271,33.48,Cancelled
+PO199706,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00147,Flow Meter,2025-03-02,2025-03-14,51,255.07,Closed
+PO492614,S0011,Diaz PLC Mining Supplies,M00159,Electric Motor,2025-01-23,2025-03-17,735,328.13,Cancelled
+PO891515,S0011,Diaz PLC Mining Supplies,M00078,Slurry Hose,2025-03-24,2025-05-20,138,485.79,Open
+PO759483,S0050,Williams and Sons Mining Supplies,M00061,Drill Bit,2025-03-03,2025-03-09,467,230.67,Cancelled
+PO155842,S0023,"Roberts, Luna and West Mining Supplies",M00182,Flow Meter,2025-01-01,2025-02-16,402,301.22,Closed
+PO168381,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00174,Hydraulic Pump,2025-03-23,2025-04-02,509,96.64,Closed
+PO425329,S0008,Collins-Leblanc Mining Supplies,M00169,Coupler Shaft,2025-04-08,2025-04-28,580,342.23,Open
+PO689469,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00146,Pressure Valve,2025-02-02,2025-03-25,406,323.37,Cancelled
+PO709222,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00080,Load Cell,2024-11-21,2025-01-05,450,361.35,Closed
+PO823721,S0014,Macdonald-Thompson Mining Supplies,M00139,Pressure Valve,2024-11-27,2024-12-14,646,275.09,Closed
+PO359388,S0042,Peterson-Martinez Mining Supplies,M00181,Drill Bit,2025-04-20,2025-06-12,610,95.17,Open
+PO247707,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00063,Pressure Valve,2024-08-15,2024-09-10,667,287.93,Open
+PO177531,S0031,Hayes Ltd Mining Supplies,M00055,Gearbox Assembly,2025-04-04,2025-05-06,70,148.04,Cancelled
+PO893177,S0031,Hayes Ltd Mining Supplies,M00027,Load Cell,2025-05-12,2025-06-18,864,474.63,Closed
+PO128757,S0007,"Phillips, Scott and Tran Mining Supplies",M00101,Flow Meter,2024-08-24,2024-09-01,979,267.34,Cancelled
+PO291099,S0023,"Roberts, Luna and West Mining Supplies",M00021,Electric Motor,2025-02-08,2025-03-15,276,469.46,Closed
+PO636949,S0026,"Clark, Martinez and Peters Mining Supplies",M00175,Bucket Elevator Chain,2025-04-03,2025-04-15,481,158.29,Closed
+PO480581,S0044,Clark-Brown Mining Supplies,M00124,Pressure Valve,2024-12-14,2025-01-16,716,284.84,Cancelled
+PO202520,S0038,Richards PLC Mining Supplies,M00168,Conveyor Belt,2025-05-06,2025-06-09,506,129.82,Cancelled
+PO364579,S0049,Grant-Ross Mining Supplies,M00085,Vibration Sensor,2025-04-02,2025-04-30,939,77.98,Open
+PO758666,S0027,Charles PLC Mining Supplies,M00120,Conveyor Belt,2025-02-05,2025-03-02,909,383.53,Open
+PO819988,S0005,Jones Inc Mining Supplies,M00198,Load Cell,2024-07-22,2024-08-26,586,84.94,Open
+PO436057,S0008,Collins-Leblanc Mining Supplies,M00105,Drill Bit,2025-05-08,2025-06-25,500,162.64,Open
+PO813658,S0021,Schmidt-Ashley Mining Supplies,M00135,Ball Bearing,2025-02-11,2025-03-06,340,137.11,Closed
+PO415422,S0013,White-Johnson Mining Supplies,M00179,Ball Bearing,2024-10-08,2024-12-07,775,376.52,Closed
+PO309308,S0043,"Lopez, Watson and Hodges Mining Supplies",M00139,Pressure Valve,2024-11-19,2025-01-05,962,141.52,Closed
+PO720840,S0015,"Ball, Foster and Castillo Mining Supplies",M00072,Dust Collector Filter,2025-02-17,2025-03-07,248,381.81,Open
+PO852791,S0028,"Garza, Gardner and Payne Mining Supplies",M00017,Jaw Crusher Plate,2024-08-14,2024-09-06,29,373.42,Cancelled
+PO993788,S0041,Stewart-Moore Mining Supplies,M00091,Drill Bit,2025-02-02,2025-04-01,424,75.6,Cancelled
+PO329460,S0001,Kim Ltd Mining Supplies,M00060,Screen Panel,2025-05-25,2025-07-08,176,348.71,Open
+PO776640,S0017,Richardson Ltd Mining Supplies,M00070,Lubrication Pump,2024-10-01,2024-11-19,409,26.72,Cancelled
+PO420686,S0015,"Ball, Foster and Castillo Mining Supplies",M00071,Electric Motor,2024-07-29,2024-09-15,22,426.51,Open
+PO601175,S0001,Kim Ltd Mining Supplies,M00046,Bucket Elevator Chain,2024-09-08,2024-11-07,615,426.69,Cancelled
+PO250309,S0042,Peterson-Martinez Mining Supplies,M00065,Chain Conveyor,2025-04-02,2025-05-08,164,276.57,Open
+PO552665,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00120,Conveyor Belt,2025-04-16,2025-05-12,878,96.54,Closed
+PO823313,S0045,Howard PLC Mining Supplies,M00171,Vibration Sensor,2025-03-09,2025-03-16,903,411.75,Open
+PO511432,S0007,"Phillips, Scott and Tran Mining Supplies",M00050,Conveyor Belt,2024-12-21,2025-01-17,202,35.45,Open
+PO774863,S0036,"Arnold, Green and Gonzales Mining Supplies",M00067,Conveyor Belt,2025-04-24,2025-05-28,468,223.94,Cancelled
+PO537994,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00143,Gearbox Assembly,2024-09-07,2024-09-18,195,338.01,Cancelled
+PO914793,S0044,Clark-Brown Mining Supplies,M00090,Load Cell,2024-08-12,2024-09-22,414,247.0,Cancelled
+PO337587,S0041,Stewart-Moore Mining Supplies,M00029,Bucket Elevator Chain,2024-08-25,2024-10-20,174,431.44,Open
+PO414183,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00107,Bucket Elevator Chain,2025-03-06,2025-04-13,46,200.82,Cancelled
+PO591878,S0027,Charles PLC Mining Supplies,M00150,Chain Conveyor,2025-02-16,2025-04-05,898,55.85,Open
+PO922904,S0037,Gutierrez-Jones Mining Supplies,M00188,Dust Collector Filter,2024-12-23,2025-01-12,800,218.23,Open
+PO616581,S0021,Schmidt-Ashley Mining Supplies,M00033,Ball Bearing,2025-06-12,2025-07-12,63,30.27,Closed
+PO922087,S0028,"Garza, Gardner and Payne Mining Supplies",M00191,Screen Panel,2024-12-05,2025-01-22,543,239.08,Cancelled
+PO354274,S0039,"Perkins, Padilla and Brown Mining Supplies",M00161,Chain Conveyor,2025-05-19,2025-05-28,466,412.51,Open
+PO620942,S0016,Taylor-Mercado Mining Supplies,M00140,Screen Panel,2025-02-03,2025-02-18,332,402.23,Closed
+PO216371,S0041,Stewart-Moore Mining Supplies,M00097,Gearbox Assembly,2024-09-19,2024-10-06,469,171.33,Closed
+PO478728,S0036,"Arnold, Green and Gonzales Mining Supplies",M00052,Dust Collector Filter,2025-04-25,2025-06-19,461,437.31,Cancelled
+PO185671,S0032,"Morris, Crosby and Stevens Mining Supplies",M00003,Load Cell,2024-11-14,2025-01-01,290,496.41,Cancelled
+PO281565,S0037,Gutierrez-Jones Mining Supplies,M00118,Slurry Hose,2025-02-27,2025-04-13,344,305.55,Closed
+PO197941,S0002,Horne-Potter Mining Supplies,M00182,Flow Meter,2025-06-01,2025-07-13,766,189.85,Cancelled
+PO179742,S0043,"Lopez, Watson and Hodges Mining Supplies",M00018,Load Cell,2024-12-27,2025-02-10,491,186.25,Cancelled
+PO909395,S0019,"Cordova, Collins and Mayo Mining Supplies",M00188,Dust Collector Filter,2025-01-21,2025-02-02,679,402.22,Open
+PO528526,S0019,"Cordova, Collins and Mayo Mining Supplies",M00162,Load Cell,2025-02-27,2025-04-01,481,460.89,Cancelled
+PO224300,S0037,Gutierrez-Jones Mining Supplies,M00024,Coupler Shaft,2025-02-21,2025-03-11,915,287.21,Cancelled
+PO946305,S0003,"Simpson, Singleton and Morris Mining Supplies",M00155,Gearbox Assembly,2024-12-12,2025-01-06,552,410.61,Closed
+PO174878,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00015,Ball Bearing,2024-10-05,2024-11-06,674,168.67,Cancelled
+PO382697,S0002,Horne-Potter Mining Supplies,M00066,Fuel Injector,2025-01-23,2025-02-24,834,217.99,Closed
+PO346496,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00057,Load Cell,2024-12-24,2025-01-26,765,267.99,Cancelled
+PO215533,S0050,Williams and Sons Mining Supplies,M00087,Gearbox Assembly,2025-05-10,2025-06-21,69,186.16,Open
+PO463074,S0049,Grant-Ross Mining Supplies,M00184,Jaw Crusher Plate,2025-01-21,2025-02-15,210,284.78,Open
+PO681769,S0003,"Simpson, Singleton and Morris Mining Supplies",M00198,Load Cell,2024-09-15,2024-10-12,236,289.23,Open
+PO476083,S0039,"Perkins, Padilla and Brown Mining Supplies",M00086,Fuel Injector,2024-12-14,2025-01-14,596,456.63,Cancelled
+PO102472,S0011,Diaz PLC Mining Supplies,M00133,Electric Motor,2025-06-02,2025-07-14,662,66.05,Cancelled
+PO223471,S0049,Grant-Ross Mining Supplies,M00087,Gearbox Assembly,2024-07-30,2024-08-25,782,444.81,Open
+PO579656,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00006,Bucket Elevator Chain,2025-03-18,2025-04-11,405,473.97,Open
+PO899853,S0033,Klein-Henry Mining Supplies,M00146,Pressure Valve,2024-07-30,2024-09-13,342,131.39,Closed
+PO182793,S0017,Richardson Ltd Mining Supplies,M00150,Chain Conveyor,2024-11-09,2024-11-29,619,135.31,Closed
+PO236417,S0019,"Cordova, Collins and Mayo Mining Supplies",M00017,Jaw Crusher Plate,2024-10-30,2024-12-11,157,18.04,Open
+PO573190,S0017,Richardson Ltd Mining Supplies,M00085,Vibration Sensor,2025-04-08,2025-05-14,794,100.7,Closed
+PO415944,S0003,"Simpson, Singleton and Morris Mining Supplies",M00106,Ball Bearing,2025-01-22,2025-03-12,206,46.48,Open
+PO873962,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00072,Dust Collector Filter,2024-07-15,2024-08-01,840,332.31,Closed
+PO652438,S0027,Charles PLC Mining Supplies,M00162,Load Cell,2024-09-12,2024-10-06,170,231.81,Open
+PO952060,S0033,Klein-Henry Mining Supplies,M00049,Flow Meter,2024-12-15,2024-12-21,616,494.38,Open
+PO116280,S0032,"Morris, Crosby and Stevens Mining Supplies",M00127,Ball Bearing,2024-07-31,2024-08-13,385,142.82,Closed
+PO482589,S0020,"Wall, Torres and Lopez Mining Supplies",M00091,Drill Bit,2024-11-13,2024-11-22,105,378.64,Cancelled
+PO269230,S0016,Taylor-Mercado Mining Supplies,M00199,Chain Conveyor,2024-09-14,2024-10-14,294,79.41,Open
+PO612790,S0014,Macdonald-Thompson Mining Supplies,M00120,Conveyor Belt,2025-03-30,2025-05-13,15,233.49,Open
+PO307397,S0002,Horne-Potter Mining Supplies,M00077,Coupler Shaft,2024-07-18,2024-09-10,474,164.7,Cancelled
+PO762590,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00168,Conveyor Belt,2024-07-29,2024-08-22,85,128.8,Open
+PO860322,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00163,Drill Bit,2024-09-28,2024-11-06,206,460.19,Open
+PO528076,S0036,"Arnold, Green and Gonzales Mining Supplies",M00166,Gearbox Assembly,2024-11-05,2024-11-30,389,135.82,Cancelled
+PO111773,S0044,Clark-Brown Mining Supplies,M00006,Bucket Elevator Chain,2025-03-10,2025-05-06,564,401.2,Open
+PO836919,S0011,Diaz PLC Mining Supplies,M00177,Screen Panel,2025-02-18,2025-04-01,790,179.6,Closed
+PO588178,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00187,Oil Seal,2025-03-27,2025-04-06,626,494.7,Closed
+PO528498,S0033,Klein-Henry Mining Supplies,M00073,Flow Meter,2025-03-27,2025-04-06,925,159.09,Cancelled
+PO771095,S0017,Richardson Ltd Mining Supplies,M00094,Lubrication Pump,2024-10-17,2024-11-15,329,262.41,Open
+PO112659,S0023,"Roberts, Luna and West Mining Supplies",M00079,Electric Motor,2024-08-16,2024-09-05,481,123.22,Closed
+PO146857,S0043,"Lopez, Watson and Hodges Mining Supplies",M00014,Oil Seal,2024-07-28,2024-09-18,29,496.49,Closed
+PO377969,S0006,Sanchez-Ray Mining Supplies,M00092,Gearbox Assembly,2024-09-23,2024-10-01,628,258.68,Open
+PO249649,S0036,"Arnold, Green and Gonzales Mining Supplies",M00071,Electric Motor,2024-06-23,2024-08-18,610,292.78,Cancelled
+PO359384,S0036,"Arnold, Green and Gonzales Mining Supplies",M00115,Oil Seal,2025-04-30,2025-05-13,971,456.37,Closed
+PO481538,S0028,"Garza, Gardner and Payne Mining Supplies",M00064,Drill Bit,2024-06-26,2024-07-16,154,492.46,Cancelled
+PO894016,S0023,"Roberts, Luna and West Mining Supplies",M00164,Oil Seal,2025-06-14,2025-06-22,697,256.35,Closed
+PO652575,S0049,Grant-Ross Mining Supplies,M00187,Oil Seal,2025-02-10,2025-03-09,125,172.05,Cancelled
+PO887670,S0013,White-Johnson Mining Supplies,M00098,Oil Seal,2024-07-14,2024-09-05,642,396.99,Open
+PO315970,S0039,"Perkins, Padilla and Brown Mining Supplies",M00013,Bucket Elevator Chain,2025-01-12,2025-02-28,868,299.27,Open
+PO745591,S0045,Howard PLC Mining Supplies,M00006,Bucket Elevator Chain,2024-08-19,2024-09-30,412,247.84,Open
+PO308571,S0044,Clark-Brown Mining Supplies,M00018,Load Cell,2024-08-19,2024-09-13,785,22.6,Cancelled
+PO183229,S0035,Pena-Pace Mining Supplies,M00148,Hydraulic Pump,2024-08-16,2024-08-25,744,137.55,Cancelled
+PO174441,S0035,Pena-Pace Mining Supplies,M00043,Oil Seal,2024-08-29,2024-09-05,762,48.28,Cancelled
+PO811642,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00025,Slurry Hose,2024-08-28,2024-10-06,57,245.85,Cancelled
+PO845029,S0005,Jones Inc Mining Supplies,M00006,Bucket Elevator Chain,2024-06-23,2024-08-06,425,396.79,Open
+PO169992,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00101,Flow Meter,2024-09-30,2024-10-17,755,263.9,Closed
+PO659914,S0025,Jefferson LLC Mining Supplies,M00078,Slurry Hose,2024-06-21,2024-07-21,115,442.88,Closed
+PO367922,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00018,Load Cell,2024-11-26,2025-01-15,952,404.25,Closed
+PO399846,S0017,Richardson Ltd Mining Supplies,M00099,Conveyor Belt,2025-01-18,2025-02-04,872,26.61,Closed
+PO106101,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00155,Gearbox Assembly,2025-06-05,2025-07-31,937,345.91,Closed
+PO971184,S0016,Taylor-Mercado Mining Supplies,M00073,Flow Meter,2025-04-03,2025-04-14,795,234.0,Closed
+PO700786,S0017,Richardson Ltd Mining Supplies,M00156,Fuel Injector,2025-04-05,2025-05-28,186,397.72,Cancelled
+PO632663,S0045,Howard PLC Mining Supplies,M00059,Slurry Hose,2025-05-02,2025-05-09,418,439.83,Cancelled
+PO337616,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00002,Pressure Valve,2024-09-22,2024-10-19,83,243.52,Closed
+PO725272,S0003,"Simpson, Singleton and Morris Mining Supplies",M00148,Hydraulic Pump,2024-09-14,2024-10-16,835,358.11,Cancelled
+PO566225,S0036,"Arnold, Green and Gonzales Mining Supplies",M00038,Vibration Sensor,2025-05-06,2025-05-26,822,66.76,Closed
+PO840251,S0015,"Ball, Foster and Castillo Mining Supplies",M00026,Flow Meter,2025-02-05,2025-02-17,762,484.87,Cancelled
+PO742514,S0011,Diaz PLC Mining Supplies,M00009,Ball Bearing,2024-07-05,2024-07-12,463,440.72,Closed
+PO576455,S0011,Diaz PLC Mining Supplies,M00020,Dust Collector Filter,2025-01-23,2025-02-14,579,107.63,Open
+PO696241,S0019,"Cordova, Collins and Mayo Mining Supplies",M00182,Flow Meter,2024-06-27,2024-08-10,217,200.32,Cancelled
+PO608872,S0025,Jefferson LLC Mining Supplies,M00107,Bucket Elevator Chain,2024-07-19,2024-08-22,722,110.63,Cancelled
+PO452163,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00020,Dust Collector Filter,2024-08-20,2024-09-01,916,175.82,Open
+PO428523,S0025,Jefferson LLC Mining Supplies,M00009,Ball Bearing,2025-06-15,2025-06-26,548,404.35,Open
+PO140281,S0026,"Clark, Martinez and Peters Mining Supplies",M00066,Fuel Injector,2024-11-05,2025-01-02,926,413.17,Cancelled
+PO984688,S0039,"Perkins, Padilla and Brown Mining Supplies",M00076,Chain Conveyor,2024-10-07,2024-11-11,244,267.42,Closed
+PO464714,S0014,Macdonald-Thompson Mining Supplies,M00118,Slurry Hose,2025-06-03,2025-07-12,466,426.65,Closed
+PO249056,S0050,Williams and Sons Mining Supplies,M00078,Slurry Hose,2024-07-24,2024-09-07,621,333.24,Closed
+PO407986,S0038,Richards PLC Mining Supplies,M00046,Bucket Elevator Chain,2024-09-22,2024-10-12,817,306.68,Cancelled
+PO493931,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00035,Ball Bearing,2024-12-11,2025-01-31,349,161.85,Cancelled
+PO345203,S0028,"Garza, Gardner and Payne Mining Supplies",M00088,Gearbox Assembly,2024-10-22,2024-11-05,818,129.75,Closed
+PO586369,S0002,Horne-Potter Mining Supplies,M00177,Screen Panel,2025-04-29,2025-05-13,946,58.72,Open
+PO567148,S0028,"Garza, Gardner and Payne Mining Supplies",M00190,Chain Conveyor,2025-03-18,2025-05-03,474,268.43,Closed
+PO865966,S0042,Peterson-Martinez Mining Supplies,M00053,Flow Meter,2024-11-08,2024-12-21,24,404.04,Open
+PO602378,S0028,"Garza, Gardner and Payne Mining Supplies",M00121,Drill Bit,2024-08-14,2024-08-21,671,21.01,Open
+PO631627,S0015,"Ball, Foster and Castillo Mining Supplies",M00041,Slurry Hose,2025-03-16,2025-03-21,569,264.96,Open
+PO165166,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00041,Slurry Hose,2024-09-11,2024-10-30,442,355.57,Open
+PO107076,S0011,Diaz PLC Mining Supplies,M00163,Drill Bit,2024-09-20,2024-10-10,942,326.43,Cancelled
+PO737148,S0036,"Arnold, Green and Gonzales Mining Supplies",M00181,Drill Bit,2024-08-06,2024-09-13,502,484.34,Cancelled
+PO616772,S0049,Grant-Ross Mining Supplies,M00169,Coupler Shaft,2025-01-17,2025-03-07,890,221.22,Open
+PO163458,S0035,Pena-Pace Mining Supplies,M00070,Lubrication Pump,2024-09-29,2024-10-11,293,291.56,Open
+PO835495,S0048,Clark Ltd Mining Supplies,M00055,Gearbox Assembly,2025-01-02,2025-02-05,736,469.97,Open
+PO879460,S0043,"Lopez, Watson and Hodges Mining Supplies",M00010,Oil Seal,2024-11-05,2024-12-25,661,39.51,Cancelled
+PO735940,S0020,"Wall, Torres and Lopez Mining Supplies",M00120,Conveyor Belt,2025-03-19,2025-04-21,281,390.08,Cancelled
+PO408697,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00094,Lubrication Pump,2025-01-04,2025-01-12,215,329.46,Closed
+PO519678,S0029,"Peterson, Silva and Le Mining Supplies",M00002,Pressure Valve,2024-08-28,2024-09-11,335,70.77,Open
+PO106771,S0013,White-Johnson Mining Supplies,M00118,Slurry Hose,2024-10-14,2024-10-23,141,105.0,Open
+PO684176,S0002,Horne-Potter Mining Supplies,M00017,Jaw Crusher Plate,2025-03-20,2025-05-15,579,472.36,Closed
+PO531562,S0028,"Garza, Gardner and Payne Mining Supplies",M00120,Conveyor Belt,2024-11-06,2024-12-10,657,98.41,Open
+PO656291,S0046,Anderson-Compton Mining Supplies,M00109,Load Cell,2025-04-07,2025-05-28,566,68.46,Open
+PO137599,S0008,Collins-Leblanc Mining Supplies,M00039,Dust Collector Filter,2024-12-12,2025-01-15,208,195.83,Closed
+PO222321,S0011,Diaz PLC Mining Supplies,M00005,Dust Collector Filter,2024-08-16,2024-10-14,841,159.54,Closed
+PO357755,S0037,Gutierrez-Jones Mining Supplies,M00155,Gearbox Assembly,2024-10-13,2024-10-21,196,283.17,Closed
+PO235509,S0035,Pena-Pace Mining Supplies,M00187,Oil Seal,2025-04-25,2025-06-02,889,230.5,Cancelled
+PO839290,S0050,Williams and Sons Mining Supplies,M00001,Slurry Hose,2025-05-22,2025-06-21,662,61.27,Closed
+PO514094,S0028,"Garza, Gardner and Payne Mining Supplies",M00012,Electric Motor,2024-12-17,2025-01-03,362,300.98,Closed
+PO927738,S0008,Collins-Leblanc Mining Supplies,M00117,Flow Meter,2025-02-21,2025-04-04,812,235.86,Closed
+PO125105,S0008,Collins-Leblanc Mining Supplies,M00088,Gearbox Assembly,2025-05-21,2025-07-09,388,405.73,Cancelled
+PO324256,S0038,Richards PLC Mining Supplies,M00124,Pressure Valve,2024-07-14,2024-08-14,793,337.08,Closed
+PO191553,S0039,"Perkins, Padilla and Brown Mining Supplies",M00143,Gearbox Assembly,2025-03-04,2025-04-10,624,497.94,Open
+PO991578,S0029,"Peterson, Silva and Le Mining Supplies",M00190,Chain Conveyor,2025-04-29,2025-06-07,210,330.1,Cancelled
+PO602634,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00095,Dust Collector Filter,2024-09-08,2024-11-06,581,405.6,Closed
+PO606705,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00027,Load Cell,2025-01-25,2025-02-22,725,445.17,Open
+PO233550,S0025,Jefferson LLC Mining Supplies,M00037,Ball Bearing,2024-10-23,2024-11-24,438,140.14,Open
+PO855969,S0031,Hayes Ltd Mining Supplies,M00041,Slurry Hose,2025-03-31,2025-05-14,974,337.68,Open
+PO211636,S0041,Stewart-Moore Mining Supplies,M00007,Load Cell,2025-05-19,2025-05-26,172,70.13,Closed
+PO405875,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00122,Fuel Injector,2024-12-07,2025-01-11,214,21.32,Closed
+PO620234,S0001,Kim Ltd Mining Supplies,M00094,Lubrication Pump,2025-06-06,2025-06-21,322,63.66,Closed
+PO241655,S0014,Macdonald-Thompson Mining Supplies,M00189,Dust Collector Filter,2024-10-09,2024-11-30,739,309.43,Open
+PO594158,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00061,Drill Bit,2024-12-23,2025-01-05,668,154.63,Cancelled
+PO842980,S0024,Lowe and Sons Mining Supplies,M00068,Screen Panel,2024-08-29,2024-10-01,961,51.07,Closed
+PO805735,S0015,"Ball, Foster and Castillo Mining Supplies",M00086,Fuel Injector,2024-06-18,2024-07-03,488,474.39,Open
+PO866294,S0027,Charles PLC Mining Supplies,M00184,Jaw Crusher Plate,2025-03-10,2025-04-11,789,181.55,Closed
+PO978618,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00066,Fuel Injector,2024-09-19,2024-09-30,669,212.56,Cancelled
+PO223198,S0019,"Cordova, Collins and Mayo Mining Supplies",M00024,Coupler Shaft,2025-03-14,2025-04-06,430,114.19,Open
+PO883110,S0007,"Phillips, Scott and Tran Mining Supplies",M00126,Hydraulic Pump,2025-01-26,2025-02-02,354,265.06,Open
+PO221163,S0008,Collins-Leblanc Mining Supplies,M00179,Ball Bearing,2025-01-04,2025-02-20,443,265.13,Closed
+PO598211,S0043,"Lopez, Watson and Hodges Mining Supplies",M00070,Lubrication Pump,2024-10-22,2024-12-13,142,367.65,Open
+PO927122,S0045,Howard PLC Mining Supplies,M00063,Pressure Valve,2025-02-15,2025-03-13,475,333.36,Cancelled
+PO625700,S0014,Macdonald-Thompson Mining Supplies,M00058,Drill Bit,2024-11-02,2024-12-17,82,284.43,Open
+PO844148,S0017,Richardson Ltd Mining Supplies,M00045,Slurry Hose,2024-12-11,2025-01-20,761,230.89,Open
+PO790920,S0020,"Wall, Torres and Lopez Mining Supplies",M00177,Screen Panel,2024-06-16,2024-07-31,409,165.48,Cancelled
+PO707579,S0025,Jefferson LLC Mining Supplies,M00050,Conveyor Belt,2025-02-05,2025-03-23,940,299.55,Open
+PO549661,S0013,White-Johnson Mining Supplies,M00128,Fuel Injector,2024-08-12,2024-10-10,484,307.08,Closed
+PO841036,S0044,Clark-Brown Mining Supplies,M00085,Vibration Sensor,2024-08-26,2024-09-03,535,238.73,Closed
+PO675656,S0027,Charles PLC Mining Supplies,M00029,Bucket Elevator Chain,2025-01-29,2025-03-02,229,96.01,Cancelled
+PO744518,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00088,Gearbox Assembly,2024-08-14,2024-10-02,103,420.96,Open
+PO446701,S0050,Williams and Sons Mining Supplies,M00177,Screen Panel,2025-01-30,2025-03-12,908,229.68,Open
+PO917548,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00079,Electric Motor,2024-07-17,2024-09-14,412,264.79,Open
+PO380684,S0031,Hayes Ltd Mining Supplies,M00137,Chain Conveyor,2025-01-27,2025-03-08,651,105.52,Open
+PO104370,S0039,"Perkins, Padilla and Brown Mining Supplies",M00063,Pressure Valve,2025-04-12,2025-05-23,684,116.01,Closed
+PO270885,S0038,Richards PLC Mining Supplies,M00135,Ball Bearing,2024-09-11,2024-10-25,267,40.02,Open
+PO254569,S0004,Henson Inc Mining Supplies,M00059,Slurry Hose,2025-05-12,2025-06-24,793,64.23,Open
+PO313581,S0026,"Clark, Martinez and Peters Mining Supplies",M00200,Chain Conveyor,2024-09-29,2024-11-27,706,184.7,Open
+PO645897,S0002,Horne-Potter Mining Supplies,M00006,Bucket Elevator Chain,2024-10-28,2024-11-18,934,297.82,Cancelled
+PO769451,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00066,Fuel Injector,2024-11-04,2024-12-30,828,188.71,Closed
+PO941740,S0025,Jefferson LLC Mining Supplies,M00157,Slurry Hose,2025-02-19,2025-03-23,114,114.63,Cancelled
+PO215687,S0028,"Garza, Gardner and Payne Mining Supplies",M00200,Chain Conveyor,2025-01-18,2025-03-18,166,50.37,Open
+PO411793,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00104,Pressure Valve,2025-03-14,2025-03-30,546,447.41,Open
+PO648287,S0036,"Arnold, Green and Gonzales Mining Supplies",M00156,Fuel Injector,2024-08-22,2024-10-05,600,431.09,Cancelled
+PO152386,S0044,Clark-Brown Mining Supplies,M00177,Screen Panel,2025-01-28,2025-02-03,867,203.15,Open
+PO876336,S0041,Stewart-Moore Mining Supplies,M00015,Ball Bearing,2024-07-21,2024-09-16,961,337.1,Cancelled
+PO575455,S0024,Lowe and Sons Mining Supplies,M00179,Ball Bearing,2024-12-28,2025-02-17,40,136.17,Open
+PO478439,S0006,Sanchez-Ray Mining Supplies,M00003,Load Cell,2024-07-06,2024-08-21,584,483.99,Cancelled
+PO104758,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00068,Screen Panel,2025-01-01,2025-01-26,55,237.12,Cancelled
+PO869061,S0005,Jones Inc Mining Supplies,M00089,Screen Panel,2025-03-11,2025-04-06,209,145.53,Closed
+PO571911,S0041,Stewart-Moore Mining Supplies,M00059,Slurry Hose,2024-12-29,2025-01-26,154,15.88,Closed
+PO561525,S0015,"Ball, Foster and Castillo Mining Supplies",M00166,Gearbox Assembly,2024-07-30,2024-08-28,860,221.58,Closed
+PO584911,S0028,"Garza, Gardner and Payne Mining Supplies",M00124,Pressure Valve,2024-12-07,2024-12-30,617,42.36,Open
+PO594824,S0032,"Morris, Crosby and Stevens Mining Supplies",M00067,Conveyor Belt,2024-08-16,2024-09-09,299,378.5,Closed
+PO216493,S0038,Richards PLC Mining Supplies,M00088,Gearbox Assembly,2024-12-07,2025-01-12,257,239.66,Cancelled
+PO772399,S0038,Richards PLC Mining Supplies,M00037,Ball Bearing,2024-06-28,2024-08-20,423,309.32,Open
+PO228989,S0044,Clark-Brown Mining Supplies,M00098,Oil Seal,2025-01-22,2025-02-24,807,339.87,Open
+PO922842,S0011,Diaz PLC Mining Supplies,M00038,Vibration Sensor,2024-09-13,2024-11-08,669,156.35,Closed
+PO396431,S0014,Macdonald-Thompson Mining Supplies,M00154,Drill Bit,2024-11-18,2025-01-10,375,166.03,Cancelled
+PO176262,S0006,Sanchez-Ray Mining Supplies,M00081,Screen Panel,2024-11-04,2024-11-12,186,491.91,Open
+PO611722,S0037,Gutierrez-Jones Mining Supplies,M00110,Bucket Elevator Chain,2024-12-19,2025-01-24,822,44.42,Closed
+PO809046,S0044,Clark-Brown Mining Supplies,M00184,Jaw Crusher Plate,2024-10-14,2024-11-25,115,414.78,Cancelled
+PO889152,S0031,Hayes Ltd Mining Supplies,M00117,Flow Meter,2024-08-01,2024-09-01,31,66.37,Closed
+PO304921,S0016,Taylor-Mercado Mining Supplies,M00045,Slurry Hose,2024-07-02,2024-08-06,579,89.43,Cancelled
+PO441462,S0044,Clark-Brown Mining Supplies,M00077,Coupler Shaft,2025-02-08,2025-03-09,492,18.13,Cancelled
+PO714597,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00137,Chain Conveyor,2024-12-15,2025-01-09,856,479.9,Closed
+PO446190,S0039,"Perkins, Padilla and Brown Mining Supplies",M00006,Bucket Elevator Chain,2024-12-20,2025-01-04,784,394.13,Open
+PO112651,S0023,"Roberts, Luna and West Mining Supplies",M00014,Oil Seal,2025-04-20,2025-06-13,85,230.01,Closed
+PO697396,S0012,Sanchez-Sweeney Mining Supplies,M00021,Electric Motor,2024-09-07,2024-10-04,195,212.65,Open
+PO574240,S0043,"Lopez, Watson and Hodges Mining Supplies",M00032,Coupler Shaft,2024-06-28,2024-07-20,314,59.91,Closed
+PO631280,S0037,Gutierrez-Jones Mining Supplies,M00133,Electric Motor,2024-06-29,2024-08-28,967,479.52,Closed
+PO985291,S0048,Clark Ltd Mining Supplies,M00093,Chain Conveyor,2025-05-22,2025-06-02,435,453.99,Closed
+PO179695,S0006,Sanchez-Ray Mining Supplies,M00168,Conveyor Belt,2025-01-23,2025-02-28,979,468.75,Cancelled
+PO368460,S0013,White-Johnson Mining Supplies,M00029,Bucket Elevator Chain,2024-10-18,2024-11-25,628,497.07,Open
+PO248530,S0031,Hayes Ltd Mining Supplies,M00086,Fuel Injector,2025-02-20,2025-04-10,740,363.96,Closed
+PO746641,S0025,Jefferson LLC Mining Supplies,M00058,Drill Bit,2025-01-21,2025-03-04,946,173.9,Cancelled
+PO298126,S0011,Diaz PLC Mining Supplies,M00005,Dust Collector Filter,2024-12-26,2025-01-18,595,99.83,Open
+PO811641,S0011,Diaz PLC Mining Supplies,M00002,Pressure Valve,2024-10-29,2024-11-30,832,291.31,Closed
+PO545222,S0025,Jefferson LLC Mining Supplies,M00090,Load Cell,2024-11-28,2024-12-09,441,478.24,Open
+PO652638,S0016,Taylor-Mercado Mining Supplies,M00195,Chain Conveyor,2024-09-23,2024-10-07,145,392.81,Open
+PO202921,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00107,Bucket Elevator Chain,2024-09-03,2024-09-11,643,435.01,Cancelled
+PO772717,S0008,Collins-Leblanc Mining Supplies,M00072,Dust Collector Filter,2024-12-08,2024-12-24,169,131.78,Open
+PO902540,S0036,"Arnold, Green and Gonzales Mining Supplies",M00001,Slurry Hose,2025-04-04,2025-04-27,793,463.28,Cancelled
+PO270402,S0028,"Garza, Gardner and Payne Mining Supplies",M00131,Screen Panel,2024-12-28,2025-01-09,91,208.46,Cancelled
+PO524607,S0046,Anderson-Compton Mining Supplies,M00089,Screen Panel,2024-07-13,2024-08-10,404,467.2,Cancelled
+PO475336,S0050,Williams and Sons Mining Supplies,M00143,Gearbox Assembly,2025-05-27,2025-07-01,939,297.01,Cancelled
+PO773641,S0013,White-Johnson Mining Supplies,M00111,Chain Conveyor,2024-07-13,2024-09-10,225,328.69,Open
+PO481380,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00113,Bucket Elevator Chain,2024-11-04,2025-01-01,44,341.0,Closed
+PO601548,S0045,Howard PLC Mining Supplies,M00147,Flow Meter,2025-01-12,2025-02-12,94,425.61,Cancelled
+PO291719,S0045,Howard PLC Mining Supplies,M00166,Gearbox Assembly,2024-11-22,2024-12-07,66,238.24,Closed
+PO687545,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00178,Flow Meter,2025-01-16,2025-02-05,555,358.8,Cancelled
+PO757640,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00042,Lubrication Pump,2025-01-14,2025-03-14,772,378.2,Closed
+PO202857,S0042,Peterson-Martinez Mining Supplies,M00071,Electric Motor,2024-10-11,2024-11-01,945,228.3,Open
+PO929843,S0002,Horne-Potter Mining Supplies,M00182,Flow Meter,2024-08-30,2024-09-18,15,141.04,Cancelled
+PO933752,S0026,"Clark, Martinez and Peters Mining Supplies",M00097,Gearbox Assembly,2024-11-26,2025-01-19,466,427.77,Open
+PO459674,S0032,"Morris, Crosby and Stevens Mining Supplies",M00016,Dust Collector Filter,2025-02-03,2025-02-13,925,83.35,Open
+PO313449,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00071,Electric Motor,2024-12-09,2024-12-20,776,339.24,Cancelled
+PO337676,S0041,Stewart-Moore Mining Supplies,M00159,Electric Motor,2025-04-22,2025-06-18,814,455.74,Open
+PO335637,S0049,Grant-Ross Mining Supplies,M00120,Conveyor Belt,2025-04-16,2025-04-23,40,478.54,Open
+PO443324,S0024,Lowe and Sons Mining Supplies,M00192,Fuel Injector,2024-10-05,2024-11-29,843,72.17,Open
+PO548293,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00043,Oil Seal,2025-03-12,2025-03-27,760,54.35,Closed
+PO877786,S0043,"Lopez, Watson and Hodges Mining Supplies",M00145,Lubrication Pump,2024-06-25,2024-07-11,113,241.19,Cancelled
+PO536604,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00163,Drill Bit,2025-06-03,2025-07-14,510,175.71,Closed
+PO476145,S0021,Schmidt-Ashley Mining Supplies,M00189,Dust Collector Filter,2024-07-24,2024-08-16,587,389.47,Open
+PO520960,S0015,"Ball, Foster and Castillo Mining Supplies",M00130,Fuel Injector,2025-01-03,2025-01-22,995,68.39,Cancelled
+PO686496,S0007,"Phillips, Scott and Tran Mining Supplies",M00161,Chain Conveyor,2025-03-05,2025-03-27,954,121.18,Open
+PO833203,S0021,Schmidt-Ashley Mining Supplies,M00120,Conveyor Belt,2025-01-21,2025-03-12,686,403.07,Cancelled
+PO514907,S0044,Clark-Brown Mining Supplies,M00124,Pressure Valve,2025-03-02,2025-03-27,258,191.48,Cancelled
+PO713364,S0017,Richardson Ltd Mining Supplies,M00006,Bucket Elevator Chain,2025-02-07,2025-03-06,620,63.1,Open
+PO983122,S0049,Grant-Ross Mining Supplies,M00027,Load Cell,2024-08-08,2024-08-28,337,436.6,Cancelled
+PO605329,S0035,Pena-Pace Mining Supplies,M00019,Hydraulic Pump,2024-11-27,2024-12-11,418,291.71,Cancelled
+PO854381,S0033,Klein-Henry Mining Supplies,M00056,Flow Meter,2025-06-02,2025-07-31,264,80.95,Open
+PO366349,S0037,Gutierrez-Jones Mining Supplies,M00200,Chain Conveyor,2025-04-14,2025-05-11,137,472.72,Closed
+PO786221,S0038,Richards PLC Mining Supplies,M00111,Chain Conveyor,2024-09-09,2024-11-08,966,334.3,Open
+PO732853,S0024,Lowe and Sons Mining Supplies,M00127,Ball Bearing,2024-07-27,2024-08-16,958,10.54,Open
+PO643927,S0002,Horne-Potter Mining Supplies,M00106,Ball Bearing,2024-10-19,2024-11-07,215,171.47,Cancelled
+PO749220,S0031,Hayes Ltd Mining Supplies,M00027,Load Cell,2025-04-13,2025-05-03,781,185.3,Open
+PO891542,S0008,Collins-Leblanc Mining Supplies,M00072,Dust Collector Filter,2025-06-07,2025-07-28,695,146.17,Open
+PO372678,S0031,Hayes Ltd Mining Supplies,M00068,Screen Panel,2024-12-18,2025-01-05,723,119.85,Open
+PO247436,S0003,"Simpson, Singleton and Morris Mining Supplies",M00062,Coupler Shaft,2025-01-07,2025-02-21,6,320.78,Cancelled
+PO466153,S0043,"Lopez, Watson and Hodges Mining Supplies",M00145,Lubrication Pump,2024-11-06,2025-01-02,827,118.64,Closed
+PO628692,S0046,Anderson-Compton Mining Supplies,M00162,Load Cell,2024-09-17,2024-11-07,155,427.34,Closed
+PO166288,S0023,"Roberts, Luna and West Mining Supplies",M00051,Flow Meter,2024-10-30,2024-12-25,882,221.13,Open
+PO335525,S0029,"Peterson, Silva and Le Mining Supplies",M00139,Pressure Valve,2025-05-12,2025-05-19,550,233.56,Open
+PO641928,S0004,Henson Inc Mining Supplies,M00038,Vibration Sensor,2024-12-15,2024-12-28,458,257.65,Closed
+PO949778,S0019,"Cordova, Collins and Mayo Mining Supplies",M00105,Drill Bit,2024-07-30,2024-08-15,769,130.71,Closed
+PO665916,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00081,Screen Panel,2024-07-05,2024-07-30,474,421.24,Cancelled
+PO141842,S0023,"Roberts, Luna and West Mining Supplies",M00079,Electric Motor,2024-11-22,2024-12-17,350,306.28,Closed
+PO273472,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00189,Dust Collector Filter,2025-04-26,2025-05-10,535,403.33,Open
+PO564724,S0004,Henson Inc Mining Supplies,M00068,Screen Panel,2024-11-01,2024-11-06,855,177.35,Open
+PO397432,S0037,Gutierrez-Jones Mining Supplies,M00035,Ball Bearing,2024-09-22,2024-11-12,462,243.78,Cancelled
+PO163928,S0031,Hayes Ltd Mining Supplies,M00079,Electric Motor,2025-03-01,2025-03-21,259,42.14,Closed
+PO558048,S0001,Kim Ltd Mining Supplies,M00137,Chain Conveyor,2025-01-22,2025-03-09,46,176.72,Open
+PO688156,S0048,Clark Ltd Mining Supplies,M00005,Dust Collector Filter,2024-08-24,2024-10-06,624,110.98,Open
+PO996820,S0039,"Perkins, Padilla and Brown Mining Supplies",M00053,Flow Meter,2025-02-26,2025-04-11,299,153.2,Cancelled
+PO791545,S0005,Jones Inc Mining Supplies,M00177,Screen Panel,2024-09-14,2024-10-05,154,29.92,Cancelled
+PO945643,S0044,Clark-Brown Mining Supplies,M00072,Dust Collector Filter,2024-10-15,2024-11-24,52,118.92,Closed
+PO673940,S0042,Peterson-Martinez Mining Supplies,M00008,Gearbox Assembly,2024-08-02,2024-08-19,829,97.77,Open
+PO310206,S0043,"Lopez, Watson and Hodges Mining Supplies",M00013,Bucket Elevator Chain,2025-04-23,2025-05-26,267,247.78,Closed
+PO703873,S0029,"Peterson, Silva and Le Mining Supplies",M00098,Oil Seal,2025-02-26,2025-04-14,787,485.8,Closed
+PO357073,S0004,Henson Inc Mining Supplies,M00198,Load Cell,2024-11-13,2024-12-13,892,393.14,Cancelled
+PO302553,S0004,Henson Inc Mining Supplies,M00011,Bucket Elevator Chain,2025-01-24,2025-03-17,593,153.0,Closed
+PO981402,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00033,Ball Bearing,2024-09-16,2024-10-24,49,299.93,Closed
+PO647550,S0036,"Arnold, Green and Gonzales Mining Supplies",M00146,Pressure Valve,2025-02-16,2025-04-02,407,422.47,Open
+PO806599,S0031,Hayes Ltd Mining Supplies,M00119,Oil Seal,2024-07-29,2024-08-18,299,493.45,Cancelled
+PO769860,S0050,Williams and Sons Mining Supplies,M00060,Screen Panel,2024-09-30,2024-10-10,558,117.98,Open
+PO929444,S0017,Richardson Ltd Mining Supplies,M00073,Flow Meter,2025-03-30,2025-05-12,655,292.64,Closed
+PO634008,S0026,"Clark, Martinez and Peters Mining Supplies",M00128,Fuel Injector,2024-12-08,2025-02-02,133,197.48,Open
+PO204128,S0002,Horne-Potter Mining Supplies,M00081,Screen Panel,2024-11-12,2024-11-26,618,327.34,Cancelled
+PO696775,S0004,Henson Inc Mining Supplies,M00096,Coupler Shaft,2025-02-04,2025-03-09,760,411.75,Open
+PO574115,S0012,Sanchez-Sweeney Mining Supplies,M00066,Fuel Injector,2024-07-21,2024-09-10,572,112.13,Cancelled
+PO341850,S0036,"Arnold, Green and Gonzales Mining Supplies",M00028,Load Cell,2024-12-16,2024-12-31,649,226.06,Closed
+PO931429,S0002,Horne-Potter Mining Supplies,M00148,Hydraulic Pump,2025-04-16,2025-05-21,598,139.43,Open
+PO787523,S0038,Richards PLC Mining Supplies,M00065,Chain Conveyor,2024-08-23,2024-08-29,531,74.7,Closed
+PO203215,S0026,"Clark, Martinez and Peters Mining Supplies",M00082,Drill Bit,2025-06-09,2025-07-15,750,32.64,Open
+PO533266,S0025,Jefferson LLC Mining Supplies,M00079,Electric Motor,2025-06-10,2025-06-18,707,487.25,Open
+PO400923,S0021,Schmidt-Ashley Mining Supplies,M00182,Flow Meter,2024-06-16,2024-06-23,420,343.37,Open
+PO446011,S0033,Klein-Henry Mining Supplies,M00197,Fuel Injector,2025-04-16,2025-06-11,753,353.34,Open
+PO802831,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00196,Slurry Hose,2025-04-23,2025-06-11,317,321.6,Closed
+PO216075,S0037,Gutierrez-Jones Mining Supplies,M00070,Lubrication Pump,2025-05-23,2025-06-08,481,168.27,Cancelled
+PO823267,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00069,Coupler Shaft,2024-10-13,2024-10-24,987,204.28,Cancelled
+PO205855,S0013,White-Johnson Mining Supplies,M00036,Slurry Hose,2024-10-05,2024-10-16,91,279.35,Cancelled
+PO176378,S0016,Taylor-Mercado Mining Supplies,M00093,Chain Conveyor,2024-08-16,2024-09-05,623,456.93,Cancelled
+PO756352,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00059,Slurry Hose,2025-02-20,2025-04-16,440,144.6,Open
+PO237362,S0031,Hayes Ltd Mining Supplies,M00117,Flow Meter,2025-05-02,2025-05-19,391,191.42,Open
+PO285203,S0004,Henson Inc Mining Supplies,M00153,Oil Seal,2024-09-17,2024-10-22,491,237.77,Closed
+PO533431,S0015,"Ball, Foster and Castillo Mining Supplies",M00096,Coupler Shaft,2025-05-09,2025-06-23,774,91.01,Closed
+PO860233,S0032,"Morris, Crosby and Stevens Mining Supplies",M00108,Pressure Valve,2024-07-06,2024-09-02,165,130.97,Closed
+PO213079,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00036,Slurry Hose,2024-07-13,2024-08-08,451,297.38,Open
+PO812012,S0006,Sanchez-Ray Mining Supplies,M00065,Chain Conveyor,2024-09-27,2024-11-16,162,385.64,Closed
+PO539263,S0041,Stewart-Moore Mining Supplies,M00114,Chain Conveyor,2024-09-14,2024-10-29,982,428.41,Cancelled
+PO342180,S0017,Richardson Ltd Mining Supplies,M00136,Coupler Shaft,2025-03-09,2025-03-28,356,75.76,Closed
+PO608510,S0012,Sanchez-Sweeney Mining Supplies,M00026,Flow Meter,2024-11-14,2024-11-20,731,304.72,Closed
+PO813592,S0008,Collins-Leblanc Mining Supplies,M00136,Coupler Shaft,2024-08-09,2024-09-27,241,487.78,Closed
+PO465449,S0050,Williams and Sons Mining Supplies,M00100,Oil Seal,2024-11-21,2025-01-15,189,318.45,Cancelled
+PO224929,S0017,Richardson Ltd Mining Supplies,M00169,Coupler Shaft,2025-05-18,2025-06-05,389,312.2,Closed
+PO331679,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00041,Slurry Hose,2024-11-01,2024-11-22,636,156.54,Cancelled
+PO223567,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00186,Flow Meter,2025-01-16,2025-01-30,222,378.56,Closed
+PO221933,S0050,Williams and Sons Mining Supplies,M00151,Hydraulic Pump,2025-03-28,2025-05-16,790,273.86,Open
+PO695268,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00010,Oil Seal,2025-01-31,2025-03-02,417,349.09,Open
+PO790164,S0003,"Simpson, Singleton and Morris Mining Supplies",M00193,Conveyor Belt,2024-09-04,2024-10-11,166,139.91,Open
+PO847710,S0038,Richards PLC Mining Supplies,M00071,Electric Motor,2025-02-25,2025-03-02,747,490.28,Cancelled
+PO531620,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00137,Chain Conveyor,2025-04-18,2025-05-26,600,454.88,Cancelled
+PO701633,S0032,"Morris, Crosby and Stevens Mining Supplies",M00057,Load Cell,2024-09-04,2024-10-22,981,390.43,Cancelled
+PO959849,S0042,Peterson-Martinez Mining Supplies,M00097,Gearbox Assembly,2025-05-02,2025-05-19,827,73.47,Open
+PO266426,S0032,"Morris, Crosby and Stevens Mining Supplies",M00191,Screen Panel,2025-02-06,2025-03-01,707,273.04,Open
+PO294532,S0049,Grant-Ross Mining Supplies,M00119,Oil Seal,2025-01-05,2025-02-08,73,337.79,Open
+PO596636,S0038,Richards PLC Mining Supplies,M00160,Electric Motor,2025-05-21,2025-06-29,718,51.52,Cancelled
+PO773033,S0019,"Cordova, Collins and Mayo Mining Supplies",M00118,Slurry Hose,2025-02-15,2025-03-31,608,160.87,Open
+PO665838,S0039,"Perkins, Padilla and Brown Mining Supplies",M00039,Dust Collector Filter,2025-01-11,2025-01-17,566,379.31,Cancelled
+PO855863,S0048,Clark Ltd Mining Supplies,M00059,Slurry Hose,2025-03-16,2025-03-23,439,317.03,Cancelled
+PO838526,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00061,Drill Bit,2024-11-27,2024-12-27,993,48.76,Closed
+PO430994,S0020,"Wall, Torres and Lopez Mining Supplies",M00059,Slurry Hose,2024-10-20,2024-12-17,456,270.97,Cancelled
+PO390176,S0004,Henson Inc Mining Supplies,M00165,Jaw Crusher Plate,2025-01-09,2025-01-18,957,429.68,Closed
+PO626777,S0011,Diaz PLC Mining Supplies,M00010,Oil Seal,2024-11-24,2025-01-22,546,13.93,Open
+PO263756,S0016,Taylor-Mercado Mining Supplies,M00045,Slurry Hose,2024-08-30,2024-09-07,305,18.18,Cancelled
+PO613424,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00154,Drill Bit,2024-08-27,2024-09-08,904,131.75,Cancelled
+PO309843,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00085,Vibration Sensor,2025-05-31,2025-07-19,792,98.12,Cancelled
+PO144800,S0013,White-Johnson Mining Supplies,M00151,Hydraulic Pump,2024-10-25,2024-11-22,677,339.49,Open
+PO294444,S0019,"Cordova, Collins and Mayo Mining Supplies",M00063,Pressure Valve,2025-01-11,2025-03-09,953,474.0,Open
+PO564388,S0031,Hayes Ltd Mining Supplies,M00075,Hydraulic Pump,2024-07-09,2024-07-15,412,395.46,Closed
+PO978669,S0036,"Arnold, Green and Gonzales Mining Supplies",M00180,Chain Conveyor,2024-12-31,2025-02-09,380,206.2,Closed
+PO390385,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00185,Ball Bearing,2024-08-10,2024-08-31,116,190.35,Closed
+PO114937,S0041,Stewart-Moore Mining Supplies,M00135,Ball Bearing,2025-01-17,2025-02-27,125,203.23,Cancelled
+PO327596,S0014,Macdonald-Thompson Mining Supplies,M00131,Screen Panel,2024-11-20,2025-01-18,594,227.28,Closed
+PO964262,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00056,Flow Meter,2025-05-06,2025-07-05,628,85.53,Open
+PO456629,S0003,"Simpson, Singleton and Morris Mining Supplies",M00068,Screen Panel,2024-08-27,2024-09-15,183,10.19,Cancelled
+PO536319,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00199,Chain Conveyor,2024-09-25,2024-10-21,254,61.64,Cancelled
+PO340322,S0031,Hayes Ltd Mining Supplies,M00138,Vibration Sensor,2025-06-09,2025-07-31,773,159.97,Cancelled
+PO744871,S0024,Lowe and Sons Mining Supplies,M00056,Flow Meter,2024-09-29,2024-10-22,555,231.3,Open
+PO716361,S0032,"Morris, Crosby and Stevens Mining Supplies",M00134,Bucket Elevator Chain,2025-01-01,2025-02-26,170,368.2,Cancelled
+PO936985,S0036,"Arnold, Green and Gonzales Mining Supplies",M00041,Slurry Hose,2024-10-05,2024-10-16,513,469.63,Closed
+PO420077,S0001,Kim Ltd Mining Supplies,M00045,Slurry Hose,2025-04-10,2025-05-29,752,154.83,Open
+PO571603,S0004,Henson Inc Mining Supplies,M00019,Hydraulic Pump,2025-03-12,2025-03-19,606,64.94,Cancelled
+PO878002,S0037,Gutierrez-Jones Mining Supplies,M00111,Chain Conveyor,2024-08-04,2024-08-16,550,31.2,Open
+PO815250,S0019,"Cordova, Collins and Mayo Mining Supplies",M00180,Chain Conveyor,2025-05-11,2025-06-12,325,168.38,Open
+PO871967,S0001,Kim Ltd Mining Supplies,M00158,Pressure Valve,2024-11-14,2024-12-21,514,415.98,Open
+PO611781,S0031,Hayes Ltd Mining Supplies,M00145,Lubrication Pump,2025-06-14,2025-07-13,534,310.07,Open
+PO499018,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00106,Ball Bearing,2025-05-01,2025-06-06,224,20.58,Cancelled
+PO217591,S0020,"Wall, Torres and Lopez Mining Supplies",M00022,Pressure Valve,2024-10-31,2024-12-14,544,127.52,Cancelled
+PO356239,S0042,Peterson-Martinez Mining Supplies,M00174,Hydraulic Pump,2024-10-01,2024-10-21,828,476.74,Open
+PO763585,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00010,Oil Seal,2024-12-13,2025-01-14,242,142.39,Open
+PO123901,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00069,Coupler Shaft,2025-02-27,2025-04-12,288,92.77,Cancelled
+PO514882,S0026,"Clark, Martinez and Peters Mining Supplies",M00045,Slurry Hose,2024-12-16,2025-01-23,898,410.39,Closed
+PO665934,S0027,Charles PLC Mining Supplies,M00072,Dust Collector Filter,2025-06-08,2025-07-17,558,322.13,Cancelled
+PO905741,S0012,Sanchez-Sweeney Mining Supplies,M00096,Coupler Shaft,2025-01-09,2025-02-10,126,109.57,Open
+PO610250,S0019,"Cordova, Collins and Mayo Mining Supplies",M00051,Flow Meter,2024-07-28,2024-08-14,257,230.47,Cancelled
+PO530948,S0030,"Nunez, Boyd and Moreno Mining Supplies",M00158,Pressure Valve,2024-08-20,2024-09-22,960,355.71,Open
+PO500607,S0031,Hayes Ltd Mining Supplies,M00139,Pressure Valve,2024-11-17,2024-12-26,81,292.84,Closed
+PO403872,S0041,Stewart-Moore Mining Supplies,M00062,Coupler Shaft,2024-08-13,2024-09-05,547,36.04,Closed
+PO212696,S0008,Collins-Leblanc Mining Supplies,M00006,Bucket Elevator Chain,2025-02-03,2025-04-04,331,281.57,Open
+PO414807,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00096,Coupler Shaft,2025-04-08,2025-04-14,366,23.58,Cancelled
+PO118842,S0007,"Phillips, Scott and Tran Mining Supplies",M00161,Chain Conveyor,2024-10-04,2024-10-14,910,326.19,Cancelled
+PO832174,S0004,Henson Inc Mining Supplies,M00034,Hydraulic Pump,2024-08-09,2024-09-17,99,330.97,Closed
+PO387318,S0024,Lowe and Sons Mining Supplies,M00119,Oil Seal,2025-05-21,2025-06-13,754,471.9,Open
+PO433229,S0023,"Roberts, Luna and West Mining Supplies",M00073,Flow Meter,2025-03-18,2025-04-27,39,143.19,Cancelled
+PO186144,S0014,Macdonald-Thompson Mining Supplies,M00021,Electric Motor,2024-07-03,2024-07-23,870,252.53,Cancelled
+PO106400,S0019,"Cordova, Collins and Mayo Mining Supplies",M00161,Chain Conveyor,2024-09-10,2024-11-07,639,428.24,Closed
+PO489423,S0024,Lowe and Sons Mining Supplies,M00035,Ball Bearing,2025-02-18,2025-03-22,346,470.64,Open
+PO788807,S0036,"Arnold, Green and Gonzales Mining Supplies",M00139,Pressure Valve,2024-11-10,2024-12-25,347,256.45,Closed
+PO471414,S0032,"Morris, Crosby and Stevens Mining Supplies",M00137,Chain Conveyor,2025-02-14,2025-04-14,593,135.4,Closed
+PO616646,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00039,Dust Collector Filter,2024-08-13,2024-10-04,49,228.3,Cancelled
+PO736769,S0019,"Cordova, Collins and Mayo Mining Supplies",M00064,Drill Bit,2025-05-05,2025-05-11,182,276.17,Closed
+PO729607,S0016,Taylor-Mercado Mining Supplies,M00066,Fuel Injector,2025-01-03,2025-02-01,602,124.99,Open
+PO418374,S0007,"Phillips, Scott and Tran Mining Supplies",M00101,Flow Meter,2024-12-20,2024-12-26,367,190.1,Closed
+PO594617,S0007,"Phillips, Scott and Tran Mining Supplies",M00062,Coupler Shaft,2024-07-22,2024-08-31,929,467.21,Open
+PO431160,S0019,"Cordova, Collins and Mayo Mining Supplies",M00074,Dust Collector Filter,2025-05-27,2025-07-09,773,417.06,Open
+PO173017,S0016,Taylor-Mercado Mining Supplies,M00196,Slurry Hose,2025-02-16,2025-03-29,192,49.88,Closed
+PO525997,S0016,Taylor-Mercado Mining Supplies,M00155,Gearbox Assembly,2025-02-05,2025-03-26,751,69.54,Open
+PO279809,S0039,"Perkins, Padilla and Brown Mining Supplies",M00059,Slurry Hose,2024-08-23,2024-10-20,396,230.44,Open
+PO446778,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00025,Slurry Hose,2025-03-07,2025-04-01,709,290.44,Open
+PO495667,S0037,Gutierrez-Jones Mining Supplies,M00050,Conveyor Belt,2025-02-10,2025-03-12,504,292.75,Cancelled
+PO320150,S0046,Anderson-Compton Mining Supplies,M00143,Gearbox Assembly,2024-09-04,2024-09-22,889,246.6,Closed
+PO160901,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00022,Pressure Valve,2025-04-28,2025-06-12,892,67.35,Open
+PO529198,S0039,"Perkins, Padilla and Brown Mining Supplies",M00042,Lubrication Pump,2025-03-17,2025-05-14,566,362.42,Closed
+PO678264,S0025,Jefferson LLC Mining Supplies,M00082,Drill Bit,2025-05-20,2025-06-27,147,249.49,Closed
+PO953778,S0033,Klein-Henry Mining Supplies,M00092,Gearbox Assembly,2025-03-15,2025-04-28,478,371.74,Cancelled
+PO983035,S0003,"Simpson, Singleton and Morris Mining Supplies",M00139,Pressure Valve,2025-03-21,2025-03-29,407,474.24,Open
+PO578598,S0014,Macdonald-Thompson Mining Supplies,M00163,Drill Bit,2024-11-28,2024-12-13,917,266.76,Open
+PO267417,S0017,Richardson Ltd Mining Supplies,M00159,Electric Motor,2025-04-03,2025-04-19,556,98.49,Open
+PO791975,S0025,Jefferson LLC Mining Supplies,M00112,Drill Bit,2025-01-03,2025-01-09,222,108.01,Closed
+PO222314,S0007,"Phillips, Scott and Tran Mining Supplies",M00082,Drill Bit,2025-02-13,2025-03-27,497,37.18,Closed
+PO785612,S0035,Pena-Pace Mining Supplies,M00095,Dust Collector Filter,2024-10-13,2024-11-09,133,87.14,Closed
+PO336406,S0049,Grant-Ross Mining Supplies,M00063,Pressure Valve,2025-03-05,2025-05-03,595,356.63,Open
+PO186843,S0037,Gutierrez-Jones Mining Supplies,M00058,Drill Bit,2024-07-25,2024-08-18,928,305.23,Closed
+PO718972,S0024,Lowe and Sons Mining Supplies,M00114,Chain Conveyor,2024-11-29,2024-12-07,777,197.39,Closed
+PO752669,S0016,Taylor-Mercado Mining Supplies,M00147,Flow Meter,2025-03-06,2025-04-10,51,45.85,Closed
+PO975320,S0028,"Garza, Gardner and Payne Mining Supplies",M00098,Oil Seal,2024-07-01,2024-07-26,484,30.72,Open
+PO930436,S0010,"Patterson, Rodriguez and Williamson Mining Supplies",M00140,Screen Panel,2024-10-18,2024-11-28,294,365.26,Closed
+PO965325,S0006,Sanchez-Ray Mining Supplies,M00079,Electric Motor,2025-04-13,2025-05-23,421,432.44,Cancelled
+PO736670,S0045,Howard PLC Mining Supplies,M00073,Flow Meter,2024-12-29,2025-01-05,707,99.87,Closed
+PO116996,S0034,"Ramirez, Martinez and Humphrey Mining Supplies",M00052,Dust Collector Filter,2024-10-15,2024-11-26,153,286.07,Open
+PO588265,S0031,Hayes Ltd Mining Supplies,M00186,Flow Meter,2025-06-07,2025-07-15,539,335.82,Open
+PO212426,S0022,"Ferguson, Richardson and Hurley Mining Supplies",M00192,Fuel Injector,2024-09-28,2024-11-22,440,65.88,Cancelled
+PO917562,S0028,"Garza, Gardner and Payne Mining Supplies",M00044,Conveyor Belt,2025-04-03,2025-05-12,625,270.32,Closed
+PO494514,S0005,Jones Inc Mining Supplies,M00075,Hydraulic Pump,2024-07-03,2024-08-24,724,96.07,Open
+PO227726,S0042,Peterson-Martinez Mining Supplies,M00106,Ball Bearing,2025-03-29,2025-05-24,214,452.56,Cancelled
+PO139663,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00157,Slurry Hose,2024-09-13,2024-10-31,349,463.34,Closed
+PO135439,S0043,"Lopez, Watson and Hodges Mining Supplies",M00168,Conveyor Belt,2024-08-14,2024-09-03,444,45.94,Cancelled
+PO713352,S0038,Richards PLC Mining Supplies,M00121,Drill Bit,2024-07-03,2024-07-25,901,61.02,Closed
+PO191994,S0042,Peterson-Martinez Mining Supplies,M00102,Bucket Elevator Chain,2024-11-23,2024-12-18,543,180.86,Cancelled
+PO127293,S0027,Charles PLC Mining Supplies,M00128,Fuel Injector,2025-04-30,2025-05-06,264,125.16,Cancelled
+PO960038,S0002,Horne-Potter Mining Supplies,M00104,Pressure Valve,2025-02-03,2025-03-06,418,118.84,Cancelled
+PO724804,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00137,Chain Conveyor,2024-08-19,2024-10-14,553,138.12,Cancelled
+PO104843,S0007,"Phillips, Scott and Tran Mining Supplies",M00108,Pressure Valve,2024-07-16,2024-09-07,104,452.88,Open
+PO205018,S0020,"Wall, Torres and Lopez Mining Supplies",M00177,Screen Panel,2024-12-02,2025-01-25,921,103.43,Cancelled
+PO509003,S0014,Macdonald-Thompson Mining Supplies,M00193,Conveyor Belt,2025-05-02,2025-06-13,916,246.09,Cancelled
+PO343492,S0035,Pena-Pace Mining Supplies,M00145,Lubrication Pump,2025-01-13,2025-01-22,768,97.02,Open
+PO371493,S0032,"Morris, Crosby and Stevens Mining Supplies",M00085,Vibration Sensor,2025-01-02,2025-01-31,105,87.56,Closed
+PO749663,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00026,Flow Meter,2025-06-08,2025-08-04,424,395.36,Closed
+PO413682,S0019,"Cordova, Collins and Mayo Mining Supplies",M00003,Load Cell,2024-11-24,2025-01-07,853,353.26,Open
+PO216715,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00142,Chain Conveyor,2025-02-09,2025-03-16,434,469.8,Closed
+PO315685,S0021,Schmidt-Ashley Mining Supplies,M00058,Drill Bit,2024-10-12,2024-11-15,659,127.02,Cancelled
+PO947166,S0046,Anderson-Compton Mining Supplies,M00010,Oil Seal,2025-05-06,2025-07-04,462,382.2,Closed
+PO338997,S0017,Richardson Ltd Mining Supplies,M00153,Oil Seal,2024-10-25,2024-11-11,924,305.05,Open
+PO107779,S0038,Richards PLC Mining Supplies,M00001,Slurry Hose,2025-01-23,2025-03-10,200,449.03,Cancelled
+PO811392,S0028,"Garza, Gardner and Payne Mining Supplies",M00042,Lubrication Pump,2024-09-17,2024-10-03,856,338.51,Open
+PO290758,S0013,White-Johnson Mining Supplies,M00105,Drill Bit,2024-11-30,2024-12-08,520,175.77,Closed
+PO121627,S0028,"Garza, Gardner and Payne Mining Supplies",M00174,Hydraulic Pump,2025-05-28,2025-06-03,344,319.6,Open
+PO927871,S0033,Klein-Henry Mining Supplies,M00089,Screen Panel,2025-06-02,2025-06-08,845,224.29,Closed
+PO355344,S0023,"Roberts, Luna and West Mining Supplies",M00034,Hydraulic Pump,2024-08-08,2024-09-15,917,360.4,Open
+PO648308,S0009,"Jordan, Tucker and Taylor Mining Supplies",M00043,Oil Seal,2024-11-28,2025-01-16,877,311.39,Closed
+PO992849,S0033,Klein-Henry Mining Supplies,M00008,Gearbox Assembly,2024-12-05,2025-01-13,108,414.82,Cancelled
+PO909646,S0004,Henson Inc Mining Supplies,M00029,Bucket Elevator Chain,2024-07-10,2024-08-03,323,470.02,Open
+PO728017,S0008,Collins-Leblanc Mining Supplies,M00043,Oil Seal,2025-05-17,2025-06-02,237,398.24,Cancelled
+PO530173,S0018,"Collins, Lam and Bradshaw Mining Supplies",M00093,Chain Conveyor,2025-04-20,2025-04-26,795,274.13,Open
+PO978068,S0040,"Gilmore, Bailey and Caldwell Mining Supplies",M00199,Chain Conveyor,2024-09-10,2024-10-11,630,133.71,Open
+PO326814,S0046,Anderson-Compton Mining Supplies,M00165,Jaw Crusher Plate,2025-01-07,2025-02-04,425,280.78,Open
+PO143457,S0024,Lowe and Sons Mining Supplies,M00159,Electric Motor,2024-10-14,2024-10-28,190,460.16,Cancelled
+PO697418,S0046,Anderson-Compton Mining Supplies,M00124,Pressure Valve,2024-06-21,2024-07-12,94,92.52,Open
+PO516881,S0028,"Garza, Gardner and Payne Mining Supplies",M00118,Slurry Hose,2024-11-14,2024-11-19,549,277.51,Closed
+PO907012,S0014,Macdonald-Thompson Mining Supplies,M00114,Chain Conveyor,2024-12-14,2025-01-02,707,368.53,Cancelled
+PO937310,S0047,"Peterson, Hamilton and Scott Mining Supplies",M00016,Dust Collector Filter,2025-01-08,2025-01-14,129,35.63,Open

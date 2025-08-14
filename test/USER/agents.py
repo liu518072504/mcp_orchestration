@@ -29,14 +29,18 @@ rag_agent = Agent(
 
     Here are some useful tools in the rag mcp server:
 
+    Looking for relevant tables (This MUST be used first):
+    search_file(query: str) - Find the relevant tables to the query by searching though RAG server documentation.
+
+    Storing data into the rag server:
     index_pdf(pdf_path: str) - Index a PDF file into the rag server.
+    index_local_files(directory: str) - Index all CSV, xlsx, JSON, and TXT files in a directory into the rag server.
 
-    search_file(query: str) - Find relevant tables to a query
-    
-    find_table(query: str, data_source: str) - Find the path and schema of a table in a specific database.
-    query should contain the table name.
-    data_source should contain the database name. If unsure, use "supply_chain.db".
+    Searching for data in the rag server:
+    search_local_files(query: str) - Find relevant CSV, xlsx, JSON, and TXT files in the rag server to obtain the path and schema
+    find_table(query: str, data_source: str) - Find the path and schema of a table in a specific database. Data_source should contain the database name. If unsure, use "ragDatabase/sql/supply_chain.db".
 
+    If search_file returns an xlsx file, ensure to use search_local_files. If it returns a table name with no suffix, use find_table.
     """,
     db=db,
     servers=["rag"],

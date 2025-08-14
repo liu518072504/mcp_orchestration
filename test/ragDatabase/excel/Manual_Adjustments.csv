@@ -1,0 +1,101 @@
+material_id,plant_id,adjustment_date,adjusted_qty,adjustment_reason,recorded_by
+M00097,P007,2025-04-21,41,Stocktake Correction,Stephanie Lopez
+M00020,P010,2025-05-20,38,Damage,Patrick Carey
+M00063,P002,2025-04-26,39,Theft,Dana Wright
+M00176,P010,2025-05-07,-35,Damage,Kyle Obrien
+M00011,P006,2025-06-12,18,Theft,Jill Wells
+M00170,P006,2025-04-23,-42,Damage,Mr. Jerry Fowler
+M00166,P006,2025-06-04,-49,Theft,Jamie Evans
+M00126,P002,2025-04-28,5,Theft,Nancy Collier
+M00163,P008,2025-06-12,40,Stocktake Correction,Eric Schmidt
+M00112,P003,2025-05-24,43,Damage,Miss Stacey Wallace
+M00167,P005,2025-06-06,28,Damage,Megan Parrish
+M00199,P008,2025-04-26,9,Theft,Craig Dorsey
+M00188,P010,2025-05-05,-16,Theft,Steven Taylor
+M00063,P002,2025-04-26,-15,Theft,David Singleton
+M00063,P008,2025-04-21,22,Damage,Cathy Davis
+M00172,P007,2025-05-17,-7,Stocktake Correction,Cathy Reid
+M00127,P006,2025-04-29,-27,Theft,Anthony Beck
+M00055,P006,2025-05-17,-17,Theft,Isabel Washington
+M00072,P010,2025-05-13,39,Theft,Cynthia Crawford
+M00143,P001,2025-05-23,16,Stocktake Correction,Melinda Lee
+M00022,P004,2025-04-18,42,Theft,Kristi Blair
+M00126,P009,2025-06-15,47,Stocktake Correction,Roger Dickerson
+M00177,P008,2025-06-15,32,Damage,Dominique Stanley
+M00126,P008,2025-06-10,-48,Stocktake Correction,Justin Evans
+M00076,P004,2025-06-08,1,Damage,Monique Holt
+M00063,P005,2025-05-26,34,Damage,Michael Landry
+M00095,P008,2025-05-22,20,Damage,Tara Briggs
+M00089,P007,2025-06-04,45,Damage,Brian Webb
+M00085,P006,2025-06-12,39,Theft,Madison Maynard
+M00070,P005,2025-04-29,-18,Stocktake Correction,James Norman
+M00031,P004,2025-05-06,-10,Stocktake Correction,James Bryant
+M00191,P009,2025-06-07,47,Damage,Joseph Copeland
+M00048,P004,2025-05-16,-23,Damage,Melissa Sullivan
+M00124,P005,2025-05-29,42,Damage,Raymond Oliver
+M00195,P009,2025-05-09,26,Theft,Robert Fuentes
+M00026,P004,2025-04-29,-13,Stocktake Correction,Gina Williams
+M00093,P003,2025-05-14,-12,Stocktake Correction,Joseph Navarro
+M00182,P009,2025-05-16,-34,Theft,Theresa Bishop
+M00012,P001,2025-05-27,20,Theft,Michael Warren
+M00179,P003,2025-04-21,31,Theft,Sarah Woods
+M00027,P001,2025-06-04,23,Theft,Elizabeth Atkinson
+M00121,P008,2025-04-20,6,Theft,Katherine Brown
+M00048,P001,2025-06-08,-18,Theft,Kathryn Wells
+M00030,P002,2025-06-11,1,Theft,Jeffrey Quinn
+M00019,P010,2025-05-23,30,Damage,Lori Cameron
+M00014,P003,2025-05-21,-31,Damage,Joshua Long
+M00078,P002,2025-04-22,-19,Stocktake Correction,Anthony Frey
+M00143,P007,2025-06-15,27,Damage,Allison Crawford
+M00159,P004,2025-05-23,49,Damage,Jessica Hernandez
+M00098,P008,2025-05-06,6,Theft,Ryan Gray
+M00151,P007,2025-05-13,-11,Damage,Anthony French
+M00159,P001,2025-05-05,28,Damage,Mitchell Contreras
+M00026,P004,2025-05-24,30,Stocktake Correction,Steven Hernandez
+M00068,P002,2025-05-04,-30,Stocktake Correction,Brent Medina
+M00045,P009,2025-05-18,-41,Stocktake Correction,Herbert Huynh
+M00001,P007,2025-05-28,7,Damage,Jacob Brown
+M00153,P008,2025-06-07,-13,Stocktake Correction,Bobby Rodriguez
+M00060,P005,2025-05-09,40,Theft,Tina Malone
+M00180,P008,2025-05-24,-41,Damage,Wanda Brown
+M00060,P005,2025-05-16,50,Damage,Eric Williams Jr.
+M00151,P004,2025-04-27,4,Stocktake Correction,Tammy Davis
+M00140,P004,2025-04-23,32,Stocktake Correction,Jennifer Rodriguez
+M00069,P003,2025-06-12,-41,Stocktake Correction,Roger Williams
+M00043,P005,2025-05-15,26,Damage,Gina Yang
+M00146,P005,2025-06-09,6,Stocktake Correction,Joshua Baker
+M00120,P005,2025-04-23,39,Theft,Timothy Allen
+M00070,P009,2025-04-23,19,Theft,Joseph Fletcher
+M00113,P002,2025-04-22,26,Stocktake Correction,Andrew Graham
+M00111,P006,2025-05-13,27,Theft,William Berger
+M00007,P002,2025-05-19,-21,Damage,Scott Atkins
+M00148,P010,2025-05-24,-48,Damage,Laurie Austin
+M00069,P010,2025-06-05,-45,Stocktake Correction,Michael Johnson
+M00121,P009,2025-04-28,33,Theft,Rebecca Roberts
+M00072,P003,2025-05-19,24,Theft,Jasmine Stone
+M00163,P008,2025-05-26,-39,Theft,Michelle Moore
+M00090,P007,2025-05-25,-8,Theft,Lauren Scott
+M00172,P002,2025-05-09,-30,Theft,Ashley Elliott
+M00106,P008,2025-06-02,-14,Damage,Robert Lee
+M00103,P009,2025-04-24,-46,Theft,Alexander Peters
+M00023,P006,2025-06-15,-18,Theft,David Thomas
+M00030,P007,2025-05-07,15,Stocktake Correction,Matthew Turner
+M00169,P009,2025-06-11,9,Theft,Kathy Garcia
+M00014,P004,2025-05-30,16,Theft,William Chavez
+M00160,P008,2025-06-15,30,Theft,Rita Jones
+M00195,P001,2025-06-05,-24,Theft,Michelle Ellis
+M00141,P003,2025-04-18,-14,Theft,Colleen Reilly
+M00179,P008,2025-05-29,-35,Stocktake Correction,James Neal
+M00162,P010,2025-05-29,-20,Damage,Jordan Cook
+M00041,P005,2025-05-31,20,Stocktake Correction,Christian Palmer
+M00142,P007,2025-06-03,-39,Stocktake Correction,Cody Livingston
+M00030,P008,2025-05-20,-35,Damage,John Mclaughlin
+M00040,P008,2025-05-26,41,Theft,Samuel Davis
+M00131,P005,2025-06-05,3,Theft,Jason Turner
+M00121,P004,2025-06-10,8,Damage,Brenda Mcdonald
+M00038,P007,2025-04-23,-26,Damage,Gabriel Fisher
+M00131,P003,2025-04-29,-42,Theft,Chloe Cole
+M00198,P007,2025-05-27,-7,Damage,Patricia Aguilar
+M00069,P001,2025-05-06,-14,Damage,Diane Santos
+M00077,P010,2025-06-08,24,Damage,Marissa Barrett
+M00126,P003,2025-05-02,7,Damage,Darren Sanchez

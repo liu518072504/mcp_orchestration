@@ -17,8 +17,10 @@ class Agent:
             instruction: str,
             db: FileDB,
             servers: list[str] = [],
-            model_name: str = "gemini-2.5-flash",
+            # model_name: str = "gemini-2.5-flash",
             # model_name: str = "claude-3-5-sonnet-20240620",
+            # model_name: str = "claude-3-haiku-20240307",
+            model_name: str = "claude-3-5-haiku-latest",
             temperature: float = 0.0, 
             config_path: str = Path(agentic.__file__).parent.parent.parent / "mcp_config.json",
             max_steps: int = 15,
@@ -60,6 +62,7 @@ class Agent:
             self.llm = ChatAnthropic(
                 model=model_name,
                 temperature=temperature,
+                cache=False,
             )
         
         self.agent = None

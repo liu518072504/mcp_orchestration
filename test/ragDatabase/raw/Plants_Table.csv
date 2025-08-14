@@ -1,0 +1,11 @@
+plant_id,plant_name,location,region
+P001,East Mining Facility,West Kimberly,East
+P002,West Shaft Unit,West Daniel,North
+P003,Northern Warehouse,East Valeriemouth,North
+P004,Southern Dispatch Center,Santiagotown,East
+P005,Central Maintenance Hub,South Jacob,South
+P006,Highlands Depot,Andreabury,South
+P007,Valley Operations,Sheilahaven,South
+P008,Underground Supply,South Tyler,Central
+P009,Coastal Stockyard,West Markside,West
+P010,Mountain Processing Unit,Brownfort,Central

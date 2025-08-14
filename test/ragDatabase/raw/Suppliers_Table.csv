@@ -1,0 +1,51 @@
+supplier_id,supplier_name,location,lead_time_days,rating
+S0036,"Arnold, Green and Gonzales Mining Supplies",British Columbia,11,3
+S0009,"Jordan, Tucker and Taylor Mining Supplies",Quebec,21,1
+S0023,"Roberts, Luna and West Mining Supplies",British Columbia,24,1
+S0004,Henson Inc Mining Supplies,Saskatchewan,25,2
+S0007,"Phillips, Scott and Tran Mining Supplies",British Columbia,13,3
+S0033,Klein-Henry Mining Supplies,Alberta,6,2
+S0034,"Ramirez, Martinez and Humphrey Mining Supplies",British Columbia,19,4
+S0001,Kim Ltd Mining Supplies,Ontario,17,2
+S0045,Howard PLC Mining Supplies,Quebec,13,1
+S0044,Clark-Brown Mining Supplies,Alberta,6,2
+S0003,"Simpson, Singleton and Morris Mining Supplies",Quebec,19,4
+S0020,"Wall, Torres and Lopez Mining Supplies",British Columbia,18,4
+S0010,"Patterson, Rodriguez and Williamson Mining Supplies",Quebec,18,4
+S0006,Sanchez-Ray Mining Supplies,Quebec,30,4
+S0013,White-Johnson Mining Supplies,Quebec,16,2
+S0022,"Ferguson, Richardson and Hurley Mining Supplies",Ontario,11,5
+S0038,Richards PLC Mining Supplies,Alberta,12,3
+S0002,Horne-Potter Mining Supplies,Saskatchewan,9,2
+S0048,Clark Ltd Mining Supplies,Saskatchewan,6,2
+S0014,Macdonald-Thompson Mining Supplies,Saskatchewan,15,4
+S0046,Anderson-Compton Mining Supplies,Ontario,28,4
+S0026,"Clark, Martinez and Peters Mining Supplies",Quebec,25,1
+S0041,Stewart-Moore Mining Supplies,Ontario,13,1
+S0027,Charles PLC Mining Supplies,British Columbia,27,1
+S0030,"Nunez, Boyd and Moreno Mining Supplies",Alberta,12,2
+S0032,"Morris, Crosby and Stevens Mining Supplies",Quebec,28,2
+S0015,"Ball, Foster and Castillo Mining Supplies",Saskatchewan,20,3
+S0011,Diaz PLC Mining Supplies,Quebec,27,4
+S0021,Schmidt-Ashley Mining Supplies,British Columbia,14,1
+S0035,Pena-Pace Mining Supplies,Quebec,7,2
+S0019,"Cordova, Collins and Mayo Mining Supplies",Quebec,6,2
+S0050,Williams and Sons Mining Supplies,Saskatchewan,27,3
+S0049,Grant-Ross Mining Supplies,Ontario,8,4
+S0025,Jefferson LLC Mining Supplies,Alberta,29,1
+S0047,"Peterson, Hamilton and Scott Mining Supplies",Saskatchewan,19,1
+S0031,Hayes Ltd Mining Supplies,Ontario,10,5
+S0029,"Peterson, Silva and Le Mining Supplies",Ontario,26,5
+S0024,Lowe and Sons Mining Supplies,Alberta,15,1
+S0008,Collins-Leblanc Mining Supplies,British Columbia,17,5
+S0017,Richardson Ltd Mining Supplies,Quebec,15,2
+S0040,"Gilmore, Bailey and Caldwell Mining Supplies",Quebec,11,3
+S0039,"Perkins, Padilla and Brown Mining Supplies",Ontario,5,1
+S0018,"Collins, Lam and Bradshaw Mining Supplies",Ontario,13,5
+S0042,Peterson-Martinez Mining Supplies,Quebec,28,3
+S0028,"Garza, Gardner and Payne Mining Supplies",Quebec,11,3
+S0043,"Lopez, Watson and Hodges Mining Supplies",Quebec,12,2
+S0037,Gutierrez-Jones Mining Supplies,Alberta,15,2
+S0005,Jones Inc Mining Supplies,Saskatchewan,18,3
+S0016,Taylor-Mercado Mining Supplies,Saskatchewan,18,5
+S0012,Sanchez-Sweeney Mining Supplies,British Columbia,27,1

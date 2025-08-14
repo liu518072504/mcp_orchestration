@@ -7,7 +7,7 @@ from agentic.schemas.schemas import OrchestratorSchema, Plan, FunctionCall
 from agentic.database.filedb import FileDB
 
 class Orchestrator:
-    TRUNCATE = 500
+    TRUNCATE = 1000
 
     def __init__(self, available_agents: List[Agent], functions: List[callable]):
         self.agents = {agent.name: agent for agent in available_agents}
@@ -26,7 +26,7 @@ class Orchestrator:
             Here are the list of functions with their exact parameters:
             {exact_params}
             """,
-            use_memory=False,
+            use_memory=True,
             db=self.db,
         )
         self.agents["function_calling_agent"] = self.function_agent
@@ -37,7 +37,14 @@ class Orchestrator:
             your job is to break down the objective into a series of steps, which can be performed by the available agents. 
             Review the functions available to the function_calling_agent and use it when appropriate.
 
+            Ensure that the instructions are high-level and brief, focusing on the objective.
             You must only return a JSON object adhering to the schema, and nothing else.
+
+            For the current task, you should consider the following steps:
+            1. Rag agent: Identify the relevant tables only using the search_file function.
+            2. Rag agent: If an xlsx file is found, use search_local_files to obtain the path and schema. If a table name is found without a suffix, use find_table to get the path and schema.
+            3. If the query is complex, use the function calling agent to generate a python file to solve the query.
+            4. If step 3 was completed, execute the python file using the function calling agent
 
             If you deem no agents are neccecary to answer the query, you can respond directly by returning one step with agent 'end' and an appropriate response in 'instruction'.
 
@@ -52,7 +59,7 @@ class Orchestrator:
             The plan is just a guideline, and you can choose the best agent to execute the next step, but follow the plan to the best of your ability.
             Review the functions available to the function_calling_agent and use it when appropriate.
 
-            In the instruction, ensure to provide sufficient context as agents do not have access to previous messages.
+            Update the instruction with new context obtained from previous agents.
 
             Return in a JSON object with the following fields (and nothing else):
             - finished: True if the orchestration is complete and no more agents need to be called or there is a critical error that cannot be resolved. False otherwise
@@ -142,6 +149,7 @@ class Orchestrator:
 
         # Clear the orchestrator thread before starting a new orchestration, can remove this if you want to keep the history
         await self.db.delete_thread("orchestrator")
+        await self.db.delete_thread("planner")
 
         plan = await self._generate_plan(query)
         # plan = await self._plan_cleanup(plan)
@@ -159,7 +167,7 @@ class Orchestrator:
 
         format_instructions = self.parsers["orchestrator"].get_format_instructions()
         for _ in range(max_steps):
-            query_with_format = f"{query}\n\nPlan: {plan}\n\nAvailable agents:\n{self.available_agents_prompt}"
+            query_with_format = f"Available agents:\n{self.available_agents_prompt}\nPlan: {plan}\nQuery:{query}\n"
             raw = await self.orchestrator_agent.generate_str(query_with_format, format_instructions)
 
             # Clean up the output to get the JSON part
