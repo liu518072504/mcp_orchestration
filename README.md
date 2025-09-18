@@ -10,7 +10,7 @@ You have full control over the the external capabilities of the orchestrator:
 ## Setup:
 clone the repository
 ```bash
-git clone https://github.com/QixinL/mcp_orchestration.git
+git clone https://github.com/liu518072504/mcp_orchestration.git
 cd mcp_orchestration
 ```
 
