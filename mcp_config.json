@@ -4,9 +4,13 @@
       "command": "npx",
       "args": ["@playwright/mcp@latest"]
     },
-    "rag": {
+    "insight-evaluator": {
       "type": "sse",
       "url": "http://localhost:8000/sse"
-    }
+    },
+     "qugen": {
+       "type": "sse",
+       "url": "http://localhost:8787/sse"
+     }
   }
 }
