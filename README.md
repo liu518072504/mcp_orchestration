@@ -1,4 +1,4 @@
-# mcp_orchestration
+# AI-Powered Analytics Platform​
 ### Automatically creates and executes workflows
 
 Think of it as a chatbot that doesn't just return words: it can execute actions
