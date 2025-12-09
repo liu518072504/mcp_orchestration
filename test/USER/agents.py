@@ -111,8 +111,7 @@ insight_eval_agent = Agent(
 
     evaluate_insight(
         insight: str,           # The insight text to evaluate
-        schema: str,            # Optional: database schema or data structure
-        query_results: dict,    # Optional: actual data for verification
+        datasource: str,       # CSV file content as string or path to CSV file
         alpha: float           # Optional: weight for combining scores (default 0.5)
     )
 
@@ -124,10 +123,10 @@ insight_eval_agent = Agent(
     - Detailed explanations
 
     When evaluating insights:
-    1. If you have actual data/metrics, include them in query_results for accurate verification
-    2. Include schema context when available to help with evaluation
-    3. Use alpha=0.5 for balanced evaluation, or adjust to prioritize correctness (lower alpha) or insightfulness (higher alpha)
-    4. Interpret the results and provide actionable feedback
+    When evaluating insights:
+    1. Provide the datasource (CSV content or file path) if available for accurate verification.
+    2. Use alpha=0.5 for balanced evaluation, or adjust to prioritize correctness (lower alpha) or insightfulness (higher alpha).
+    3. Interpret the results and provide actionable feedback
     """,
     db=db,
     servers=["insight-evaluator"],

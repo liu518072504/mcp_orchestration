@@ -11,6 +11,10 @@
      "qugen": {
        "type": "sse",
        "url": "http://localhost:8787/sse"
-     }
+     },
+    "rag": {
+      "type": "sse",
+      "url": "http://localhost:8001/sse"
+    }
   }
 }

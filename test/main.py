@@ -15,14 +15,20 @@ if __name__ == "__main__":
     Step 1: Generate Insights
     Use qugen_agent to generate insights from datasource.csv.
     Tell the agent: "Generate insights from the file datasource.csv using 1 iteration and 2 samples per iteration."
+    Do NOT summarize any insights
+
 
     Step 2: Evaluate Insights  
-    Once you have the insights from Step 1, use insight_eval_agent to evaluate each insight.
+    Once you have ALL insights from Step 1, use evaluate_insights_batch tool to evaluate them .
+    IMPORTANT: Use the 'evaluate_insights_batch' tool (NOT 'evaluate_insight'):
+    - insights: List/array of ALL generated insight texts from Step 1
+    - datasource: "datasource.csv"
+    - alpha: 0.5 (balanced weight for correctness and insightfulness)
 
     Step 3: Present Results
     Show the top 3 insights with the highest combined scores with COMPLETE ORIGINAL TEXT.
-    Display them in a ranked list with their scores.
-
+    Display them in a ranked list with their combined scores and original text, Do NOT SUMMERIZE insights text.
+    
     Do NOT save any files - just print the results directly.
     """
 
