@@ -24,6 +24,15 @@ Install dependencies (Takes around 3 minutes > TODO change to UV package managem
 ```bash
 pip install -e .
 ```
+Install Qdrant
+
+Download the latest Qdrant image from Docker Hub:
+
+```bash
+docker pull qdrant/qdrant
+docker run -p 6333:6333 -v $(pwd)/qdrant_storage:/qdrant/storage qdrant/qdrant
+
+
 
 ### LLM Config
 
@@ -68,7 +77,12 @@ They will be automatically created again when the code is run.
 You can set your own agents not to use memory with use_memory=False
 
 
+## Agents
+The Insights_evaluation_agent is located in agents/insights and runs on port 8000 by default.
 
+The Insights_generation_agent is also located in agents/insights and runs on port 8787 by default.
+
+The rag_agent is located in agents/rag and runs on port 8001 by default.
 
 
 
